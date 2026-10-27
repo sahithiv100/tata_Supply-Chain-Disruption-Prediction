@@ -1,0 +1,851 @@
+Order_ID,Customer_ID,Customer_Name,Product,Order_Quantity,Order_Date,Required_Delivery_Date,Planned_Delivery_Date,Current_Production_Status,Current_Inventory_Status,Transportation_Status,Expected_Delivery_Date,Delivery_Risk,Customer_Priority,Destination_City
+ORD_4001,CUST_DL110,Kerala Green Mobility Project,Harrier Fearless AT,30,2026-09-06,2026-10-02,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Kochi
+ORD_4002,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,100,2026-09-01,2026-09-29,2026-09-28,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-04,CRITICAL,High,Mumbai
+ORD_4003,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,15,2026-09-15,2026-09-30,2026-09-28,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-30,HIGH,Normal,Chennai
+ORD_4004,CUST_DL106,South Highway Freight Lines,Prima 5530.S Heavy Truck,100,2026-09-05,2026-09-22,2026-09-21,On Schedule,Low Inventory,Congested,2026-09-23,MEDIUM,Normal,Chennai
+ORD_4005,CUST_DL101,Tata Motors Dealership West Hub,Intra V50 Smart Pickup,100,2026-09-14,2026-10-08,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,High,Mumbai
+ORD_4006,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,30,2026-09-19,2026-10-07,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,Critical,Bengaluru
+ORD_4007,CUST_DL109,Punjab Agri Transit Hub,Starbus EV Ultra 9m,30,2026-09-25,2026-10-15,2026-10-11,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-14,HIGH,Normal,Chandigarh
+ORD_4008,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,150,2026-09-29,2026-10-24,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,Normal,Ahmedabad
+ORD_4009,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,100,2026-09-09,2026-09-28,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Critical,Bengaluru
+ORD_4010,CUST_DL105,Eastern Mining & Logistics Ltd,Tiago EV Long Range,100,2026-09-05,2026-09-27,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,Critical,Kolkata
+ORD_4011,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Intra V50 Smart Pickup,50,2026-09-07,2026-10-02,2026-09-30,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-02,HIGH,Critical,Bengaluru
+ORD_4012,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,50,2026-09-10,2026-10-08,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Critical,Bengaluru
+ORD_4013,CUST_DL110,Kerala Green Mobility Project,Harrier Fearless AT,250,2026-09-04,2026-09-24,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,High,Kochi
+ORD_4014,CUST_DL109,Punjab Agri Transit Hub,Tiago EV Long Range,250,2026-09-27,2026-10-15,2026-10-11,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-16,HIGH,Normal,Chandigarh
+ORD_4015,CUST_DL106,South Highway Freight Lines,Nexon EV Empowered,15,2026-10-05,2026-10-21,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Normal,Chennai
+ORD_4016,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,15,2026-09-12,2026-10-08,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,Critical,Delhi NCR
+ORD_4017,CUST_DL108,Apex Commercial Fleet Leasing,Ace Gold EV Mini Truck,50,2026-09-21,2026-10-09,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,High,Pune
+ORD_4018,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,250,2026-09-09,2026-09-29,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Kolkata
+ORD_4019,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,15,2026-09-10,2026-10-03,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,High,Mumbai
+ORD_4020,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,100,2026-10-06,2026-10-23,2026-10-22,On Schedule,Low Inventory,Congested,2026-10-23,MEDIUM,High,Pune
+ORD_4021,CUST_DL108,Apex Commercial Fleet Leasing,Harrier Fearless AT,250,2026-10-01,2026-10-17,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,High,Pune
+ORD_4022,CUST_DL104,Metro Cabs India EV Fleet,Tiago EV Long Range,30,2026-09-29,2026-10-25,2026-10-23,Completed / Assembled,Optimal,On Time,2026-10-23,LOW,High,Hyderabad
+ORD_4023,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,250,2026-09-02,2026-09-21,2026-09-19,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-22,HIGH,High,Kochi
+ORD_4024,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,100,2026-09-07,2026-10-02,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,Normal,Ahmedabad
+ORD_4025,CUST_DL110,Kerala Green Mobility Project,Harrier Fearless AT,50,2026-09-20,2026-10-07,2026-10-05,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-08,HIGH,High,Kochi
+ORD_4026,CUST_DL106,South Highway Freight Lines,Prima 5530.S Heavy Truck,150,2026-09-16,2026-10-12,2026-10-10,On Schedule,Low Inventory,Congested,2026-10-12,MEDIUM,Normal,Chennai
+ORD_4027,CUST_DL105,Eastern Mining & Logistics Ltd,Signa 2823.K Tipper,150,2026-09-08,2026-09-29,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,Critical,Kolkata
+ORD_4028,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,50,2026-09-11,2026-10-07,2026-10-03,On Schedule,Low Inventory,Congested,2026-10-04,MEDIUM,High,Pune
+ORD_4029,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,100,2026-09-17,2026-10-14,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Kochi
+ORD_4030,CUST_DL108,Apex Commercial Fleet Leasing,Starbus EV Ultra 9m,15,2026-09-08,2026-09-24,2026-09-20,Completed / Assembled,Optimal,On Time,2026-09-20,LOW,High,Pune
+ORD_4031,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,250,2026-09-01,2026-09-17,2026-09-15,Completed / Assembled,Optimal,On Time,2026-09-15,LOW,High,Kochi
+ORD_4032,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,250,2026-09-22,2026-10-09,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,Critical,Bengaluru
+ORD_4033,CUST_DL108,Apex Commercial Fleet Leasing,Harrier Fearless AT,15,2026-09-14,2026-10-05,2026-10-02,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-05,HIGH,High,Pune
+ORD_4034,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Safari Dark Edition,150,2026-09-02,2026-09-28,2026-09-27,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-01,HIGH,Critical,Bengaluru
+ORD_4035,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,50,2026-10-06,2026-10-23,2026-10-21,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-25,CRITICAL,Normal,Ahmedabad
+ORD_4036,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,50,2026-10-02,2026-10-25,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,Critical,Kolkata
+ORD_4037,CUST_DL109,Punjab Agri Transit Hub,Starbus EV Ultra 9m,30,2026-09-29,2026-10-18,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,Normal,Chandigarh
+ORD_4038,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,150,2026-09-23,2026-10-09,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Normal,Chennai
+ORD_4039,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,50,2026-09-03,2026-09-20,2026-09-19,On Schedule,Low Inventory,Congested,2026-09-21,MEDIUM,Normal,Ahmedabad
+ORD_4040,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,30,2026-09-06,2026-10-03,2026-09-30,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-04,CRITICAL,High,Hyderabad
+ORD_4041,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,15,2026-09-14,2026-10-11,2026-10-10,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-15,CRITICAL,Normal,Chennai
+ORD_4042,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,150,2026-09-23,2026-10-17,2026-10-16,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-21,CRITICAL,High,Kochi
+ORD_4043,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,150,2026-10-03,2026-10-20,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,High,Pune
+ORD_4044,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,50,2026-09-27,2026-10-18,2026-10-17,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-22,HIGH,High,Hyderabad
+ORD_4045,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,50,2026-09-08,2026-09-24,2026-09-20,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-25,CRITICAL,Critical,Delhi NCR
+ORD_4046,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,100,2026-09-14,2026-09-30,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,Critical,Bengaluru
+ORD_4047,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,15,2026-09-30,2026-10-26,2026-10-24,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-11-01,CRITICAL,High,Pune
+ORD_4048,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,15,2026-09-08,2026-09-28,2026-09-24,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-29,CRITICAL,Critical,Delhi NCR
+ORD_4049,CUST_DL101,Tata Motors Dealership West Hub,Harrier Fearless AT,250,2026-09-03,2026-09-24,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,High,Mumbai
+ORD_4050,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,30,2026-09-16,2026-10-03,2026-10-01,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-09,CRITICAL,Normal,Chandigarh
+ORD_4051,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,30,2026-09-25,2026-10-14,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,High,Hyderabad
+ORD_4052,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,100,2026-09-20,2026-10-16,2026-10-15,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-19,HIGH,Critical,Bengaluru
+ORD_4053,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,250,2026-09-06,2026-09-24,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Critical,Bengaluru
+ORD_4054,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,15,2026-09-09,2026-10-07,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,Normal,Ahmedabad
+ORD_4055,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,30,2026-09-09,2026-09-25,2026-09-22,On Schedule,Low Inventory,Congested,2026-09-23,MEDIUM,High,Kochi
+ORD_4056,CUST_DL110,Kerala Green Mobility Project,Tiago EV Long Range,15,2026-09-24,2026-10-13,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,High,Kochi
+ORD_4057,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,15,2026-09-14,2026-10-09,2026-10-06,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-11,HIGH,Critical,Delhi NCR
+ORD_4058,CUST_DL101,Tata Motors Dealership West Hub,Harrier Fearless AT,250,2026-09-15,2026-10-06,2026-10-05,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-08,HIGH,High,Mumbai
+ORD_4059,CUST_DL107,Gujarat Express Distribution,Prima 5530.S Heavy Truck,30,2026-10-06,2026-10-25,2026-10-22,On Schedule,Low Inventory,Congested,2026-10-23,MEDIUM,Normal,Ahmedabad
+ORD_4060,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,50,2026-09-17,2026-10-02,2026-09-30,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-07,CRITICAL,High,Hyderabad
+ORD_4061,CUST_DL101,Tata Motors Dealership West Hub,Signa 2823.K Tipper,50,2026-09-08,2026-09-27,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,High,Mumbai
+ORD_4062,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,250,2026-09-18,2026-10-02,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Normal,Chandigarh
+ORD_4063,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,30,2026-09-06,2026-09-26,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,High,Mumbai
+ORD_4064,CUST_DL101,Tata Motors Dealership West Hub,Signa 2823.K Tipper,100,2026-09-15,2026-10-01,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,High,Mumbai
+ORD_4065,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,150,2026-09-22,2026-10-11,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,Normal,Chandigarh
+ORD_4066,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,250,2026-09-15,2026-10-10,2026-10-07,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-11,CRITICAL,Critical,Bengaluru
+ORD_4067,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,15,2026-09-24,2026-10-22,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,Critical,Delhi NCR
+ORD_4068,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,250,2026-09-24,2026-10-14,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Kochi
+ORD_4069,CUST_DL106,South Highway Freight Lines,Ace Gold EV Mini Truck,150,2026-09-23,2026-10-12,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,Normal,Chennai
+ORD_4070,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,250,2026-09-17,2026-10-08,2026-10-07,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-11,HIGH,Critical,Bengaluru
+ORD_4071,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,30,2026-09-01,2026-09-16,2026-09-15,Completed / Assembled,Optimal,On Time,2026-09-15,LOW,High,Pune
+ORD_4072,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,15,2026-09-08,2026-09-22,2026-09-20,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-29,CRITICAL,Critical,Delhi NCR
+ORD_4073,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,150,2026-09-15,2026-09-30,2026-09-26,On Schedule,Low Inventory,Congested,2026-09-27,MEDIUM,Normal,Ahmedabad
+ORD_4074,CUST_DL108,Apex Commercial Fleet Leasing,Safari Dark Edition,50,2026-09-28,2026-10-20,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,High,Pune
+ORD_4075,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,100,2026-09-24,2026-10-15,2026-10-14,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-16,HIGH,Normal,Chandigarh
+ORD_4076,CUST_DL102,National Fleet Logistics Corp,Prima 5530.S Heavy Truck,250,2026-09-04,2026-09-25,2026-09-24,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-26,HIGH,Critical,Delhi NCR
+ORD_4077,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,250,2026-09-07,2026-09-24,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Normal,Ahmedabad
+ORD_4078,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,150,2026-09-06,2026-09-20,2026-09-17,On Schedule,Low Inventory,Congested,2026-09-19,MEDIUM,High,Hyderabad
+ORD_4079,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,100,2026-09-13,2026-10-09,2026-10-05,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-08,HIGH,High,Pune
+ORD_4080,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,250,2026-09-28,2026-10-14,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Mumbai
+ORD_4081,CUST_DL109,Punjab Agri Transit Hub,Prima 5530.S Heavy Truck,50,2026-09-29,2026-10-19,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,Normal,Chandigarh
+ORD_4082,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,150,2026-09-14,2026-09-29,2026-09-28,On Schedule,Low Inventory,Congested,2026-09-29,MEDIUM,High,Pune
+ORD_4083,CUST_DL110,Kerala Green Mobility Project,Signa 2823.K Tipper,30,2026-09-11,2026-10-08,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,High,Kochi
+ORD_4084,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,15,2026-09-28,2026-10-25,2026-10-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-31,CRITICAL,Normal,Ahmedabad
+ORD_4085,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,50,2026-09-16,2026-10-13,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Delhi NCR
+ORD_4086,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,100,2026-09-03,2026-09-17,2026-09-14,Completed / Assembled,Optimal,On Time,2026-09-14,LOW,High,Pune
+ORD_4087,CUST_DL107,Gujarat Express Distribution,Harrier Fearless AT,100,2026-09-20,2026-10-09,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,Normal,Ahmedabad
+ORD_4088,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,50,2026-09-29,2026-10-22,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,Critical,Delhi NCR
+ORD_4089,CUST_DL102,National Fleet Logistics Corp,Curvv EV Coupe,30,2026-09-03,2026-09-17,2026-09-14,Completed / Assembled,Optimal,On Time,2026-09-14,LOW,Critical,Delhi NCR
+ORD_4090,CUST_DL109,Punjab Agri Transit Hub,Intra V50 Smart Pickup,250,2026-09-05,2026-10-02,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,Normal,Chandigarh
+ORD_4091,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,30,2026-09-05,2026-09-24,2026-09-22,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-30,CRITICAL,Normal,Chennai
+ORD_4092,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,250,2026-09-03,2026-09-29,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,High,Kochi
+ORD_4093,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,250,2026-09-26,2026-10-22,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,High,Kochi
+ORD_4094,CUST_DL102,National Fleet Logistics Corp,Tiago EV Long Range,100,2026-09-30,2026-10-23,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,Critical,Delhi NCR
+ORD_4095,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,250,2026-10-06,2026-10-31,2026-10-28,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-11-04,CRITICAL,Normal,Ahmedabad
+ORD_4096,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,50,2026-09-14,2026-10-05,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,Critical,Delhi NCR
+ORD_4097,CUST_DL108,Apex Commercial Fleet Leasing,Ace Gold EV Mini Truck,250,2026-09-18,2026-10-05,2026-10-03,Completed / Assembled,Optimal,On Time,2026-10-03,LOW,High,Pune
+ORD_4098,CUST_DL106,South Highway Freight Lines,Signa 2823.K Tipper,50,2026-09-12,2026-09-29,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Normal,Chennai
+ORD_4099,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,15,2026-09-29,2026-10-25,2026-10-24,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-30,CRITICAL,Critical,Delhi NCR
+ORD_4100,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Signa 2823.K Tipper,100,2026-09-09,2026-09-23,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Critical,Bengaluru
+ORD_4101,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,30,2026-10-05,2026-11-01,2026-10-30,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-11-06,CRITICAL,Normal,Chandigarh
+ORD_4102,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,150,2026-09-02,2026-09-26,2026-09-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-01,CRITICAL,High,Mumbai
+ORD_4103,CUST_DL102,National Fleet Logistics Corp,Tiago EV Long Range,30,2026-09-24,2026-10-18,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,Critical,Delhi NCR
+ORD_4104,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,30,2026-09-29,2026-10-13,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Critical,Delhi NCR
+ORD_4105,CUST_DL109,Punjab Agri Transit Hub,Nexon EV Empowered,150,2026-09-05,2026-09-27,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Normal,Chandigarh
+ORD_4106,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,100,2026-09-09,2026-09-25,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,Critical,Kolkata
+ORD_4107,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,250,2026-10-03,2026-10-28,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,Normal,Chennai
+ORD_4108,CUST_DL108,Apex Commercial Fleet Leasing,Intra V50 Smart Pickup,15,2026-09-24,2026-10-14,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,High,Pune
+ORD_4109,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,30,2026-09-17,2026-10-09,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,High,Mumbai
+ORD_4110,CUST_DL106,South Highway Freight Lines,Ace Gold EV Mini Truck,250,2026-09-06,2026-10-03,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Normal,Chennai
+ORD_4111,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,30,2026-09-06,2026-09-24,2026-09-20,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-29,CRITICAL,Normal,Ahmedabad
+ORD_4112,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,100,2026-10-03,2026-10-23,2026-10-27,Completed / Assembled,Optimal,On Time,2026-10-27,LOW,Critical,Delhi NCR
+ORD_4113,CUST_DL110,Kerala Green Mobility Project,Curvv EV Coupe,100,2026-09-11,2026-10-04,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,High,Kochi
+ORD_4114,CUST_DL109,Punjab Agri Transit Hub,Safari Dark Edition,50,2026-09-30,2026-10-25,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,Normal,Chandigarh
+ORD_4115,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,100,2026-09-18,2026-10-02,2026-09-29,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-01,HIGH,High,Pune
+ORD_4116,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,100,2026-09-28,2026-10-13,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Critical,Kolkata
+ORD_4117,CUST_DL108,Apex Commercial Fleet Leasing,Intra V50 Smart Pickup,30,2026-09-16,2026-10-02,2026-09-28,On Schedule,Low Inventory,Congested,2026-09-29,MEDIUM,High,Pune
+ORD_4118,CUST_DL106,South Highway Freight Lines,Signa 2823.K Tipper,15,2026-09-23,2026-10-08,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,Normal,Chennai
+ORD_4119,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,30,2026-09-19,2026-10-13,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,Normal,Ahmedabad
+ORD_4120,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,250,2026-09-25,2026-10-15,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,Normal,Ahmedabad
+ORD_4121,CUST_DL110,Kerala Green Mobility Project,Signa 2823.K Tipper,100,2026-09-02,2026-09-20,2026-09-16,Completed / Assembled,Optimal,On Time,2026-09-16,LOW,High,Kochi
+ORD_4122,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,50,2026-09-29,2026-10-13,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Bengaluru
+ORD_4123,CUST_DL102,National Fleet Logistics Corp,Signa 2823.K Tipper,15,2026-09-10,2026-09-26,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Critical,Delhi NCR
+ORD_4124,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,50,2026-09-18,2026-10-08,2026-10-08,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-16,CRITICAL,High,Hyderabad
+ORD_4125,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,150,2026-10-05,2026-10-25,2026-10-23,Completed / Assembled,Optimal,On Time,2026-10-23,LOW,High,Hyderabad
+ORD_4126,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,50,2026-09-17,2026-10-07,2026-10-03,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-08,HIGH,Normal,Ahmedabad
+ORD_4127,CUST_DL110,Kerala Green Mobility Project,Starbus EV Ultra 9m,50,2026-09-05,2026-09-25,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,High,Kochi
+ORD_4128,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,250,2026-09-20,2026-10-05,2026-10-03,Completed / Assembled,Optimal,On Time,2026-10-03,LOW,Critical,Delhi NCR
+ORD_4129,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,100,2026-09-16,2026-10-05,2026-10-03,Completed / Assembled,Optimal,On Time,2026-10-03,LOW,Critical,Delhi NCR
+ORD_4130,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,250,2026-09-07,2026-09-24,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,High,Hyderabad
+ORD_4131,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,100,2026-09-22,2026-10-08,2026-10-06,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-12,CRITICAL,Normal,Ahmedabad
+ORD_4132,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,250,2026-10-03,2026-10-18,2026-10-14,On Schedule,Low Inventory,Congested,2026-10-15,MEDIUM,Normal,Chennai
+ORD_4133,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,100,2026-09-18,2026-10-14,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Bengaluru
+ORD_4134,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,100,2026-09-07,2026-09-27,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,Critical,Kolkata
+ORD_4135,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,100,2026-09-18,2026-10-02,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Hyderabad
+ORD_4136,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,50,2026-10-01,2026-10-29,2026-10-28,Completed / Assembled,Optimal,On Time,2026-10-28,LOW,Critical,Delhi NCR
+ORD_4137,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Curvv EV Coupe,150,2026-10-05,2026-10-28,2026-10-27,Completed / Assembled,Optimal,On Time,2026-10-27,LOW,Critical,Bengaluru
+ORD_4138,CUST_DL101,Tata Motors Dealership West Hub,Signa 2823.K Tipper,100,2026-09-30,2026-10-27,2026-10-25,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-29,CRITICAL,High,Mumbai
+ORD_4139,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,150,2026-09-27,2026-10-19,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,High,Pune
+ORD_4140,CUST_DL106,South Highway Freight Lines,Starbus EV Ultra 9m,150,2026-09-12,2026-10-10,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,Normal,Chennai
+ORD_4141,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,30,2026-09-28,2026-10-21,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,Critical,Kolkata
+ORD_4142,CUST_DL110,Kerala Green Mobility Project,Signa 2823.K Tipper,30,2026-10-06,2026-10-27,2026-10-24,Completed / Assembled,Optimal,On Time,2026-10-24,LOW,High,Kochi
+ORD_4143,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,15,2026-09-20,2026-10-15,2026-10-14,On Schedule,Low Inventory,Congested,2026-10-16,MEDIUM,Normal,Ahmedabad
+ORD_4144,CUST_DL106,South Highway Freight Lines,Nexon EV Empowered,250,2026-09-08,2026-09-23,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Normal,Chennai
+ORD_4145,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,30,2026-10-01,2026-10-20,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,Critical,Bengaluru
+ORD_4146,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,100,2026-09-23,2026-10-08,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Normal,Ahmedabad
+ORD_4147,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,150,2026-09-15,2026-10-12,2026-10-08,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-12,HIGH,Normal,Ahmedabad
+ORD_4148,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,250,2026-09-09,2026-09-24,2026-09-21,On Schedule,Low Inventory,Congested,2026-09-22,MEDIUM,High,Hyderabad
+ORD_4149,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,15,2026-09-01,2026-09-15,2026-09-14,Completed / Assembled,Optimal,On Time,2026-09-14,LOW,Normal,Ahmedabad
+ORD_4150,CUST_DL110,Kerala Green Mobility Project,Curvv EV Coupe,30,2026-09-09,2026-09-27,2026-09-24,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-28,HIGH,High,Kochi
+ORD_4151,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,50,2026-09-18,2026-10-14,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Normal,Ahmedabad
+ORD_4152,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,250,2026-09-21,2026-10-17,2026-10-13,On Schedule,Low Inventory,Congested,2026-10-14,MEDIUM,Normal,Ahmedabad
+ORD_4153,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,15,2026-09-28,2026-10-25,2026-10-22,Completed / Assembled,Optimal,On Time,2026-10-22,LOW,Critical,Kolkata
+ORD_4154,CUST_DL108,Apex Commercial Fleet Leasing,Prima 5530.S Heavy Truck,100,2026-10-05,2026-11-02,2026-11-01,Completed / Assembled,Optimal,On Time,2026-11-01,LOW,High,Pune
+ORD_4155,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,250,2026-09-15,2026-10-02,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Critical,Kolkata
+ORD_4156,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,150,2026-09-17,2026-10-13,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,High,Hyderabad
+ORD_4157,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Safari Dark Edition,100,2026-09-27,2026-10-16,2026-10-13,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-20,CRITICAL,Critical,Bengaluru
+ORD_4158,CUST_DL106,South Highway Freight Lines,Starbus EV Ultra 9m,100,2026-09-23,2026-10-10,2026-10-09,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-18,CRITICAL,Normal,Chennai
+ORD_4159,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,250,2026-09-12,2026-09-27,2026-09-25,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-28,HIGH,Normal,Ahmedabad
+ORD_4160,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,50,2026-10-01,2026-10-26,2026-10-22,On Schedule,Low Inventory,Congested,2026-10-23,MEDIUM,High,Pune
+ORD_4161,CUST_DL106,South Highway Freight Lines,Starbus EV Ultra 9m,50,2026-09-05,2026-09-25,2026-09-24,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-29,CRITICAL,Normal,Chennai
+ORD_4162,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,250,2026-09-06,2026-09-25,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,Critical,Kolkata
+ORD_4163,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,250,2026-09-04,2026-09-18,2026-09-17,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-25,CRITICAL,Normal,Chandigarh
+ORD_4164,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,250,2026-10-01,2026-10-26,2026-10-22,Completed / Assembled,Optimal,On Time,2026-10-22,LOW,Normal,Chandigarh
+ORD_4165,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,150,2026-09-06,2026-09-22,2026-09-19,Completed / Assembled,Optimal,On Time,2026-09-19,LOW,Critical,Bengaluru
+ORD_4166,CUST_DL101,Tata Motors Dealership West Hub,Curvv EV Coupe,30,2026-09-29,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Mumbai
+ORD_4167,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Signa 2823.K Tipper,100,2026-09-05,2026-09-21,2026-09-20,Completed / Assembled,Optimal,On Time,2026-09-20,LOW,Critical,Bengaluru
+ORD_4168,CUST_DL101,Tata Motors Dealership West Hub,Tiago EV Long Range,250,2026-10-04,2026-10-22,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,High,Mumbai
+ORD_4169,CUST_DL108,Apex Commercial Fleet Leasing,Prima 5530.S Heavy Truck,30,2026-09-15,2026-10-05,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,High,Pune
+ORD_4170,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,150,2026-09-04,2026-09-25,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,Normal,Ahmedabad
+ORD_4171,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,100,2026-09-17,2026-10-09,2026-10-07,On Schedule,Low Inventory,Congested,2026-10-08,MEDIUM,Critical,Bengaluru
+ORD_4172,CUST_DL109,Punjab Agri Transit Hub,Tiago EV Long Range,30,2026-10-03,2026-10-22,2026-10-19,On Schedule,Low Inventory,Congested,2026-10-21,MEDIUM,Normal,Chandigarh
+ORD_4173,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,100,2026-09-28,2026-10-16,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,High,Mumbai
+ORD_4174,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,50,2026-09-22,2026-10-17,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,Critical,Kolkata
+ORD_4175,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,250,2026-09-09,2026-09-26,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,Critical,Delhi NCR
+ORD_4176,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,50,2026-10-05,2026-10-28,2026-10-24,Completed / Assembled,Optimal,On Time,2026-10-24,LOW,High,Pune
+ORD_4177,CUST_DL110,Kerala Green Mobility Project,Harrier Fearless AT,15,2026-09-29,2026-10-20,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,High,Kochi
+ORD_4178,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,150,2026-09-11,2026-10-02,2026-09-30,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-08,CRITICAL,High,Hyderabad
+ORD_4179,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,250,2026-09-11,2026-10-08,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Normal,Chandigarh
+ORD_4180,CUST_DL106,South Highway Freight Lines,Nexon EV Empowered,30,2026-10-05,2026-10-19,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,Normal,Chennai
+ORD_4181,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,100,2026-09-03,2026-09-21,2026-09-18,Completed / Assembled,Optimal,On Time,2026-09-18,LOW,Normal,Ahmedabad
+ORD_4182,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,15,2026-09-25,2026-10-18,2026-10-16,On Schedule,Low Inventory,Congested,2026-10-17,MEDIUM,High,Hyderabad
+ORD_4183,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,150,2026-09-15,2026-10-04,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,Critical,Kolkata
+ORD_4184,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,150,2026-09-07,2026-09-29,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Mumbai
+ORD_4185,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,150,2026-10-01,2026-10-23,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,Normal,Ahmedabad
+ORD_4186,CUST_DL102,National Fleet Logistics Corp,Signa 2823.K Tipper,30,2026-09-23,2026-10-09,2026-10-06,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-10,HIGH,Critical,Delhi NCR
+ORD_4187,CUST_DL105,Eastern Mining & Logistics Ltd,Curvv EV Coupe,250,2026-09-28,2026-10-12,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Critical,Kolkata
+ORD_4188,CUST_DL106,South Highway Freight Lines,Harrier Fearless AT,50,2026-10-01,2026-10-24,2026-10-22,Completed / Assembled,Optimal,On Time,2026-10-22,LOW,Normal,Chennai
+ORD_4189,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,15,2026-09-01,2026-09-25,2026-09-22,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-24,HIGH,Normal,Chandigarh
+ORD_4190,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Intra V50 Smart Pickup,30,2026-09-30,2026-10-22,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,Critical,Bengaluru
+ORD_4191,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,100,2026-09-28,2026-10-21,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,Normal,Ahmedabad
+ORD_4192,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,30,2026-09-20,2026-10-09,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,High,Kochi
+ORD_4193,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,100,2026-09-07,2026-09-25,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Critical,Bengaluru
+ORD_4194,CUST_DL105,Eastern Mining & Logistics Ltd,Signa 2823.K Tipper,100,2026-09-15,2026-09-29,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,Critical,Kolkata
+ORD_4195,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,150,2026-09-25,2026-10-20,2026-10-17,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-20,HIGH,High,Kochi
+ORD_4196,CUST_DL104,Metro Cabs India EV Fleet,Intra V50 Smart Pickup,30,2026-09-15,2026-10-08,2026-10-04,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-07,HIGH,High,Hyderabad
+ORD_4197,CUST_DL104,Metro Cabs India EV Fleet,Starbus EV Ultra 9m,50,2026-09-07,2026-09-23,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,High,Hyderabad
+ORD_4198,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,100,2026-09-02,2026-09-22,2026-09-20,Completed / Assembled,Optimal,On Time,2026-09-20,LOW,Normal,Chandigarh
+ORD_4199,CUST_DL110,Kerala Green Mobility Project,Tiago EV Long Range,150,2026-09-12,2026-10-04,2026-10-03,Completed / Assembled,Optimal,On Time,2026-10-03,LOW,High,Kochi
+ORD_4200,CUST_DL109,Punjab Agri Transit Hub,Tiago EV Long Range,50,2026-09-11,2026-09-27,2026-09-26,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-30,CRITICAL,Normal,Chandigarh
+ORD_4201,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,30,2026-09-15,2026-10-01,2026-09-30,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-09,CRITICAL,High,Mumbai
+ORD_4202,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,50,2026-09-30,2026-10-20,2026-10-16,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-20,CRITICAL,Normal,Chandigarh
+ORD_4203,CUST_DL109,Punjab Agri Transit Hub,Starbus EV Ultra 9m,30,2026-10-06,2026-11-03,2026-10-30,Completed / Assembled,Optimal,On Time,2026-10-30,LOW,Normal,Chandigarh
+ORD_4204,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,100,2026-10-06,2026-10-21,2026-10-18,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-23,HIGH,Critical,Delhi NCR
+ORD_4205,CUST_DL102,National Fleet Logistics Corp,Curvv EV Coupe,15,2026-09-04,2026-10-02,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Critical,Delhi NCR
+ORD_4206,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,15,2026-09-16,2026-10-10,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,Critical,Kolkata
+ORD_4207,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,250,2026-09-18,2026-10-08,2026-10-06,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-10,HIGH,High,Mumbai
+ORD_4208,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,250,2026-09-21,2026-10-18,2026-10-17,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-22,CRITICAL,Normal,Ahmedabad
+ORD_4209,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,100,2026-09-26,2026-10-24,2026-10-22,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-28,CRITICAL,High,Mumbai
+ORD_4210,CUST_DL106,South Highway Freight Lines,Starbus EV Ultra 9m,50,2026-09-25,2026-10-16,2026-10-15,On Schedule,Low Inventory,Congested,2026-10-16,MEDIUM,Normal,Chennai
+ORD_4211,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,30,2026-09-25,2026-10-15,2026-10-12,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-16,CRITICAL,Normal,Ahmedabad
+ORD_4212,CUST_DL107,Gujarat Express Distribution,Prima 5530.S Heavy Truck,15,2026-09-20,2026-10-17,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,Normal,Ahmedabad
+ORD_4213,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,30,2026-09-01,2026-09-27,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,High,Hyderabad
+ORD_4214,CUST_DL102,National Fleet Logistics Corp,Signa 2823.K Tipper,100,2026-09-18,2026-10-14,2026-10-10,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-18,CRITICAL,Critical,Delhi NCR
+ORD_4215,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,50,2026-10-06,2026-11-01,2026-10-30,Completed / Assembled,Optimal,On Time,2026-10-30,LOW,High,Mumbai
+ORD_4216,CUST_DL109,Punjab Agri Transit Hub,Tiago EV Long Range,30,2026-09-19,2026-10-09,2026-10-09,On Schedule,Low Inventory,Congested,2026-10-11,MEDIUM,Normal,Chandigarh
+ORD_4217,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Signa 2823.K Tipper,50,2026-09-30,2026-10-26,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,Critical,Bengaluru
+ORD_4218,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,15,2026-10-06,2026-10-28,2026-10-27,Completed / Assembled,Optimal,On Time,2026-10-27,LOW,Normal,Chandigarh
+ORD_4219,CUST_DL108,Apex Commercial Fleet Leasing,Starbus EV Ultra 9m,30,2026-09-05,2026-09-24,2026-09-23,On Schedule,Low Inventory,Congested,2026-09-25,MEDIUM,High,Pune
+ORD_4220,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,150,2026-09-30,2026-10-27,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,Critical,Bengaluru
+ORD_4221,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,15,2026-09-16,2026-10-02,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Normal,Ahmedabad
+ORD_4222,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Signa 2823.K Tipper,50,2026-09-23,2026-10-14,2026-10-12,On Schedule,Low Inventory,Congested,2026-10-14,MEDIUM,Critical,Bengaluru
+ORD_4223,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,100,2026-09-01,2026-09-27,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,Critical,Delhi NCR
+ORD_4224,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,150,2026-09-24,2026-10-13,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Critical,Delhi NCR
+ORD_4225,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,250,2026-10-02,2026-10-23,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,Critical,Delhi NCR
+ORD_4226,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,30,2026-09-19,2026-10-09,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Critical,Bengaluru
+ORD_4227,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,250,2026-10-06,2026-10-22,2026-10-19,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-28,CRITICAL,Critical,Delhi NCR
+ORD_4228,CUST_DL110,Kerala Green Mobility Project,Signa 2823.K Tipper,15,2026-09-09,2026-09-29,2026-09-26,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-29,HIGH,High,Kochi
+ORD_4229,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,30,2026-09-22,2026-10-14,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,High,Kochi
+ORD_4230,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,30,2026-09-18,2026-10-16,2026-10-14,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-22,CRITICAL,Critical,Kolkata
+ORD_4231,CUST_DL106,South Highway Freight Lines,Curvv EV Coupe,150,2026-09-24,2026-10-15,2026-10-14,On Schedule,Low Inventory,Congested,2026-10-15,MEDIUM,Normal,Chennai
+ORD_4232,CUST_DL101,Tata Motors Dealership West Hub,Starbus EV Ultra 9m,150,2026-09-10,2026-09-26,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,High,Mumbai
+ORD_4233,CUST_DL101,Tata Motors Dealership West Hub,Starbus EV Ultra 9m,150,2026-09-02,2026-09-27,2026-09-26,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-03,CRITICAL,High,Mumbai
+ORD_4234,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,150,2026-09-27,2026-10-15,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,High,Hyderabad
+ORD_4235,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,100,2026-09-18,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Hyderabad
+ORD_4236,CUST_DL109,Punjab Agri Transit Hub,Safari Dark Edition,50,2026-10-06,2026-10-29,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,Normal,Chandigarh
+ORD_4237,CUST_DL105,Eastern Mining & Logistics Ltd,Nexon EV Empowered,150,2026-09-04,2026-09-19,2026-09-15,Completed / Assembled,Optimal,On Time,2026-09-15,LOW,Critical,Kolkata
+ORD_4238,CUST_DL109,Punjab Agri Transit Hub,Safari Dark Edition,15,2026-09-11,2026-10-06,2026-10-03,Completed / Assembled,Optimal,On Time,2026-10-03,LOW,Normal,Chandigarh
+ORD_4239,CUST_DL104,Metro Cabs India EV Fleet,Harrier Fearless AT,30,2026-09-09,2026-09-29,2026-09-28,On Schedule,Low Inventory,Congested,2026-09-30,MEDIUM,High,Hyderabad
+ORD_4240,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,250,2026-09-05,2026-09-19,2026-09-16,Completed / Assembled,Optimal,On Time,2026-09-16,LOW,High,Mumbai
+ORD_4241,CUST_DL101,Tata Motors Dealership West Hub,Harrier Fearless AT,150,2026-09-08,2026-10-01,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Mumbai
+ORD_4242,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,15,2026-09-30,2026-10-28,2026-10-27,Completed / Assembled,Optimal,On Time,2026-10-27,LOW,High,Kochi
+ORD_4243,CUST_DL102,National Fleet Logistics Corp,Prima 5530.S Heavy Truck,100,2026-09-12,2026-10-02,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Critical,Delhi NCR
+ORD_4244,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,15,2026-09-15,2026-10-12,2026-10-08,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-16,CRITICAL,High,Mumbai
+ORD_4245,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,250,2026-09-03,2026-09-17,2026-09-13,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-20,CRITICAL,Critical,Bengaluru
+ORD_4246,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,250,2026-09-01,2026-09-15,2026-09-11,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-13,HIGH,High,Kochi
+ORD_4247,CUST_DL109,Punjab Agri Transit Hub,Starbus EV Ultra 9m,15,2026-09-20,2026-10-12,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,Normal,Chandigarh
+ORD_4248,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,100,2026-10-04,2026-10-25,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,High,Hyderabad
+ORD_4249,CUST_DL110,Kerala Green Mobility Project,Tiago EV Long Range,250,2026-09-27,2026-10-16,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,High,Kochi
+ORD_4250,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,100,2026-09-08,2026-09-28,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Kolkata
+ORD_4251,CUST_DL109,Punjab Agri Transit Hub,Safari Dark Edition,30,2026-10-01,2026-10-18,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,Normal,Chandigarh
+ORD_4252,CUST_DL102,National Fleet Logistics Corp,Tiago EV Long Range,150,2026-09-05,2026-09-19,2026-09-16,On Schedule,Low Inventory,Congested,2026-09-17,MEDIUM,Critical,Delhi NCR
+ORD_4253,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,250,2026-09-26,2026-10-13,2026-10-11,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-17,CRITICAL,Normal,Chennai
+ORD_4254,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,15,2026-09-29,2026-10-17,2026-10-15,On Schedule,Low Inventory,Congested,2026-10-16,MEDIUM,High,Hyderabad
+ORD_4255,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,50,2026-09-04,2026-09-24,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Normal,Ahmedabad
+ORD_4256,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,50,2026-09-28,2026-10-19,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Normal,Ahmedabad
+ORD_4257,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,30,2026-09-20,2026-10-18,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,High,Hyderabad
+ORD_4258,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,50,2026-09-15,2026-10-05,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,Critical,Bengaluru
+ORD_4259,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Intra V50 Smart Pickup,30,2026-09-04,2026-09-23,2026-09-20,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-27,CRITICAL,Critical,Bengaluru
+ORD_4260,CUST_DL105,Eastern Mining & Logistics Ltd,Nexon EV Empowered,150,2026-09-26,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Kolkata
+ORD_4261,CUST_DL106,South Highway Freight Lines,Harrier Fearless AT,30,2026-09-24,2026-10-14,2026-10-12,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-15,HIGH,Normal,Chennai
+ORD_4262,CUST_DL101,Tata Motors Dealership West Hub,Starbus EV Ultra 9m,100,2026-09-03,2026-09-25,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,High,Mumbai
+ORD_4263,CUST_DL106,South Highway Freight Lines,Harrier Fearless AT,100,2026-09-03,2026-09-24,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Normal,Chennai
+ORD_4264,CUST_DL110,Kerala Green Mobility Project,Harrier Fearless AT,100,2026-09-15,2026-09-30,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,High,Kochi
+ORD_4265,CUST_DL108,Apex Commercial Fleet Leasing,Intra V50 Smart Pickup,250,2026-09-25,2026-10-10,2026-10-09,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-13,HIGH,High,Pune
+ORD_4266,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,100,2026-09-04,2026-09-28,2026-09-26,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-28,HIGH,High,Pune
+ORD_4267,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,100,2026-09-24,2026-10-22,2026-10-20,On Schedule,Low Inventory,Congested,2026-10-22,MEDIUM,Normal,Ahmedabad
+ORD_4268,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,100,2026-09-01,2026-09-29,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,Critical,Delhi NCR
+ORD_4269,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,100,2026-09-21,2026-10-17,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,Critical,Bengaluru
+ORD_4270,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,250,2026-09-11,2026-10-08,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,High,Mumbai
+ORD_4271,CUST_DL101,Tata Motors Dealership West Hub,Harrier Fearless AT,100,2026-09-21,2026-10-06,2026-10-03,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-06,HIGH,High,Mumbai
+ORD_4272,CUST_DL106,South Highway Freight Lines,Starbus EV Ultra 9m,100,2026-09-17,2026-10-08,2026-10-05,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-11,CRITICAL,Normal,Chennai
+ORD_4273,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,150,2026-09-07,2026-10-03,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,High,Mumbai
+ORD_4274,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,250,2026-10-06,2026-10-20,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Critical,Bengaluru
+ORD_4275,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,100,2026-09-02,2026-09-30,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Kochi
+ORD_4276,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,30,2026-09-01,2026-09-21,2026-09-18,Completed / Assembled,Optimal,On Time,2026-09-18,LOW,Critical,Delhi NCR
+ORD_4277,CUST_DL110,Kerala Green Mobility Project,Tiago EV Long Range,150,2026-09-20,2026-10-16,2026-10-15,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-17,HIGH,High,Kochi
+ORD_4278,CUST_DL101,Tata Motors Dealership West Hub,Curvv EV Coupe,250,2026-09-23,2026-10-09,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,High,Mumbai
+ORD_4279,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,50,2026-10-03,2026-10-26,2026-10-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-31,CRITICAL,Normal,Ahmedabad
+ORD_4280,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,15,2026-09-07,2026-09-24,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Critical,Kolkata
+ORD_4281,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,250,2026-10-05,2026-10-24,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,High,Kochi
+ORD_4282,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,150,2026-09-22,2026-10-08,2026-10-07,On Schedule,Low Inventory,Congested,2026-10-08,MEDIUM,High,Hyderabad
+ORD_4283,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,100,2026-09-27,2026-10-18,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,High,Mumbai
+ORD_4284,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,150,2026-09-28,2026-10-26,2026-10-25,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-11-01,CRITICAL,Normal,Ahmedabad
+ORD_4285,CUST_DL108,Apex Commercial Fleet Leasing,Ace Gold EV Mini Truck,15,2026-09-17,2026-10-01,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,High,Pune
+ORD_4286,CUST_DL109,Punjab Agri Transit Hub,Curvv EV Coupe,15,2026-09-09,2026-10-04,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,Normal,Chandigarh
+ORD_4287,CUST_DL110,Kerala Green Mobility Project,Curvv EV Coupe,250,2026-09-20,2026-10-13,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,High,Kochi
+ORD_4288,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,100,2026-09-26,2026-10-17,2026-10-13,On Schedule,Low Inventory,Congested,2026-10-14,MEDIUM,High,Mumbai
+ORD_4289,CUST_DL106,South Highway Freight Lines,Prima 5530.S Heavy Truck,100,2026-09-01,2026-09-18,2026-09-16,Completed / Assembled,Optimal,On Time,2026-09-16,LOW,Normal,Chennai
+ORD_4290,CUST_DL101,Tata Motors Dealership West Hub,Harrier Fearless AT,30,2026-10-02,2026-10-19,2026-10-15,On Schedule,Low Inventory,Congested,2026-10-16,MEDIUM,High,Mumbai
+ORD_4291,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,15,2026-09-19,2026-10-04,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Normal,Ahmedabad
+ORD_4292,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Starbus EV Ultra 9m,100,2026-09-04,2026-09-28,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Critical,Bengaluru
+ORD_4293,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,15,2026-09-15,2026-10-11,2026-10-09,On Schedule,Low Inventory,Congested,2026-10-10,MEDIUM,High,Kochi
+ORD_4294,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,30,2026-09-03,2026-09-26,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,Critical,Delhi NCR
+ORD_4295,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,50,2026-09-23,2026-10-10,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,Normal,Ahmedabad
+ORD_4296,CUST_DL109,Punjab Agri Transit Hub,Intra V50 Smart Pickup,15,2026-09-27,2026-10-19,2026-10-16,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-19,HIGH,Normal,Chandigarh
+ORD_4297,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,30,2026-09-25,2026-10-15,2026-10-11,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-14,HIGH,Critical,Delhi NCR
+ORD_4298,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,30,2026-09-19,2026-10-17,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,High,Kochi
+ORD_4299,CUST_DL108,Apex Commercial Fleet Leasing,Prima 5530.S Heavy Truck,30,2026-10-06,2026-11-01,2026-10-28,On Schedule,Low Inventory,Congested,2026-10-29,MEDIUM,High,Pune
+ORD_4300,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,150,2026-09-28,2026-10-16,2026-10-14,On Schedule,Low Inventory,Congested,2026-10-15,MEDIUM,Critical,Delhi NCR
+ORD_4301,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,250,2026-09-12,2026-10-08,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,High,Hyderabad
+ORD_4302,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,100,2026-09-24,2026-10-13,2026-10-11,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-18,CRITICAL,Critical,Bengaluru
+ORD_4303,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,15,2026-09-09,2026-09-23,2026-09-19,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-25,CRITICAL,High,Pune
+ORD_4304,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,250,2026-10-06,2026-10-26,2026-10-18,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-21,HIGH,Critical,Bengaluru
+ORD_4305,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,150,2026-09-11,2026-09-26,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Critical,Delhi NCR
+ORD_4306,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,15,2026-10-04,2026-10-27,2026-10-23,Completed / Assembled,Optimal,On Time,2026-10-23,LOW,Normal,Chandigarh
+ORD_4307,CUST_DL106,South Highway Freight Lines,Starbus EV Ultra 9m,250,2026-09-07,2026-09-27,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Normal,Chennai
+ORD_4308,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,150,2026-09-14,2026-10-06,2026-10-03,On Schedule,Low Inventory,Congested,2026-10-04,MEDIUM,Normal,Chandigarh
+ORD_4309,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,100,2026-09-30,2026-10-25,2026-10-21,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-23,HIGH,High,Kochi
+ORD_4310,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,30,2026-10-04,2026-10-18,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Normal,Ahmedabad
+ORD_4311,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,250,2026-10-01,2026-10-23,2026-10-21,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-28,CRITICAL,Normal,Chennai
+ORD_4312,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,250,2026-10-03,2026-10-31,2026-10-27,Completed / Assembled,Optimal,On Time,2026-10-27,LOW,High,Kochi
+ORD_4313,CUST_DL109,Punjab Agri Transit Hub,Curvv EV Coupe,15,2026-09-22,2026-10-20,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Normal,Chandigarh
+ORD_4314,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,30,2026-09-09,2026-09-25,2026-09-21,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-23,HIGH,Critical,Delhi NCR
+ORD_4315,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Intra V50 Smart Pickup,100,2026-09-14,2026-10-04,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,Critical,Bengaluru
+ORD_4316,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,15,2026-09-10,2026-09-30,2026-09-21,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-27,CRITICAL,High,Hyderabad
+ORD_4317,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,50,2026-09-14,2026-10-09,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,High,Pune
+ORD_4318,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,50,2026-09-05,2026-09-25,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,Normal,Chandigarh
+ORD_4319,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,50,2026-09-09,2026-10-04,2026-10-03,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-06,HIGH,High,Hyderabad
+ORD_4320,CUST_DL101,Tata Motors Dealership West Hub,Curvv EV Coupe,100,2026-09-10,2026-09-27,2026-09-25,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-30,HIGH,High,Mumbai
+ORD_4321,CUST_DL108,Apex Commercial Fleet Leasing,Prima 5530.S Heavy Truck,50,2026-09-09,2026-10-04,2026-10-03,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-06,HIGH,High,Pune
+ORD_4322,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,250,2026-10-03,2026-10-18,2026-10-14,On Schedule,Low Inventory,Congested,2026-10-15,MEDIUM,High,Mumbai
+ORD_4323,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,15,2026-09-26,2026-10-13,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,Normal,Ahmedabad
+ORD_4324,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,250,2026-09-15,2026-10-13,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,High,Mumbai
+ORD_4325,CUST_DL106,South Highway Freight Lines,Signa 2823.K Tipper,50,2026-09-07,2026-09-30,2026-09-28,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-30,HIGH,Normal,Chennai
+ORD_4326,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,15,2026-09-06,2026-09-26,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,High,Mumbai
+ORD_4327,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,250,2026-09-03,2026-09-30,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,Normal,Ahmedabad
+ORD_4328,CUST_DL109,Punjab Agri Transit Hub,Tiago EV Long Range,100,2026-09-08,2026-10-04,2026-10-03,On Schedule,Low Inventory,Congested,2026-10-05,MEDIUM,Normal,Chandigarh
+ORD_4329,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,30,2026-09-25,2026-10-15,2026-10-13,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-15,HIGH,Critical,Delhi NCR
+ORD_4330,CUST_DL104,Metro Cabs India EV Fleet,Harrier Fearless AT,250,2026-09-27,2026-10-18,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,High,Hyderabad
+ORD_4331,CUST_DL106,South Highway Freight Lines,Signa 2823.K Tipper,150,2026-10-06,2026-11-03,2026-10-31,Completed / Assembled,Optimal,On Time,2026-10-31,LOW,Normal,Chennai
+ORD_4332,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,50,2026-09-30,2026-10-26,2026-10-25,On Schedule,Low Inventory,Congested,2026-10-27,MEDIUM,Normal,Ahmedabad
+ORD_4333,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,150,2026-10-03,2026-10-29,2026-10-25,On Schedule,Low Inventory,Congested,2026-10-26,MEDIUM,Critical,Bengaluru
+ORD_4334,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,30,2026-09-19,2026-10-15,2026-10-12,On Schedule,Low Inventory,Congested,2026-10-13,MEDIUM,Critical,Kolkata
+ORD_4335,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,100,2026-09-26,2026-10-13,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,High,Pune
+ORD_4336,CUST_DL104,Metro Cabs India EV Fleet,Tiago EV Long Range,250,2026-09-27,2026-10-16,2026-10-15,On Schedule,Low Inventory,Congested,2026-10-17,MEDIUM,High,Hyderabad
+ORD_4337,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,100,2026-09-13,2026-09-29,2026-09-27,On Schedule,Low Inventory,Congested,2026-09-29,MEDIUM,Critical,Bengaluru
+ORD_4338,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,30,2026-09-19,2026-10-05,2026-10-02,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-07,HIGH,Critical,Delhi NCR
+ORD_4339,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,150,2026-10-06,2026-10-31,2026-10-28,On Schedule,Low Inventory,Congested,2026-10-29,MEDIUM,Critical,Bengaluru
+ORD_4340,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,250,2026-10-03,2026-10-27,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,Critical,Delhi NCR
+ORD_4341,CUST_DL108,Apex Commercial Fleet Leasing,Starbus EV Ultra 9m,50,2026-09-07,2026-10-02,2026-09-28,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-01,HIGH,High,Pune
+ORD_4342,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,15,2026-09-25,2026-10-13,2026-10-11,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-15,HIGH,Critical,Kolkata
+ORD_4343,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,100,2026-09-19,2026-10-10,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,High,Hyderabad
+ORD_4344,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,30,2026-10-05,2026-10-22,2026-10-20,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-23,HIGH,High,Mumbai
+ORD_4345,CUST_DL101,Tata Motors Dealership West Hub,Tiago EV Long Range,250,2026-09-05,2026-09-20,2026-09-17,Completed / Assembled,Optimal,On Time,2026-09-17,LOW,High,Mumbai
+ORD_4346,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,150,2026-09-26,2026-10-10,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Normal,Chandigarh
+ORD_4347,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,50,2026-09-30,2026-10-26,2026-10-22,Completed / Assembled,Optimal,On Time,2026-10-22,LOW,Critical,Kolkata
+ORD_4348,CUST_DL110,Kerala Green Mobility Project,Curvv EV Coupe,150,2026-10-02,2026-10-21,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,High,Kochi
+ORD_4349,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,50,2026-09-13,2026-10-02,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Critical,Kolkata
+ORD_4350,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,250,2026-09-18,2026-10-08,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,High,Kochi
+ORD_4351,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,15,2026-09-25,2026-10-21,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,High,Kochi
+ORD_4352,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,15,2026-09-06,2026-09-22,2026-09-19,On Schedule,Low Inventory,Congested,2026-09-20,MEDIUM,Critical,Kolkata
+ORD_4353,CUST_DL109,Punjab Agri Transit Hub,Nexon EV Empowered,30,2026-09-22,2026-10-20,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Normal,Chandigarh
+ORD_4354,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,30,2026-09-26,2026-10-19,2026-10-17,On Schedule,Low Inventory,Congested,2026-10-19,MEDIUM,Normal,Chennai
+ORD_4355,CUST_DL110,Kerala Green Mobility Project,Signa 2823.K Tipper,50,2026-09-26,2026-10-14,2026-10-10,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-13,HIGH,High,Kochi
+ORD_4356,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,50,2026-09-18,2026-10-04,2026-10-02,On Schedule,Low Inventory,Congested,2026-10-03,MEDIUM,High,Mumbai
+ORD_4357,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,50,2026-09-25,2026-10-10,2026-10-07,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-16,CRITICAL,Critical,Kolkata
+ORD_4358,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,50,2026-09-13,2026-09-30,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,Critical,Kolkata
+ORD_4359,CUST_DL102,National Fleet Logistics Corp,Curvv EV Coupe,250,2026-09-21,2026-10-19,2026-10-16,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-18,HIGH,Critical,Delhi NCR
+ORD_4360,CUST_DL108,Apex Commercial Fleet Leasing,Starbus EV Ultra 9m,250,2026-09-27,2026-10-14,2026-10-10,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-12,HIGH,High,Pune
+ORD_4361,CUST_DL101,Tata Motors Dealership West Hub,Intra V50 Smart Pickup,15,2026-09-08,2026-09-29,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,High,Mumbai
+ORD_4362,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,30,2026-09-06,2026-09-25,2026-09-21,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-29,CRITICAL,Critical,Bengaluru
+ORD_4363,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,30,2026-09-11,2026-09-28,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,Critical,Kolkata
+ORD_4364,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,100,2026-09-28,2026-10-26,2026-10-22,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-27,HIGH,Critical,Kolkata
+ORD_4365,CUST_DL101,Tata Motors Dealership West Hub,Harrier Fearless AT,30,2026-10-02,2026-10-19,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,High,Mumbai
+ORD_4366,CUST_DL101,Tata Motors Dealership West Hub,Intra V50 Smart Pickup,30,2026-09-27,2026-10-23,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,High,Mumbai
+ORD_4367,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,150,2026-09-29,2026-10-20,2026-10-16,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-21,HIGH,Critical,Bengaluru
+ORD_4368,CUST_DL107,Gujarat Express Distribution,Prima 5530.S Heavy Truck,150,2026-09-27,2026-10-14,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,Normal,Ahmedabad
+ORD_4369,CUST_DL102,National Fleet Logistics Corp,Curvv EV Coupe,100,2026-09-04,2026-09-28,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Delhi NCR
+ORD_4370,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,50,2026-09-29,2026-10-27,2026-10-26,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-11-01,CRITICAL,Normal,Chennai
+ORD_4371,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,100,2026-09-03,2026-09-17,2026-09-16,Completed / Assembled,Optimal,On Time,2026-09-16,LOW,Normal,Chennai
+ORD_4372,CUST_DL108,Apex Commercial Fleet Leasing,Safari Dark Edition,100,2026-09-09,2026-09-24,2026-09-21,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-26,HIGH,High,Pune
+ORD_4373,CUST_DL104,Metro Cabs India EV Fleet,Harrier Fearless AT,15,2026-09-28,2026-10-12,2026-10-09,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-11,HIGH,High,Hyderabad
+ORD_4374,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,250,2026-10-04,2026-10-30,2026-10-29,Completed / Assembled,Optimal,On Time,2026-10-29,LOW,High,Hyderabad
+ORD_4375,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,30,2026-09-13,2026-09-28,2026-09-26,On Schedule,Low Inventory,Congested,2026-09-28,MEDIUM,Critical,Bengaluru
+ORD_4376,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,15,2026-10-04,2026-10-30,2026-10-26,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-28,HIGH,Normal,Chennai
+ORD_4377,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,250,2026-10-02,2026-10-28,2026-10-26,On Schedule,Low Inventory,Congested,2026-10-28,MEDIUM,High,Kochi
+ORD_4378,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,30,2026-09-14,2026-10-12,2026-10-10,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-13,HIGH,High,Kochi
+ORD_4379,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,100,2026-09-13,2026-10-11,2026-10-09,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-15,CRITICAL,High,Pune
+ORD_4380,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,30,2026-09-23,2026-10-10,2026-10-08,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-13,HIGH,High,Pune
+ORD_4381,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,50,2026-09-23,2026-10-07,2026-10-03,On Schedule,Low Inventory,Congested,2026-10-04,MEDIUM,Critical,Delhi NCR
+ORD_4382,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,50,2026-09-03,2026-09-25,2026-09-23,On Schedule,Low Inventory,Congested,2026-09-25,MEDIUM,Normal,Chandigarh
+ORD_4383,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,100,2026-09-11,2026-10-08,2026-10-06,On Schedule,Low Inventory,Congested,2026-10-07,MEDIUM,Critical,Delhi NCR
+ORD_4384,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,150,2026-09-08,2026-09-24,2026-09-20,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-29,CRITICAL,High,Mumbai
+ORD_4385,CUST_DL109,Punjab Agri Transit Hub,Tiago EV Long Range,50,2026-10-06,2026-10-30,2026-10-28,Completed / Assembled,Optimal,On Time,2026-10-28,LOW,Normal,Chandigarh
+ORD_4386,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,100,2026-09-17,2026-10-09,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,High,Pune
+ORD_4387,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,15,2026-09-21,2026-10-12,2026-10-09,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-12,HIGH,High,Pune
+ORD_4388,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,150,2026-09-10,2026-09-26,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,High,Hyderabad
+ORD_4389,CUST_DL110,Kerala Green Mobility Project,Curvv EV Coupe,50,2026-09-17,2026-10-03,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,High,Kochi
+ORD_4390,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,100,2026-09-12,2026-09-28,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,High,Kochi
+ORD_4391,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,100,2026-09-22,2026-10-09,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,Normal,Ahmedabad
+ORD_4392,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,15,2026-10-01,2026-10-28,2026-10-26,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-11-04,CRITICAL,Normal,Ahmedabad
+ORD_4393,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,15,2026-09-04,2026-09-22,2026-09-18,Completed / Assembled,Optimal,On Time,2026-09-18,LOW,Critical,Delhi NCR
+ORD_4394,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,150,2026-09-07,2026-10-04,2026-10-02,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-11,CRITICAL,High,Pune
+ORD_4395,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,250,2026-10-06,2026-10-26,2026-10-23,Completed / Assembled,Optimal,On Time,2026-10-23,LOW,Normal,Chennai
+ORD_4396,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,50,2026-09-01,2026-09-29,2026-09-28,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-03,HIGH,Normal,Chennai
+ORD_4397,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Signa 2823.K Tipper,100,2026-09-04,2026-09-26,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Critical,Bengaluru
+ORD_4398,CUST_DL104,Metro Cabs India EV Fleet,Starbus EV Ultra 9m,150,2026-10-01,2026-10-25,2026-10-22,On Schedule,Low Inventory,Congested,2026-10-24,MEDIUM,High,Hyderabad
+ORD_4399,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,150,2026-09-03,2026-09-22,2026-09-19,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-21,HIGH,Critical,Kolkata
+ORD_4400,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,15,2026-09-24,2026-10-09,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,Critical,Bengaluru
+ORD_4401,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,100,2026-09-05,2026-09-28,2026-09-25,On Schedule,Low Inventory,Congested,2026-09-27,MEDIUM,Critical,Kolkata
+ORD_4402,CUST_DL101,Tata Motors Dealership West Hub,Starbus EV Ultra 9m,30,2026-09-06,2026-09-29,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,High,Mumbai
+ORD_4403,CUST_DL104,Metro Cabs India EV Fleet,Starbus EV Ultra 9m,250,2026-09-21,2026-10-12,2026-10-08,On Schedule,Low Inventory,Congested,2026-10-09,MEDIUM,High,Hyderabad
+ORD_4404,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,250,2026-09-01,2026-09-27,2026-09-25,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-30,CRITICAL,High,Mumbai
+ORD_4405,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,15,2026-09-01,2026-09-16,2026-09-12,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-21,CRITICAL,Normal,Ahmedabad
+ORD_4406,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,100,2026-09-20,2026-10-05,2026-10-03,Completed / Assembled,Optimal,On Time,2026-10-03,LOW,Critical,Delhi NCR
+ORD_4407,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,150,2026-09-26,2026-10-17,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,Normal,Ahmedabad
+ORD_4408,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,250,2026-10-01,2026-10-18,2026-10-17,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-22,HIGH,High,Kochi
+ORD_4409,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,150,2026-09-06,2026-10-02,2026-09-30,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-05,HIGH,High,Pune
+ORD_4410,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,50,2026-09-22,2026-10-17,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,High,Mumbai
+ORD_4411,CUST_DL107,Gujarat Express Distribution,Prima 5530.S Heavy Truck,30,2026-09-16,2026-10-13,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Normal,Ahmedabad
+ORD_4412,CUST_DL110,Kerala Green Mobility Project,Curvv EV Coupe,15,2026-09-13,2026-09-28,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,High,Kochi
+ORD_4413,CUST_DL107,Gujarat Express Distribution,Prima 5530.S Heavy Truck,250,2026-09-20,2026-10-07,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,Normal,Ahmedabad
+ORD_4414,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,50,2026-09-12,2026-09-29,2026-09-28,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-01,HIGH,High,Kochi
+ORD_4415,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,50,2026-09-05,2026-09-24,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Critical,Delhi NCR
+ORD_4416,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,30,2026-09-18,2026-10-06,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,High,Pune
+ORD_4417,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,15,2026-09-01,2026-09-26,2026-09-25,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-02,CRITICAL,Critical,Kolkata
+ORD_4418,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,15,2026-09-26,2026-10-14,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Normal,Chandigarh
+ORD_4419,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,150,2026-09-26,2026-10-14,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Normal,Ahmedabad
+ORD_4420,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,15,2026-09-27,2026-10-24,2026-10-22,On Schedule,Low Inventory,Congested,2026-10-24,MEDIUM,Critical,Kolkata
+ORD_4421,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,50,2026-09-17,2026-10-14,2026-10-11,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-18,CRITICAL,Normal,Ahmedabad
+ORD_4422,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,150,2026-09-21,2026-10-16,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,High,Hyderabad
+ORD_4423,CUST_DL101,Tata Motors Dealership West Hub,Starbus EV Ultra 9m,15,2026-09-25,2026-10-13,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,High,Mumbai
+ORD_4424,CUST_DL108,Apex Commercial Fleet Leasing,Ace Gold EV Mini Truck,30,2026-09-06,2026-09-21,2026-09-18,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-23,HIGH,High,Pune
+ORD_4425,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,50,2026-09-14,2026-09-28,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,High,Hyderabad
+ORD_4426,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,100,2026-09-24,2026-10-13,2026-10-12,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-15,HIGH,High,Mumbai
+ORD_4427,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,30,2026-09-14,2026-10-04,2026-10-01,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-03,HIGH,High,Pune
+ORD_4428,CUST_DL106,South Highway Freight Lines,Starbus EV Ultra 9m,30,2026-09-19,2026-10-17,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,Normal,Chennai
+ORD_4429,CUST_DL106,South Highway Freight Lines,Curvv EV Coupe,15,2026-09-27,2026-10-21,2026-10-17,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-21,HIGH,Normal,Chennai
+ORD_4430,CUST_DL105,Eastern Mining & Logistics Ltd,Curvv EV Coupe,150,2026-09-15,2026-10-03,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Critical,Kolkata
+ORD_4431,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,150,2026-09-08,2026-09-28,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Critical,Kolkata
+ORD_4432,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,50,2026-09-18,2026-10-11,2026-10-07,On Schedule,Low Inventory,Congested,2026-10-09,MEDIUM,High,Hyderabad
+ORD_4433,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,15,2026-09-02,2026-09-24,2026-09-22,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-24,HIGH,Normal,Ahmedabad
+ORD_4434,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,150,2026-10-03,2026-10-23,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,High,Kochi
+ORD_4435,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,250,2026-10-05,2026-10-29,2026-10-26,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-31,CRITICAL,High,Pune
+ORD_4436,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,100,2026-09-29,2026-10-15,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,Critical,Delhi NCR
+ORD_4437,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,250,2026-09-03,2026-09-24,2026-09-21,On Schedule,Low Inventory,Congested,2026-09-23,MEDIUM,Critical,Delhi NCR
+ORD_4438,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,15,2026-09-27,2026-10-16,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,High,Hyderabad
+ORD_4439,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,15,2026-09-09,2026-09-23,2026-09-21,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-27,CRITICAL,High,Kochi
+ORD_4440,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,150,2026-09-28,2026-10-25,2026-10-22,On Schedule,Low Inventory,Congested,2026-10-23,MEDIUM,Critical,Kolkata
+ORD_4441,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Starbus EV Ultra 9m,30,2026-09-15,2026-10-08,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Critical,Bengaluru
+ORD_4442,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,15,2026-09-07,2026-09-23,2026-09-22,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-27,HIGH,Critical,Bengaluru
+ORD_4443,CUST_DL106,South Highway Freight Lines,Signa 2823.K Tipper,30,2026-09-23,2026-10-15,2026-10-11,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-15,HIGH,Normal,Chennai
+ORD_4444,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,50,2026-10-06,2026-10-26,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,High,Pune
+ORD_4445,CUST_DL110,Kerala Green Mobility Project,Tiago EV Long Range,50,2026-09-05,2026-09-23,2026-09-20,Completed / Assembled,Optimal,On Time,2026-09-20,LOW,High,Kochi
+ORD_4446,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,150,2026-09-21,2026-10-11,2026-10-07,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-09,HIGH,High,Hyderabad
+ORD_4447,CUST_DL104,Metro Cabs India EV Fleet,Intra V50 Smart Pickup,50,2026-10-06,2026-10-25,2026-10-24,Completed / Assembled,Optimal,On Time,2026-10-24,LOW,High,Hyderabad
+ORD_4448,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,250,2026-09-13,2026-10-10,2026-10-06,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-09,HIGH,Critical,Kolkata
+ORD_4449,CUST_DL101,Tata Motors Dealership West Hub,Tiago EV Long Range,250,2026-09-13,2026-10-01,2026-09-27,On Schedule,Low Inventory,Congested,2026-09-29,MEDIUM,High,Mumbai
+ORD_4450,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,250,2026-09-07,2026-09-21,2026-09-18,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-23,HIGH,Normal,Ahmedabad
+ORD_4451,CUST_DL110,Kerala Green Mobility Project,Signa 2823.K Tipper,150,2026-10-03,2026-10-28,2026-10-24,Completed / Assembled,Optimal,On Time,2026-10-24,LOW,High,Kochi
+ORD_4452,CUST_DL109,Punjab Agri Transit Hub,Nexon EV Empowered,150,2026-09-03,2026-09-25,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,Normal,Chandigarh
+ORD_4453,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Starbus EV Ultra 9m,250,2026-09-18,2026-10-08,2026-10-07,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-09,HIGH,Critical,Bengaluru
+ORD_4454,CUST_DL108,Apex Commercial Fleet Leasing,Ace Gold EV Mini Truck,30,2026-09-19,2026-10-04,2026-09-30,On Schedule,Low Inventory,Congested,2026-10-01,MEDIUM,High,Pune
+ORD_4455,CUST_DL105,Eastern Mining & Logistics Ltd,Tiago EV Long Range,250,2026-09-21,2026-10-05,2026-10-03,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-07,HIGH,Critical,Kolkata
+ORD_4456,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,30,2026-09-11,2026-10-08,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,High,Mumbai
+ORD_4457,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,50,2026-09-29,2026-10-25,2026-10-22,Completed / Assembled,Optimal,On Time,2026-10-22,LOW,Normal,Chennai
+ORD_4458,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,30,2026-09-13,2026-09-29,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Bengaluru
+ORD_4459,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,15,2026-09-09,2026-09-23,2026-09-21,On Schedule,Low Inventory,Congested,2026-09-22,MEDIUM,High,Hyderabad
+ORD_4460,CUST_DL104,Metro Cabs India EV Fleet,Tiago EV Long Range,100,2026-09-01,2026-09-18,2026-09-17,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-21,HIGH,High,Hyderabad
+ORD_4461,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,15,2026-09-29,2026-10-14,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,Normal,Ahmedabad
+ORD_4462,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,15,2026-09-24,2026-10-22,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,Normal,Ahmedabad
+ORD_4463,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,150,2026-10-01,2026-10-24,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,Normal,Ahmedabad
+ORD_4464,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,100,2026-09-04,2026-09-20,2026-09-17,Completed / Assembled,Optimal,On Time,2026-09-17,LOW,Normal,Chennai
+ORD_4465,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,150,2026-09-06,2026-10-04,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,High,Hyderabad
+ORD_4466,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,30,2026-09-17,2026-10-14,2026-10-10,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-12,HIGH,High,Kochi
+ORD_4467,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,250,2026-09-09,2026-09-23,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,High,Hyderabad
+ORD_4468,CUST_DL108,Apex Commercial Fleet Leasing,Harrier Fearless AT,30,2026-09-02,2026-09-17,2026-09-13,Completed / Assembled,Optimal,On Time,2026-09-13,LOW,High,Pune
+ORD_4469,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Safari Dark Edition,100,2026-09-19,2026-10-03,2026-09-30,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-09,CRITICAL,Critical,Bengaluru
+ORD_4470,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,50,2026-10-05,2026-10-26,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,Normal,Ahmedabad
+ORD_4471,CUST_DL108,Apex Commercial Fleet Leasing,Ace Gold EV Mini Truck,30,2026-09-21,2026-10-18,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,High,Pune
+ORD_4472,CUST_DL110,Kerala Green Mobility Project,Starbus EV Ultra 9m,15,2026-09-12,2026-10-10,2026-10-07,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-13,CRITICAL,High,Kochi
+ORD_4473,CUST_DL109,Punjab Agri Transit Hub,Tiago EV Long Range,100,2026-10-05,2026-11-01,2026-10-28,Production Constrained,Below Safety Stock,Delayed in Transit,2026-11-02,HIGH,Normal,Chandigarh
+ORD_4474,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,100,2026-10-03,2026-10-30,2026-10-29,Production Constrained,Below Safety Stock,Delayed in Transit,2026-11-02,HIGH,Critical,Bengaluru
+ORD_4475,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,30,2026-09-22,2026-10-12,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,High,Kochi
+ORD_4476,CUST_DL105,Eastern Mining & Logistics Ltd,Curvv EV Coupe,30,2026-10-03,2026-10-28,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,Critical,Kolkata
+ORD_4477,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,150,2026-09-13,2026-10-04,2026-10-03,Completed / Assembled,Optimal,On Time,2026-10-03,LOW,High,Pune
+ORD_4478,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,150,2026-09-06,2026-09-21,2026-09-20,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-27,CRITICAL,Critical,Delhi NCR
+ORD_4479,CUST_DL109,Punjab Agri Transit Hub,Nexon EV Empowered,15,2026-09-16,2026-10-11,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,Normal,Chandigarh
+ORD_4480,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,100,2026-09-04,2026-09-28,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Normal,Chandigarh
+ORD_4481,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,50,2026-09-19,2026-10-14,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,High,Mumbai
+ORD_4482,CUST_DL104,Metro Cabs India EV Fleet,Starbus EV Ultra 9m,50,2026-09-10,2026-09-29,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Hyderabad
+ORD_4483,CUST_DL110,Kerala Green Mobility Project,Starbus EV Ultra 9m,100,2026-09-17,2026-10-12,2026-10-09,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-13,HIGH,High,Kochi
+ORD_4484,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,15,2026-09-07,2026-09-23,2026-09-21,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-26,HIGH,Critical,Delhi NCR
+ORD_4485,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,150,2026-09-16,2026-10-03,2026-09-29,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-01,HIGH,Normal,Ahmedabad
+ORD_4486,CUST_DL106,South Highway Freight Lines,Curvv EV Coupe,150,2026-09-10,2026-09-26,2026-09-25,On Schedule,Low Inventory,Congested,2026-09-27,MEDIUM,Normal,Chennai
+ORD_4487,CUST_DL106,South Highway Freight Lines,Curvv EV Coupe,150,2026-09-25,2026-10-22,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,Normal,Chennai
+ORD_4488,CUST_DL101,Tata Motors Dealership West Hub,Intra V50 Smart Pickup,50,2026-09-13,2026-09-30,2026-09-27,On Schedule,Low Inventory,Congested,2026-09-29,MEDIUM,High,Mumbai
+ORD_4489,CUST_DL101,Tata Motors Dealership West Hub,Curvv EV Coupe,50,2026-10-03,2026-10-30,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,High,Mumbai
+ORD_4490,CUST_DL110,Kerala Green Mobility Project,Prima 5530.S Heavy Truck,15,2026-09-01,2026-09-19,2026-09-15,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-20,CRITICAL,High,Kochi
+ORD_4491,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,50,2026-09-25,2026-10-21,2026-10-18,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-24,CRITICAL,High,Mumbai
+ORD_4492,CUST_DL104,Metro Cabs India EV Fleet,Ace Gold EV Mini Truck,30,2026-10-02,2026-10-20,2026-10-18,On Schedule,Low Inventory,Congested,2026-10-19,MEDIUM,High,Hyderabad
+ORD_4493,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Starbus EV Ultra 9m,50,2026-09-21,2026-10-11,2026-10-09,On Schedule,Low Inventory,Congested,2026-10-11,MEDIUM,Critical,Bengaluru
+ORD_4494,CUST_DL108,Apex Commercial Fleet Leasing,Ace Gold EV Mini Truck,150,2026-09-21,2026-10-17,2026-10-15,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-19,HIGH,High,Pune
+ORD_4495,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,15,2026-09-02,2026-09-22,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,High,Kochi
+ORD_4496,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,100,2026-09-06,2026-09-22,2026-09-20,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-26,CRITICAL,Normal,Chennai
+ORD_4497,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,100,2026-09-10,2026-10-03,2026-09-30,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-06,CRITICAL,High,Kochi
+ORD_4498,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,15,2026-09-03,2026-09-19,2026-09-16,On Schedule,Low Inventory,Congested,2026-09-18,MEDIUM,Normal,Ahmedabad
+ORD_4499,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,30,2026-09-16,2026-10-07,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,High,Hyderabad
+ORD_4500,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Starbus EV Ultra 9m,100,2026-09-19,2026-10-13,2026-10-11,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-18,CRITICAL,Critical,Bengaluru
+ORD_4501,CUST_DL102,National Fleet Logistics Corp,Prima 5530.S Heavy Truck,150,2026-09-17,2026-10-10,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,Critical,Delhi NCR
+ORD_4502,CUST_DL109,Punjab Agri Transit Hub,Prima 5530.S Heavy Truck,100,2026-09-07,2026-09-24,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,Normal,Chandigarh
+ORD_4503,CUST_DL104,Metro Cabs India EV Fleet,Intra V50 Smart Pickup,100,2026-09-03,2026-09-17,2026-09-14,Completed / Assembled,Optimal,On Time,2026-09-14,LOW,High,Hyderabad
+ORD_4504,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,150,2026-09-05,2026-10-02,2026-10-01,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-04,HIGH,High,Hyderabad
+ORD_4505,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,50,2026-09-05,2026-09-24,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Critical,Delhi NCR
+ORD_4506,CUST_DL102,National Fleet Logistics Corp,Prima 5530.S Heavy Truck,30,2026-10-05,2026-10-21,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Critical,Delhi NCR
+ORD_4507,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,150,2026-09-26,2026-10-14,2026-10-13,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-21,CRITICAL,Normal,Chandigarh
+ORD_4508,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,150,2026-09-21,2026-10-09,2026-10-08,On Schedule,Low Inventory,Congested,2026-10-10,MEDIUM,Critical,Delhi NCR
+ORD_4509,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,250,2026-09-03,2026-09-29,2026-09-25,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-30,HIGH,Critical,Bengaluru
+ORD_4510,CUST_DL108,Apex Commercial Fleet Leasing,Intra V50 Smart Pickup,15,2026-10-01,2026-10-18,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,High,Pune
+ORD_4511,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,30,2026-09-19,2026-10-16,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,Normal,Ahmedabad
+ORD_4512,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,50,2026-09-28,2026-10-18,2026-10-21,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-24,HIGH,Critical,Delhi NCR
+ORD_4513,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,250,2026-09-10,2026-10-05,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Critical,Delhi NCR
+ORD_4514,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,150,2026-09-13,2026-09-29,2026-09-28,On Schedule,Low Inventory,Congested,2026-09-29,MEDIUM,Critical,Bengaluru
+ORD_4515,CUST_DL101,Tata Motors Dealership West Hub,Curvv EV Coupe,250,2026-09-11,2026-10-04,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,High,Mumbai
+ORD_4516,CUST_DL102,National Fleet Logistics Corp,Curvv EV Coupe,50,2026-10-02,2026-10-24,2026-10-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-31,CRITICAL,Critical,Delhi NCR
+ORD_4517,CUST_DL108,Apex Commercial Fleet Leasing,Safari Dark Edition,250,2026-09-27,2026-10-20,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,High,Pune
+ORD_4518,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,250,2026-09-11,2026-10-03,2026-10-01,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-09,CRITICAL,Normal,Chandigarh
+ORD_4519,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,250,2026-09-15,2026-10-13,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,High,Mumbai
+ORD_4520,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,150,2026-09-01,2026-09-15,2026-09-14,On Schedule,Low Inventory,Congested,2026-09-15,MEDIUM,High,Mumbai
+ORD_4521,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Intra V50 Smart Pickup,150,2026-09-22,2026-10-09,2026-10-05,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-07,HIGH,Critical,Bengaluru
+ORD_4522,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,15,2026-09-03,2026-09-22,2026-09-20,On Schedule,Low Inventory,Congested,2026-09-21,MEDIUM,High,Mumbai
+ORD_4523,CUST_DL109,Punjab Agri Transit Hub,Nexon EV Empowered,100,2026-09-23,2026-10-15,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,Normal,Chandigarh
+ORD_4524,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,30,2026-09-04,2026-09-18,2026-09-14,On Schedule,Low Inventory,Congested,2026-09-16,MEDIUM,High,Kochi
+ORD_4525,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,15,2026-09-28,2026-10-26,2026-10-24,Completed / Assembled,Optimal,On Time,2026-10-24,LOW,Critical,Bengaluru
+ORD_4526,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Intra V50 Smart Pickup,50,2026-09-14,2026-10-12,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,Critical,Bengaluru
+ORD_4527,CUST_DL104,Metro Cabs India EV Fleet,Tiago EV Long Range,250,2026-10-01,2026-10-21,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,High,Hyderabad
+ORD_4528,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,150,2026-09-26,2026-10-12,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,Critical,Delhi NCR
+ORD_4529,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,250,2026-10-06,2026-10-24,2026-10-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-27,CRITICAL,High,Hyderabad
+ORD_4530,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,150,2026-10-03,2026-10-29,2026-10-27,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-30,HIGH,High,Hyderabad
+ORD_4531,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,30,2026-09-07,2026-10-01,2026-09-29,On Schedule,Low Inventory,Congested,2026-09-30,MEDIUM,High,Kochi
+ORD_4532,CUST_DL108,Apex Commercial Fleet Leasing,Starbus EV Ultra 9m,15,2026-09-05,2026-09-27,2026-09-23,On Schedule,Low Inventory,Congested,2026-09-24,MEDIUM,High,Pune
+ORD_4533,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,15,2026-10-02,2026-10-22,2026-10-21,Completed / Assembled,Optimal,On Time,2026-10-21,LOW,Normal,Ahmedabad
+ORD_4534,CUST_DL107,Gujarat Express Distribution,Prima 5530.S Heavy Truck,50,2026-09-11,2026-09-25,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,Normal,Ahmedabad
+ORD_4535,CUST_DL105,Eastern Mining & Logistics Ltd,Tiago EV Long Range,15,2026-09-05,2026-09-28,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Critical,Kolkata
+ORD_4536,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,15,2026-09-08,2026-09-29,2026-09-28,On Schedule,Low Inventory,Congested,2026-09-30,MEDIUM,High,Pune
+ORD_4537,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,100,2026-09-16,2026-10-08,2026-10-05,On Schedule,Low Inventory,Congested,2026-10-07,MEDIUM,High,Kochi
+ORD_4538,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,30,2026-09-10,2026-10-05,2026-10-01,On Schedule,Low Inventory,Congested,2026-10-03,MEDIUM,Critical,Bengaluru
+ORD_4539,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,250,2026-09-11,2026-10-04,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Normal,Chandigarh
+ORD_4540,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,15,2026-09-21,2026-10-12,2026-10-10,On Schedule,Low Inventory,Congested,2026-10-11,MEDIUM,Critical,Delhi NCR
+ORD_4541,CUST_DL106,South Highway Freight Lines,Prima 5530.S Heavy Truck,50,2026-09-15,2026-10-08,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,Normal,Chennai
+ORD_4542,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,250,2026-09-20,2026-10-18,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,High,Mumbai
+ORD_4543,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,150,2026-09-29,2026-10-17,2026-10-13,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-18,HIGH,High,Kochi
+ORD_4544,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,15,2026-09-20,2026-10-05,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Normal,Ahmedabad
+ORD_4545,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,15,2026-09-02,2026-09-24,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Normal,Ahmedabad
+ORD_4546,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,250,2026-09-20,2026-10-14,2026-10-10,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-14,HIGH,High,Kochi
+ORD_4547,CUST_DL110,Kerala Green Mobility Project,Starbus EV Ultra 9m,150,2026-09-19,2026-10-09,2026-10-06,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-14,CRITICAL,High,Kochi
+ORD_4548,CUST_DL104,Metro Cabs India EV Fleet,Starbus EV Ultra 9m,100,2026-10-03,2026-10-30,2026-10-27,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-11-03,CRITICAL,High,Hyderabad
+ORD_4549,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,30,2026-09-30,2026-10-22,2026-10-19,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-21,HIGH,High,Hyderabad
+ORD_4550,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,100,2026-10-05,2026-10-19,2026-10-16,On Schedule,Low Inventory,Congested,2026-10-17,MEDIUM,Normal,Ahmedabad
+ORD_4551,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,50,2026-10-03,2026-10-29,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,High,Kochi
+ORD_4552,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,250,2026-09-08,2026-10-05,2026-10-04,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-07,HIGH,Normal,Chennai
+ORD_4553,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,15,2026-09-26,2026-10-16,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,High,Pune
+ORD_4554,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,100,2026-10-05,2026-10-21,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,High,Mumbai
+ORD_4555,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,30,2026-10-04,2026-10-19,2026-10-17,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-25,CRITICAL,Critical,Kolkata
+ORD_4556,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,50,2026-09-13,2026-10-10,2026-10-09,On Schedule,Low Inventory,Congested,2026-10-11,MEDIUM,High,Kochi
+ORD_4557,CUST_DL109,Punjab Agri Transit Hub,Intra V50 Smart Pickup,100,2026-09-16,2026-10-09,2026-10-05,On Schedule,Low Inventory,Congested,2026-10-06,MEDIUM,Normal,Chandigarh
+ORD_4558,CUST_DL109,Punjab Agri Transit Hub,Prima 5530.S Heavy Truck,15,2026-09-27,2026-10-24,2026-10-22,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-29,CRITICAL,Normal,Chandigarh
+ORD_4559,CUST_DL106,South Highway Freight Lines,Nexon EV Empowered,30,2026-09-04,2026-09-18,2026-09-16,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-22,CRITICAL,Normal,Chennai
+ORD_4560,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,15,2026-09-07,2026-09-30,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Normal,Ahmedabad
+ORD_4561,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,15,2026-09-25,2026-10-13,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,High,Mumbai
+ORD_4562,CUST_DL110,Kerala Green Mobility Project,Tiago EV Long Range,50,2026-09-29,2026-10-21,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,High,Kochi
+ORD_4563,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,30,2026-10-03,2026-10-29,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,High,Kochi
+ORD_4564,CUST_DL101,Tata Motors Dealership West Hub,Harrier Fearless AT,150,2026-10-04,2026-10-25,2026-10-23,Completed / Assembled,Optimal,On Time,2026-10-23,LOW,High,Mumbai
+ORD_4565,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,15,2026-09-08,2026-10-02,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,High,Mumbai
+ORD_4566,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,30,2026-09-15,2026-10-03,2026-09-30,On Schedule,Low Inventory,Congested,2026-10-02,MEDIUM,Critical,Delhi NCR
+ORD_4567,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Starbus EV Ultra 9m,15,2026-09-03,2026-09-23,2026-09-19,On Schedule,Low Inventory,Congested,2026-09-21,MEDIUM,Critical,Bengaluru
+ORD_4568,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,100,2026-09-26,2026-10-23,2026-10-20,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-22,HIGH,Normal,Ahmedabad
+ORD_4569,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,100,2026-09-09,2026-09-24,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Normal,Ahmedabad
+ORD_4570,CUST_DL110,Kerala Green Mobility Project,Starbus EV Ultra 9m,30,2026-09-28,2026-10-25,2026-10-21,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-26,HIGH,High,Kochi
+ORD_4571,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Safari Dark Edition,50,2026-09-12,2026-09-27,2026-09-26,On Schedule,Low Inventory,Congested,2026-09-27,MEDIUM,Critical,Bengaluru
+ORD_4572,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,150,2026-09-02,2026-09-20,2026-09-16,On Schedule,Low Inventory,Congested,2026-09-18,MEDIUM,Critical,Kolkata
+ORD_4573,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,100,2026-09-19,2026-10-13,2026-10-10,On Schedule,Low Inventory,Congested,2026-10-11,MEDIUM,Critical,Kolkata
+ORD_4574,CUST_DL110,Kerala Green Mobility Project,Signa 2823.K Tipper,50,2026-09-21,2026-10-07,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,High,Kochi
+ORD_4575,CUST_DL104,Metro Cabs India EV Fleet,Intra V50 Smart Pickup,150,2026-09-15,2026-10-04,2026-10-03,Completed / Assembled,Optimal,On Time,2026-10-03,LOW,High,Hyderabad
+ORD_4576,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,100,2026-09-19,2026-10-08,2026-10-05,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-08,HIGH,Critical,Delhi NCR
+ORD_4577,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,150,2026-09-01,2026-09-26,2026-09-24,On Schedule,Low Inventory,Congested,2026-09-25,MEDIUM,High,Kochi
+ORD_4578,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,250,2026-10-01,2026-10-18,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,Critical,Delhi NCR
+ORD_4579,CUST_DL108,Apex Commercial Fleet Leasing,Ace Gold EV Mini Truck,15,2026-09-11,2026-10-01,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Pune
+ORD_4580,CUST_DL109,Punjab Agri Transit Hub,Tiago EV Long Range,30,2026-09-23,2026-10-15,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,Normal,Chandigarh
+ORD_4581,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,100,2026-09-21,2026-10-07,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,Normal,Chennai
+ORD_4582,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,100,2026-09-23,2026-10-09,2026-10-06,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-10,CRITICAL,Critical,Kolkata
+ORD_4583,CUST_DL109,Punjab Agri Transit Hub,Prima 5530.S Heavy Truck,15,2026-10-02,2026-10-21,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,Normal,Chandigarh
+ORD_4584,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,100,2026-09-04,2026-09-26,2026-09-25,On Schedule,Low Inventory,Congested,2026-09-26,MEDIUM,High,Mumbai
+ORD_4585,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,100,2026-09-30,2026-10-18,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,Critical,Kolkata
+ORD_4586,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,250,2026-09-23,2026-10-19,2026-10-17,On Schedule,Low Inventory,Congested,2026-10-19,MEDIUM,Normal,Chennai
+ORD_4587,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,100,2026-09-08,2026-09-27,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,Critical,Delhi NCR
+ORD_4588,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,100,2026-09-13,2026-10-01,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Kochi
+ORD_4589,CUST_DL110,Kerala Green Mobility Project,Tiago EV Long Range,100,2026-09-03,2026-09-22,2026-09-20,Completed / Assembled,Optimal,On Time,2026-09-20,LOW,High,Kochi
+ORD_4590,CUST_DL109,Punjab Agri Transit Hub,Nexon EV Empowered,50,2026-09-15,2026-10-02,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Normal,Chandigarh
+ORD_4591,CUST_DL107,Gujarat Express Distribution,Harrier Fearless AT,100,2026-09-05,2026-09-30,2026-09-28,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-01,HIGH,Normal,Ahmedabad
+ORD_4592,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,15,2026-10-03,2026-10-24,2026-10-22,Completed / Assembled,Optimal,On Time,2026-10-22,LOW,Normal,Ahmedabad
+ORD_4593,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,250,2026-09-23,2026-10-19,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Normal,Chandigarh
+ORD_4594,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,100,2026-09-01,2026-09-19,2026-09-15,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-17,HIGH,High,Pune
+ORD_4595,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,150,2026-09-08,2026-09-29,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Normal,Chennai
+ORD_4596,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,250,2026-09-15,2026-10-06,2026-10-05,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-13,CRITICAL,High,Hyderabad
+ORD_4597,CUST_DL102,National Fleet Logistics Corp,Prima 5530.S Heavy Truck,250,2026-09-28,2026-10-22,2026-10-18,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-22,HIGH,Critical,Delhi NCR
+ORD_4598,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,150,2026-09-06,2026-10-01,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Normal,Ahmedabad
+ORD_4599,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,15,2026-09-26,2026-10-19,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,Normal,Ahmedabad
+ORD_4600,CUST_DL104,Metro Cabs India EV Fleet,Tiago EV Long Range,50,2026-09-26,2026-10-12,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,High,Hyderabad
+ORD_4601,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,15,2026-09-22,2026-10-06,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,Normal,Ahmedabad
+ORD_4602,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,50,2026-10-05,2026-10-28,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,Critical,Delhi NCR
+ORD_4603,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,30,2026-10-05,2026-11-02,2026-10-31,Completed / Assembled,Optimal,On Time,2026-10-31,LOW,High,Kochi
+ORD_4604,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,150,2026-09-07,2026-10-02,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Normal,Chennai
+ORD_4605,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,250,2026-09-19,2026-10-17,2026-10-14,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-18,HIGH,Normal,Ahmedabad
+ORD_4606,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,250,2026-10-03,2026-10-29,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,Normal,Ahmedabad
+ORD_4607,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,250,2026-09-24,2026-10-15,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,High,Kochi
+ORD_4608,CUST_DL106,South Highway Freight Lines,Ace Gold EV Mini Truck,150,2026-09-22,2026-10-16,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,Normal,Chennai
+ORD_4609,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Intra V50 Smart Pickup,150,2026-09-08,2026-10-05,2026-10-04,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-06,HIGH,Critical,Bengaluru
+ORD_4610,CUST_DL108,Apex Commercial Fleet Leasing,Starbus EV Ultra 9m,50,2026-09-30,2026-10-25,2026-10-24,Completed / Assembled,Optimal,On Time,2026-10-24,LOW,High,Pune
+ORD_4611,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,250,2026-10-05,2026-10-22,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,Critical,Kolkata
+ORD_4612,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,15,2026-09-22,2026-10-18,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,High,Pune
+ORD_4613,CUST_DL105,Eastern Mining & Logistics Ltd,Prima 5530.S Heavy Truck,50,2026-09-07,2026-10-03,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Critical,Kolkata
+ORD_4614,CUST_DL104,Metro Cabs India EV Fleet,Signa 2823.K Tipper,250,2026-10-02,2026-10-28,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,High,Hyderabad
+ORD_4615,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,150,2026-09-07,2026-09-22,2026-09-20,Completed / Assembled,Optimal,On Time,2026-09-20,LOW,Normal,Ahmedabad
+ORD_4616,CUST_DL101,Tata Motors Dealership West Hub,Tiago EV Long Range,150,2026-10-04,2026-10-26,2026-10-23,Completed / Assembled,Optimal,On Time,2026-10-23,LOW,High,Mumbai
+ORD_4617,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,150,2026-09-06,2026-09-29,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Normal,Chandigarh
+ORD_4618,CUST_DL108,Apex Commercial Fleet Leasing,Intra V50 Smart Pickup,250,2026-09-06,2026-09-24,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,High,Pune
+ORD_4619,CUST_DL101,Tata Motors Dealership West Hub,Starbus EV Ultra 9m,150,2026-09-11,2026-10-08,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,High,Mumbai
+ORD_4620,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,30,2026-09-24,2026-10-13,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Kochi
+ORD_4621,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,150,2026-09-14,2026-10-01,2026-09-28,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-07,CRITICAL,Normal,Ahmedabad
+ORD_4622,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,250,2026-10-05,2026-10-31,2026-10-30,Completed / Assembled,Optimal,On Time,2026-10-30,LOW,Normal,Chennai
+ORD_4623,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,50,2026-09-21,2026-10-08,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,High,Pune
+ORD_4624,CUST_DL101,Tata Motors Dealership West Hub,Harrier Fearless AT,150,2026-09-08,2026-10-01,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,High,Mumbai
+ORD_4625,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,100,2026-09-16,2026-10-13,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Delhi NCR
+ORD_4626,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,30,2026-09-09,2026-10-03,2026-09-30,On Schedule,Low Inventory,Congested,2026-10-01,MEDIUM,High,Pune
+ORD_4627,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,250,2026-09-04,2026-09-29,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Normal,Ahmedabad
+ORD_4628,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,150,2026-09-08,2026-09-22,2026-09-19,On Schedule,Low Inventory,Congested,2026-09-20,MEDIUM,Critical,Delhi NCR
+ORD_4629,CUST_DL105,Eastern Mining & Logistics Ltd,Tiago EV Long Range,100,2026-09-30,2026-10-17,2026-10-13,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-19,CRITICAL,Critical,Kolkata
+ORD_4630,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,250,2026-09-14,2026-10-04,2026-09-30,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-05,HIGH,Normal,Chandigarh
+ORD_4631,CUST_DL102,National Fleet Logistics Corp,Tiago EV Long Range,50,2026-09-23,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Delhi NCR
+ORD_4632,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,30,2026-09-16,2026-10-12,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Hyderabad
+ORD_4633,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,150,2026-09-21,2026-10-18,2026-10-14,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-23,CRITICAL,Normal,Chennai
+ORD_4634,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,50,2026-09-16,2026-10-01,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,Critical,Kolkata
+ORD_4635,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,250,2026-10-02,2026-10-22,2026-10-23,On Schedule,Low Inventory,Congested,2026-10-24,MEDIUM,Normal,Ahmedabad
+ORD_4636,CUST_DL102,National Fleet Logistics Corp,Signa 2823.K Tipper,100,2026-09-19,2026-10-06,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,Critical,Delhi NCR
+ORD_4637,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,250,2026-09-09,2026-10-06,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,High,Kochi
+ORD_4638,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,250,2026-09-02,2026-09-29,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Bengaluru
+ORD_4639,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,30,2026-09-27,2026-10-11,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,Normal,Ahmedabad
+ORD_4640,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,150,2026-10-04,2026-10-19,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,Critical,Kolkata
+ORD_4641,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,50,2026-09-27,2026-10-12,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Kolkata
+ORD_4642,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,30,2026-09-21,2026-10-15,2026-10-13,On Schedule,Low Inventory,Congested,2026-10-15,MEDIUM,High,Kochi
+ORD_4643,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,100,2026-09-03,2026-09-22,2026-09-21,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-30,CRITICAL,Normal,Ahmedabad
+ORD_4644,CUST_DL109,Punjab Agri Transit Hub,Intra V50 Smart Pickup,150,2026-09-01,2026-09-17,2026-09-13,Completed / Assembled,Optimal,On Time,2026-09-13,LOW,Normal,Chandigarh
+ORD_4645,CUST_DL101,Tata Motors Dealership West Hub,Curvv EV Coupe,30,2026-09-10,2026-10-01,2026-09-27,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-30,HIGH,High,Mumbai
+ORD_4646,CUST_DL109,Punjab Agri Transit Hub,Harrier Fearless AT,100,2026-09-17,2026-10-11,2026-10-08,Completed / Assembled,Optimal,On Time,2026-10-08,LOW,Normal,Chandigarh
+ORD_4647,CUST_DL108,Apex Commercial Fleet Leasing,Harrier Fearless AT,100,2026-10-04,2026-10-30,2026-10-28,Completed / Assembled,Optimal,On Time,2026-10-28,LOW,High,Pune
+ORD_4648,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,50,2026-09-27,2026-10-20,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,High,Hyderabad
+ORD_4649,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,250,2026-09-01,2026-09-24,2026-09-22,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-26,HIGH,Normal,Ahmedabad
+ORD_4650,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,100,2026-09-30,2026-10-26,2026-10-23,Completed / Assembled,Optimal,On Time,2026-10-23,LOW,High,Kochi
+ORD_4651,CUST_DL106,South Highway Freight Lines,Harrier Fearless AT,100,2026-09-16,2026-10-13,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Normal,Chennai
+ORD_4652,CUST_DL108,Apex Commercial Fleet Leasing,Safari Dark Edition,250,2026-10-02,2026-10-17,2026-10-13,On Schedule,Low Inventory,Congested,2026-10-14,MEDIUM,High,Pune
+ORD_4653,CUST_DL101,Tata Motors Dealership West Hub,Signa 2823.K Tipper,15,2026-10-06,2026-10-28,2026-10-27,Completed / Assembled,Optimal,On Time,2026-10-27,LOW,High,Mumbai
+ORD_4654,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,100,2026-09-03,2026-09-20,2026-09-17,Completed / Assembled,Optimal,On Time,2026-09-17,LOW,Normal,Ahmedabad
+ORD_4655,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,150,2026-10-04,2026-11-01,2026-10-31,Completed / Assembled,Optimal,On Time,2026-10-31,LOW,High,Kochi
+ORD_4656,CUST_DL104,Metro Cabs India EV Fleet,Intra V50 Smart Pickup,30,2026-10-01,2026-10-22,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,High,Hyderabad
+ORD_4657,CUST_DL104,Metro Cabs India EV Fleet,Tiago EV Long Range,250,2026-09-14,2026-10-04,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,High,Hyderabad
+ORD_4658,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,250,2026-09-17,2026-10-02,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,High,Pune
+ORD_4659,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,250,2026-09-08,2026-09-27,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,High,Kochi
+ORD_4660,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,150,2026-09-12,2026-10-04,2026-10-02,On Schedule,Low Inventory,Congested,2026-10-04,MEDIUM,Normal,Ahmedabad
+ORD_4661,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,250,2026-09-03,2026-10-01,2026-09-28,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-03,CRITICAL,Critical,Kolkata
+ORD_4662,CUST_DL104,Metro Cabs India EV Fleet,Harrier Fearless AT,150,2026-09-03,2026-09-28,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,High,Hyderabad
+ORD_4663,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,50,2026-09-18,2026-10-14,2026-10-11,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-15,CRITICAL,Critical,Bengaluru
+ORD_4664,CUST_DL108,Apex Commercial Fleet Leasing,Starbus EV Ultra 9m,15,2026-09-18,2026-10-03,2026-10-01,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-05,HIGH,High,Pune
+ORD_4665,CUST_DL104,Metro Cabs India EV Fleet,Intra V50 Smart Pickup,250,2026-09-05,2026-09-19,2026-09-15,Completed / Assembled,Optimal,On Time,2026-09-15,LOW,High,Hyderabad
+ORD_4666,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,15,2026-09-10,2026-09-26,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Critical,Kolkata
+ORD_4667,CUST_DL108,Apex Commercial Fleet Leasing,Nexon EV Empowered,250,2026-10-06,2026-10-27,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,High,Pune
+ORD_4668,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,150,2026-09-27,2026-10-17,2026-10-12,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-14,HIGH,Critical,Kolkata
+ORD_4669,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,30,2026-09-10,2026-09-26,2026-09-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-02,CRITICAL,High,Pune
+ORD_4670,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,15,2026-09-27,2026-10-12,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Hyderabad
+ORD_4671,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,15,2026-09-03,2026-09-20,2026-09-17,On Schedule,Low Inventory,Congested,2026-09-19,MEDIUM,High,Kochi
+ORD_4672,CUST_DL102,National Fleet Logistics Corp,Signa 2823.K Tipper,150,2026-09-14,2026-09-28,2026-09-24,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-02,CRITICAL,Critical,Delhi NCR
+ORD_4673,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,15,2026-09-11,2026-09-25,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,Normal,Ahmedabad
+ORD_4674,CUST_DL101,Tata Motors Dealership West Hub,Starbus EV Ultra 9m,50,2026-09-22,2026-10-18,2026-10-16,On Schedule,Low Inventory,Congested,2026-10-18,MEDIUM,High,Mumbai
+ORD_4675,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,150,2026-09-24,2026-10-11,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Critical,Bengaluru
+ORD_4676,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,15,2026-09-01,2026-09-20,2026-09-16,Completed / Assembled,Optimal,On Time,2026-09-16,LOW,High,Kochi
+ORD_4677,CUST_DL106,South Highway Freight Lines,Nexon EV Empowered,15,2026-09-04,2026-09-19,2026-09-15,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-19,HIGH,Normal,Chennai
+ORD_4678,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,15,2026-09-02,2026-09-28,2026-09-24,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-29,HIGH,High,Kochi
+ORD_4679,CUST_DL102,National Fleet Logistics Corp,Tiago EV Long Range,150,2026-09-03,2026-09-27,2026-09-23,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-25,HIGH,Critical,Delhi NCR
+ORD_4680,CUST_DL102,National Fleet Logistics Corp,Tiago EV Long Range,30,2026-10-05,2026-11-01,2026-10-28,Completed / Assembled,Optimal,On Time,2026-10-28,LOW,Critical,Delhi NCR
+ORD_4681,CUST_DL109,Punjab Agri Transit Hub,Ace Gold EV Mini Truck,100,2026-09-05,2026-09-29,2026-09-25,Completed / Assembled,Optimal,On Time,2026-09-25,LOW,Normal,Chandigarh
+ORD_4682,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,250,2026-09-02,2026-09-28,2026-09-25,On Schedule,Low Inventory,Congested,2026-09-27,MEDIUM,Critical,Bengaluru
+ORD_4683,CUST_DL107,Gujarat Express Distribution,Harrier Fearless AT,15,2026-10-02,2026-10-17,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,Normal,Ahmedabad
+ORD_4684,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,100,2026-09-01,2026-09-22,2026-09-19,On Schedule,Low Inventory,Congested,2026-09-21,MEDIUM,Critical,Delhi NCR
+ORD_4685,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,100,2026-09-15,2026-10-11,2026-10-08,On Schedule,Low Inventory,Congested,2026-10-09,MEDIUM,High,Mumbai
+ORD_4686,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,15,2026-09-10,2026-09-25,2026-09-21,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-27,CRITICAL,Critical,Bengaluru
+ORD_4687,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,15,2026-09-18,2026-10-14,2026-10-13,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-15,HIGH,Critical,Bengaluru
+ORD_4688,CUST_DL110,Kerala Green Mobility Project,Curvv EV Coupe,250,2026-09-20,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Kochi
+ORD_4689,CUST_DL108,Apex Commercial Fleet Leasing,Safari Dark Edition,100,2026-09-25,2026-10-18,2026-10-17,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-20,HIGH,High,Pune
+ORD_4690,CUST_DL107,Gujarat Express Distribution,Prima 5530.S Heavy Truck,30,2026-09-21,2026-10-06,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,Normal,Ahmedabad
+ORD_4691,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,100,2026-09-06,2026-09-30,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,High,Pune
+ORD_4692,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,30,2026-09-02,2026-09-26,2026-09-24,On Schedule,Low Inventory,Congested,2026-09-26,MEDIUM,Critical,Kolkata
+ORD_4693,CUST_DL106,South Highway Freight Lines,Starbus EV Ultra 9m,50,2026-10-05,2026-10-24,2026-10-23,On Schedule,Low Inventory,Congested,2026-10-24,MEDIUM,Normal,Chennai
+ORD_4694,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,30,2026-09-08,2026-09-27,2026-09-26,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-01,HIGH,Critical,Delhi NCR
+ORD_4695,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,250,2026-09-19,2026-10-14,2026-10-10,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-15,HIGH,Normal,Chandigarh
+ORD_4696,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,150,2026-09-09,2026-09-26,2026-09-22,On Schedule,Low Inventory,Congested,2026-09-23,MEDIUM,Normal,Chandigarh
+ORD_4697,CUST_DL101,Tata Motors Dealership West Hub,Intra V50 Smart Pickup,15,2026-10-04,2026-10-22,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,High,Mumbai
+ORD_4698,CUST_DL101,Tata Motors Dealership West Hub,Intra V50 Smart Pickup,50,2026-09-15,2026-10-06,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,High,Mumbai
+ORD_4699,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,100,2026-09-03,2026-09-24,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Critical,Delhi NCR
+ORD_4700,CUST_DL110,Kerala Green Mobility Project,Safari Dark Edition,30,2026-09-06,2026-09-26,2026-09-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-30,CRITICAL,High,Kochi
+ORD_4701,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,50,2026-09-13,2026-10-03,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,High,Kochi
+ORD_4702,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,150,2026-09-18,2026-10-10,2026-10-07,Completed / Assembled,Optimal,On Time,2026-10-07,LOW,Normal,Chennai
+ORD_4703,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,30,2026-09-03,2026-09-25,2026-09-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-01,CRITICAL,Critical,Kolkata
+ORD_4704,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,250,2026-09-21,2026-10-09,2026-10-05,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-07,HIGH,Normal,Chandigarh
+ORD_4705,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,100,2026-09-11,2026-09-28,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,Critical,Bengaluru
+ORD_4706,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,100,2026-09-23,2026-10-21,2026-10-18,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-23,CRITICAL,Critical,Bengaluru
+ORD_4707,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,30,2026-09-04,2026-09-18,2026-09-17,Completed / Assembled,Optimal,On Time,2026-09-17,LOW,High,Hyderabad
+ORD_4708,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,150,2026-09-19,2026-10-14,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Normal,Ahmedabad
+ORD_4709,CUST_DL110,Kerala Green Mobility Project,Harrier Fearless AT,15,2026-09-01,2026-09-15,2026-09-14,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-16,HIGH,High,Kochi
+ORD_4710,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,15,2026-09-02,2026-09-25,2026-09-24,On Schedule,Low Inventory,Congested,2026-09-25,MEDIUM,Normal,Ahmedabad
+ORD_4711,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,100,2026-10-02,2026-10-19,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,High,Hyderabad
+ORD_4712,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,150,2026-09-30,2026-10-25,2026-10-24,On Schedule,Low Inventory,Congested,2026-10-26,MEDIUM,High,Kochi
+ORD_4713,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,100,2026-09-06,2026-10-03,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,Critical,Kolkata
+ORD_4714,CUST_DL105,Eastern Mining & Logistics Ltd,Signa 2823.K Tipper,15,2026-09-16,2026-09-30,2026-09-29,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-07,CRITICAL,Critical,Kolkata
+ORD_4715,CUST_DL110,Kerala Green Mobility Project,Intra V50 Smart Pickup,100,2026-09-18,2026-10-12,2026-10-10,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-12,HIGH,High,Kochi
+ORD_4716,CUST_DL102,National Fleet Logistics Corp,Tiago EV Long Range,30,2026-09-29,2026-10-14,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,Critical,Delhi NCR
+ORD_4717,CUST_DL102,National Fleet Logistics Corp,Prima 5530.S Heavy Truck,250,2026-09-06,2026-09-30,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Delhi NCR
+ORD_4718,CUST_DL106,South Highway Freight Lines,Intra V50 Smart Pickup,30,2026-09-10,2026-10-06,2026-10-03,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-05,HIGH,Normal,Chennai
+ORD_4719,CUST_DL104,Metro Cabs India EV Fleet,Curvv EV Coupe,250,2026-09-01,2026-09-16,2026-09-13,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-16,HIGH,High,Hyderabad
+ORD_4720,CUST_DL105,Eastern Mining & Logistics Ltd,Signa 2823.K Tipper,150,2026-09-27,2026-10-11,2026-10-07,On Schedule,Low Inventory,Congested,2026-10-09,MEDIUM,Critical,Kolkata
+ORD_4721,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,15,2026-09-18,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Kolkata
+ORD_4722,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,150,2026-09-07,2026-09-27,2026-09-19,On Schedule,Low Inventory,Congested,2026-09-20,MEDIUM,Critical,Bengaluru
+ORD_4723,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Intra V50 Smart Pickup,150,2026-09-06,2026-10-01,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,Critical,Bengaluru
+ORD_4724,CUST_DL104,Metro Cabs India EV Fleet,Intra V50 Smart Pickup,15,2026-09-29,2026-10-22,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,High,Hyderabad
+ORD_4725,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Signa 2823.K Tipper,50,2026-09-10,2026-09-24,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,Critical,Bengaluru
+ORD_4726,CUST_DL102,National Fleet Logistics Corp,Ace Gold EV Mini Truck,50,2026-09-17,2026-10-12,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,Critical,Delhi NCR
+ORD_4727,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,100,2026-09-23,2026-10-17,2026-10-15,Completed / Assembled,Optimal,On Time,2026-10-15,LOW,High,Pune
+ORD_4728,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,50,2026-09-23,2026-10-14,2026-10-13,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-17,CRITICAL,Critical,Bengaluru
+ORD_4729,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Starbus EV Ultra 9m,30,2026-09-07,2026-10-03,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Critical,Bengaluru
+ORD_4730,CUST_DL106,South Highway Freight Lines,Harrier Fearless AT,250,2026-10-06,2026-10-21,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Normal,Chennai
+ORD_4731,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,150,2026-09-23,2026-10-16,2026-10-15,On Schedule,Low Inventory,Congested,2026-10-17,MEDIUM,Critical,Bengaluru
+ORD_4732,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,100,2026-09-04,2026-09-25,2026-09-23,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-27,HIGH,Critical,Delhi NCR
+ORD_4733,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,150,2026-09-02,2026-09-16,2026-09-15,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-18,HIGH,Normal,Ahmedabad
+ORD_4734,CUST_DL109,Punjab Agri Transit Hub,Safari Dark Edition,15,2026-09-30,2026-10-15,2026-10-14,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-23,CRITICAL,Normal,Chandigarh
+ORD_4735,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Tiago EV Long Range,50,2026-09-09,2026-10-02,2026-09-28,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-02,CRITICAL,Critical,Bengaluru
+ORD_4736,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Nexon EV Empowered,15,2026-09-17,2026-10-09,2026-10-06,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-15,CRITICAL,Critical,Bengaluru
+ORD_4737,CUST_DL107,Gujarat Express Distribution,Signa 2823.K Tipper,100,2026-09-21,2026-10-08,2026-10-05,On Schedule,Low Inventory,Congested,2026-10-06,MEDIUM,Normal,Ahmedabad
+ORD_4738,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,250,2026-09-10,2026-10-01,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Kolkata
+ORD_4739,CUST_DL105,Eastern Mining & Logistics Ltd,Signa 2823.K Tipper,30,2026-09-02,2026-09-17,2026-09-16,On Schedule,Low Inventory,Congested,2026-09-17,MEDIUM,Critical,Kolkata
+ORD_4740,CUST_DL106,South Highway Freight Lines,Ace Gold EV Mini Truck,50,2026-09-14,2026-10-09,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,Normal,Chennai
+ORD_4741,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Curvv EV Coupe,15,2026-09-16,2026-10-05,2026-10-01,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-08,CRITICAL,Critical,Bengaluru
+ORD_4742,CUST_DL109,Punjab Agri Transit Hub,Safari Dark Edition,250,2026-09-11,2026-09-30,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,Normal,Chandigarh
+ORD_4743,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Ace Gold EV Mini Truck,50,2026-09-12,2026-10-02,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,Critical,Bengaluru
+ORD_4744,CUST_DL109,Punjab Agri Transit Hub,Signa 2823.K Tipper,150,2026-09-27,2026-10-22,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,Normal,Chandigarh
+ORD_4745,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,30,2026-09-09,2026-09-27,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Normal,Ahmedabad
+ORD_4746,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,250,2026-09-27,2026-10-24,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,High,Kochi
+ORD_4747,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,50,2026-09-19,2026-10-10,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,Critical,Kolkata
+ORD_4748,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Starbus EV Ultra 9m,30,2026-09-04,2026-09-28,2026-09-26,On Schedule,Low Inventory,Congested,2026-09-27,MEDIUM,Critical,Bengaluru
+ORD_4749,CUST_DL107,Gujarat Express Distribution,Harrier Fearless AT,250,2026-10-03,2026-10-21,2026-10-17,Completed / Assembled,Optimal,On Time,2026-10-17,LOW,Normal,Ahmedabad
+ORD_4750,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Safari Dark Edition,150,2026-09-16,2026-10-05,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,Critical,Bengaluru
+ORD_4751,CUST_DL105,Eastern Mining & Logistics Ltd,Nexon EV Empowered,150,2026-09-20,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Kolkata
+ORD_4752,CUST_DL107,Gujarat Express Distribution,Intra V50 Smart Pickup,15,2026-09-10,2026-09-25,2026-09-23,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-02,CRITICAL,Normal,Ahmedabad
+ORD_4753,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,100,2026-09-23,2026-10-09,2026-10-06,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-09,HIGH,Normal,Ahmedabad
+ORD_4754,CUST_DL101,Tata Motors Dealership West Hub,Signa 2823.K Tipper,15,2026-09-18,2026-10-14,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,High,Mumbai
+ORD_4755,CUST_DL102,National Fleet Logistics Corp,Harrier Fearless AT,30,2026-09-07,2026-10-01,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Delhi NCR
+ORD_4756,CUST_DL109,Punjab Agri Transit Hub,Intra V50 Smart Pickup,15,2026-09-06,2026-09-28,2026-09-26,Completed / Assembled,Optimal,On Time,2026-09-26,LOW,Normal,Chandigarh
+ORD_4757,CUST_DL101,Tata Motors Dealership West Hub,Signa 2823.K Tipper,250,2026-09-15,2026-10-03,2026-10-01,On Schedule,Low Inventory,Congested,2026-10-03,MEDIUM,High,Mumbai
+ORD_4758,CUST_DL109,Punjab Agri Transit Hub,Intra V50 Smart Pickup,50,2026-09-12,2026-10-07,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,Normal,Chandigarh
+ORD_4759,CUST_DL105,Eastern Mining & Logistics Ltd,Starbus EV Ultra 9m,250,2026-09-27,2026-10-19,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,Critical,Kolkata
+ORD_4760,CUST_DL107,Gujarat Express Distribution,Curvv EV Coupe,15,2026-09-02,2026-09-21,2026-09-20,Completed / Assembled,Optimal,On Time,2026-09-20,LOW,Normal,Ahmedabad
+ORD_4761,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,100,2026-09-06,2026-09-22,2026-09-19,On Schedule,Low Inventory,Congested,2026-09-21,MEDIUM,High,Mumbai
+ORD_4762,CUST_DL102,National Fleet Logistics Corp,Safari Dark Edition,250,2026-09-16,2026-10-13,2026-10-12,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-19,CRITICAL,Critical,Delhi NCR
+ORD_4763,CUST_DL101,Tata Motors Dealership West Hub,Curvv EV Coupe,250,2026-10-04,2026-10-24,2026-10-23,Completed / Assembled,Optimal,On Time,2026-10-23,LOW,High,Mumbai
+ORD_4764,CUST_DL104,Metro Cabs India EV Fleet,Ace Gold EV Mini Truck,250,2026-09-10,2026-09-25,2026-09-21,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-25,CRITICAL,High,Hyderabad
+ORD_4765,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,100,2026-09-04,2026-09-29,2026-09-27,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-04,CRITICAL,High,Hyderabad
+ORD_4766,CUST_DL109,Punjab Agri Transit Hub,Starbus EV Ultra 9m,250,2026-09-04,2026-09-19,2026-09-18,Completed / Assembled,Optimal,On Time,2026-09-18,LOW,Normal,Chandigarh
+ORD_4767,CUST_DL101,Tata Motors Dealership West Hub,Nexon EV Empowered,30,2026-09-14,2026-10-02,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,High,Mumbai
+ORD_4768,CUST_DL104,Metro Cabs India EV Fleet,Harrier Fearless AT,150,2026-10-02,2026-10-27,2026-10-26,Completed / Assembled,Optimal,On Time,2026-10-26,LOW,High,Hyderabad
+ORD_4769,CUST_DL108,Apex Commercial Fleet Leasing,Intra V50 Smart Pickup,100,2026-09-27,2026-10-11,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,High,Pune
+ORD_4770,CUST_DL107,Gujarat Express Distribution,Safari Dark Edition,30,2026-09-23,2026-10-17,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,Normal,Ahmedabad
+ORD_4771,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,100,2026-09-19,2026-10-16,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,Critical,Kolkata
+ORD_4772,CUST_DL106,South Highway Freight Lines,Prima 5530.S Heavy Truck,100,2026-09-01,2026-09-25,2026-09-24,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-01,CRITICAL,Normal,Chennai
+ORD_4773,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,150,2026-09-22,2026-10-14,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,Normal,Chennai
+ORD_4774,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,50,2026-09-11,2026-10-03,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,High,Mumbai
+ORD_4775,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,30,2026-09-09,2026-10-05,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,High,Mumbai
+ORD_4776,CUST_DL101,Tata Motors Dealership West Hub,Tiago EV Long Range,100,2026-09-30,2026-10-15,2026-10-11,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-15,CRITICAL,High,Mumbai
+ORD_4777,CUST_DL109,Punjab Agri Transit Hub,Intra V50 Smart Pickup,100,2026-09-08,2026-10-04,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Normal,Chandigarh
+ORD_4778,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Safari Dark Edition,15,2026-09-13,2026-10-07,2026-10-03,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-08,HIGH,Critical,Bengaluru
+ORD_4779,CUST_DL102,National Fleet Logistics Corp,Intra V50 Smart Pickup,250,2026-09-13,2026-10-04,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,Critical,Delhi NCR
+ORD_4780,CUST_DL101,Tata Motors Dealership West Hub,Ace Gold EV Mini Truck,50,2026-09-27,2026-10-19,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,High,Mumbai
+ORD_4781,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,150,2026-09-19,2026-10-11,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,High,Mumbai
+ORD_4782,CUST_DL109,Punjab Agri Transit Hub,Prima 5530.S Heavy Truck,30,2026-09-23,2026-10-14,2026-10-13,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-22,CRITICAL,Normal,Chandigarh
+ORD_4783,CUST_DL105,Eastern Mining & Logistics Ltd,Curvv EV Coupe,100,2026-09-13,2026-10-09,2026-10-07,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-12,HIGH,Critical,Kolkata
+ORD_4784,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Safari Dark Edition,250,2026-09-08,2026-09-28,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Critical,Bengaluru
+ORD_4785,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,30,2026-09-25,2026-10-17,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,Normal,Ahmedabad
+ORD_4786,CUST_DL105,Eastern Mining & Logistics Ltd,Signa 2823.K Tipper,150,2026-10-01,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Kolkata
+ORD_4787,CUST_DL106,South Highway Freight Lines,Harrier Fearless AT,50,2026-09-28,2026-10-18,2026-10-20,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-24,HIGH,Normal,Chennai
+ORD_4788,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Harrier Fearless AT,15,2026-09-21,2026-10-05,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,Critical,Bengaluru
+ORD_4789,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,50,2026-09-25,2026-10-10,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,Critical,Kolkata
+ORD_4790,CUST_DL101,Tata Motors Dealership West Hub,Tiago EV Long Range,15,2026-09-13,2026-10-02,2026-10-01,Completed / Assembled,Optimal,On Time,2026-10-01,LOW,High,Mumbai
+ORD_4791,CUST_DL109,Punjab Agri Transit Hub,Curvv EV Coupe,30,2026-09-11,2026-09-29,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,Normal,Chandigarh
+ORD_4792,CUST_DL102,National Fleet Logistics Corp,Starbus EV Ultra 9m,50,2026-10-05,2026-11-01,2026-10-30,Completed / Assembled,Optimal,On Time,2026-10-30,LOW,Critical,Delhi NCR
+ORD_4793,CUST_DL105,Eastern Mining & Logistics Ltd,Intra V50 Smart Pickup,50,2026-09-19,2026-10-11,2026-10-10,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-12,HIGH,Critical,Kolkata
+ORD_4794,CUST_DL105,Eastern Mining & Logistics Ltd,Harrier Fearless AT,50,2026-09-28,2026-10-21,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,Critical,Kolkata
+ORD_4795,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,150,2026-09-03,2026-09-19,2026-09-18,On Schedule,Low Inventory,Congested,2026-09-19,MEDIUM,Normal,Chennai
+ORD_4796,CUST_DL107,Gujarat Express Distribution,Ace Gold EV Mini Truck,30,2026-09-24,2026-10-20,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,Normal,Ahmedabad
+ORD_4797,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,15,2026-09-15,2026-10-09,2026-10-06,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-08,HIGH,Normal,Ahmedabad
+ORD_4798,CUST_DL102,National Fleet Logistics Corp,Nexon EV Empowered,50,2026-09-21,2026-10-05,2026-10-04,Completed / Assembled,Optimal,On Time,2026-10-04,LOW,Critical,Delhi NCR
+ORD_4799,CUST_DL105,Eastern Mining & Logistics Ltd,Ace Gold EV Mini Truck,30,2026-09-27,2026-10-15,2026-10-13,Completed / Assembled,Optimal,On Time,2026-10-13,LOW,Critical,Kolkata
+ORD_4800,CUST_DL110,Kerala Green Mobility Project,Signa 2823.K Tipper,250,2026-09-08,2026-09-27,2026-09-23,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-27,HIGH,High,Kochi
+ORD_4801,CUST_DL106,South Highway Freight Lines,Harrier Fearless AT,150,2026-09-09,2026-10-01,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Normal,Chennai
+ORD_4802,CUST_DL108,Apex Commercial Fleet Leasing,Prima 5530.S Heavy Truck,150,2026-09-07,2026-09-23,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,High,Pune
+ORD_4803,CUST_DL110,Kerala Green Mobility Project,Ace Gold EV Mini Truck,250,2026-10-03,2026-10-18,2026-10-15,On Schedule,Low Inventory,Congested,2026-10-16,MEDIUM,High,Kochi
+ORD_4804,CUST_DL107,Gujarat Express Distribution,Nexon EV Empowered,30,2026-09-30,2026-10-16,2026-10-14,Completed / Assembled,Optimal,On Time,2026-10-14,LOW,Normal,Ahmedabad
+ORD_4805,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,15,2026-09-19,2026-10-15,2026-10-12,Completed / Assembled,Optimal,On Time,2026-10-12,LOW,High,Mumbai
+ORD_4806,CUST_DL106,South Highway Freight Lines,Curvv EV Coupe,30,2026-09-28,2026-10-24,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,Normal,Chennai
+ORD_4807,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,30,2026-09-05,2026-09-26,2026-09-25,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-09-30,CRITICAL,High,Mumbai
+ORD_4808,CUST_DL101,Tata Motors Dealership West Hub,Intra V50 Smart Pickup,100,2026-09-30,2026-10-15,2026-10-12,On Schedule,Low Inventory,Congested,2026-10-14,MEDIUM,High,Mumbai
+ORD_4809,CUST_DL108,Apex Commercial Fleet Leasing,Intra V50 Smart Pickup,150,2026-09-15,2026-10-06,2026-10-05,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-10,HIGH,High,Pune
+ORD_4810,CUST_DL106,South Highway Freight Lines,Curvv EV Coupe,15,2026-09-15,2026-10-07,2026-10-06,Completed / Assembled,Optimal,On Time,2026-10-06,LOW,Normal,Chennai
+ORD_4811,CUST_DL108,Apex Commercial Fleet Leasing,Curvv EV Coupe,100,2026-09-05,2026-09-25,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,High,Pune
+ORD_4812,CUST_DL106,South Highway Freight Lines,Ace Gold EV Mini Truck,250,2026-09-12,2026-10-02,2026-10-01,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-04,HIGH,Normal,Chennai
+ORD_4813,CUST_DL106,South Highway Freight Lines,Curvv EV Coupe,30,2026-09-26,2026-10-20,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,Normal,Chennai
+ORD_4814,CUST_DL108,Apex Commercial Fleet Leasing,Safari Dark Edition,250,2026-10-06,2026-10-28,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,High,Pune
+ORD_4815,CUST_DL108,Apex Commercial Fleet Leasing,Signa 2823.K Tipper,150,2026-09-28,2026-10-16,2026-10-14,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-23,CRITICAL,High,Pune
+ORD_4816,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,100,2026-09-10,2026-10-01,2026-09-30,Completed / Assembled,Optimal,On Time,2026-09-30,LOW,Normal,Ahmedabad
+ORD_4817,CUST_DL104,Metro Cabs India EV Fleet,Prima 5530.S Heavy Truck,100,2026-09-14,2026-10-09,2026-10-05,Completed / Assembled,Optimal,On Time,2026-10-05,LOW,High,Hyderabad
+ORD_4818,CUST_DL103,Bangalore Urban Transport Corp (BMTC),Prima 5530.S Heavy Truck,15,2026-09-09,2026-09-26,2026-09-22,Completed / Assembled,Optimal,On Time,2026-09-22,LOW,Critical,Bengaluru
+ORD_4819,CUST_DL108,Apex Commercial Fleet Leasing,Starbus EV Ultra 9m,30,2026-09-04,2026-09-24,2026-09-23,Completed / Assembled,Optimal,On Time,2026-09-23,LOW,High,Pune
+ORD_4820,CUST_DL109,Punjab Agri Transit Hub,Intra V50 Smart Pickup,15,2026-09-26,2026-10-19,2026-10-17,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-21,HIGH,Normal,Chandigarh
+ORD_4821,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,100,2026-09-17,2026-10-01,2026-09-28,Completed / Assembled,Optimal,On Time,2026-09-28,LOW,Normal,Chennai
+ORD_4822,CUST_DL109,Punjab Agri Transit Hub,Starbus EV Ultra 9m,100,2026-09-10,2026-10-01,2026-09-29,Completed / Assembled,Optimal,On Time,2026-09-29,LOW,Normal,Chandigarh
+ORD_4823,CUST_DL102,National Fleet Logistics Corp,Prima 5530.S Heavy Truck,15,2026-09-29,2026-10-19,2026-10-16,Completed / Assembled,Optimal,On Time,2026-10-16,LOW,Critical,Delhi NCR
+ORD_4824,CUST_DL106,South Highway Freight Lines,Tiago EV Long Range,100,2026-09-21,2026-10-11,2026-10-07,Delayed - Component Shortage,Imminent Stockout,Severe Delay,2026-10-14,CRITICAL,Normal,Chennai
+ORD_4825,CUST_DL109,Punjab Agri Transit Hub,Starbus EV Ultra 9m,50,2026-09-30,2026-10-21,2026-10-18,On Schedule,Low Inventory,Congested,2026-10-19,MEDIUM,Normal,Chandigarh
+ORD_4826,CUST_DL107,Gujarat Express Distribution,Harrier Fearless AT,150,2026-09-02,2026-09-22,2026-09-16,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-19,HIGH,Normal,Ahmedabad
+ORD_4827,CUST_DL108,Apex Commercial Fleet Leasing,Tiago EV Long Range,30,2026-09-26,2026-10-21,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,High,Pune
+ORD_4828,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,150,2026-09-04,2026-09-29,2026-09-27,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-30,HIGH,High,Hyderabad
+ORD_4829,CUST_DL108,Apex Commercial Fleet Leasing,Harrier Fearless AT,30,2026-09-07,2026-10-03,2026-10-02,Completed / Assembled,Optimal,On Time,2026-10-02,LOW,High,Pune
+ORD_4830,CUST_DL106,South Highway Freight Lines,Ace Gold EV Mini Truck,100,2026-09-28,2026-10-21,2026-10-20,Completed / Assembled,Optimal,On Time,2026-10-20,LOW,Normal,Chennai
+ORD_4831,CUST_DL102,National Fleet Logistics Corp,Signa 2823.K Tipper,15,2026-09-11,2026-09-25,2026-09-22,Production Constrained,Below Safety Stock,Delayed in Transit,2026-09-26,HIGH,Critical,Delhi NCR
+ORD_4832,CUST_DL102,National Fleet Logistics Corp,Curvv EV Coupe,15,2026-09-18,2026-10-15,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Critical,Delhi NCR
+ORD_4833,CUST_DL104,Metro Cabs India EV Fleet,Nexon EV Empowered,100,2026-09-24,2026-10-10,2026-10-09,Completed / Assembled,Optimal,On Time,2026-10-09,LOW,High,Hyderabad
+ORD_4834,CUST_DL110,Kerala Green Mobility Project,Nexon EV Empowered,30,2026-09-14,2026-10-07,2026-10-05,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-08,HIGH,High,Kochi
+ORD_4835,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,100,2026-10-06,2026-10-20,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,Normal,Ahmedabad
+ORD_4836,CUST_DL105,Eastern Mining & Logistics Ltd,Safari Dark Edition,30,2026-09-26,2026-10-14,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,Critical,Kolkata
+ORD_4837,CUST_DL101,Tata Motors Dealership West Hub,Signa 2823.K Tipper,100,2026-10-05,2026-10-19,2026-10-18,Completed / Assembled,Optimal,On Time,2026-10-18,LOW,High,Mumbai
+ORD_4838,CUST_DL101,Tata Motors Dealership West Hub,Tiago EV Long Range,100,2026-09-06,2026-09-26,2026-09-24,Completed / Assembled,Optimal,On Time,2026-09-24,LOW,High,Mumbai
+ORD_4839,CUST_DL101,Tata Motors Dealership West Hub,Prima 5530.S Heavy Truck,100,2026-09-01,2026-09-15,2026-09-12,Completed / Assembled,Optimal,On Time,2026-09-12,LOW,High,Mumbai
+ORD_4840,CUST_DL104,Metro Cabs India EV Fleet,Safari Dark Edition,15,2026-09-27,2026-10-24,2026-10-20,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-24,HIGH,High,Hyderabad
+ORD_4841,CUST_DL107,Gujarat Express Distribution,Starbus EV Ultra 9m,30,2026-09-15,2026-10-12,2026-10-11,Completed / Assembled,Optimal,On Time,2026-10-11,LOW,Normal,Ahmedabad
+ORD_4842,CUST_DL108,Apex Commercial Fleet Leasing,Safari Dark Edition,250,2026-09-18,2026-10-14,2026-10-10,Completed / Assembled,Optimal,On Time,2026-10-10,LOW,High,Pune
+ORD_4843,CUST_DL104,Metro Cabs India EV Fleet,Intra V50 Smart Pickup,100,2026-09-01,2026-09-23,2026-09-21,Completed / Assembled,Optimal,On Time,2026-09-21,LOW,High,Hyderabad
+ORD_4844,CUST_DL101,Tata Motors Dealership West Hub,Signa 2823.K Tipper,150,2026-09-21,2026-10-09,2026-10-08,Production Constrained,Below Safety Stock,Delayed in Transit,2026-10-12,HIGH,High,Mumbai
+ORD_4845,CUST_DL110,Kerala Green Mobility Project,Starbus EV Ultra 9m,150,2026-10-06,2026-10-25,2026-10-24,Completed / Assembled,Optimal,On Time,2026-10-24,LOW,High,Kochi
+ORD_4846,CUST_DL104,Metro Cabs India EV Fleet,Starbus EV Ultra 9m,15,2026-09-15,2026-10-01,2026-09-27,Completed / Assembled,Optimal,On Time,2026-09-27,LOW,High,Hyderabad
+ORD_4847,CUST_DL108,Apex Commercial Fleet Leasing,Safari Dark Edition,50,2026-10-05,2026-11-01,2026-10-31,Production Constrained,Below Safety Stock,Delayed in Transit,2026-11-02,HIGH,High,Pune
+ORD_4848,CUST_DL107,Gujarat Express Distribution,Tiago EV Long Range,250,2026-09-23,2026-10-17,2026-10-16,On Schedule,Low Inventory,Congested,2026-10-18,MEDIUM,Normal,Ahmedabad
+ORD_4849,CUST_DL101,Tata Motors Dealership West Hub,Safari Dark Edition,15,2026-09-28,2026-10-23,2026-10-19,Completed / Assembled,Optimal,On Time,2026-10-19,LOW,High,Mumbai
+ORD_4850,CUST_DL106,South Highway Freight Lines,Safari Dark Edition,50,2026-09-30,2026-10-27,2026-10-25,Completed / Assembled,Optimal,On Time,2026-10-25,LOW,Normal,Chennai

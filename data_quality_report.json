@@ -1,0 +1,61 @@
+{
+    "timestamp": "2026-10-12 10:51:30",
+    "system": "Tata Motors Operations Risk AI Data Cleaning Engine",
+    "datasets": [
+        {
+            "dataset": "Suppliers",
+            "total_records": 918,
+            "duplicate_records": 17,
+            "missing_values": 28,
+            "invalid_records": 2,
+            "corrected_records": 2,
+            "final_usable_records": 901
+        },
+        {
+            "dataset": "Inventory",
+            "total_records": 867,
+            "duplicate_records": 17,
+            "missing_values": 7,
+            "invalid_records": 1,
+            "corrected_records": 1,
+            "final_usable_records": 850
+        },
+        {
+            "dataset": "Production",
+            "total_records": 867,
+            "duplicate_records": 17,
+            "missing_values": 10,
+            "invalid_records": 0,
+            "corrected_records": 10,
+            "final_usable_records": 850
+        },
+        {
+            "dataset": "Transportation",
+            "total_records": 867,
+            "duplicate_records": 17,
+            "missing_values": 8,
+            "invalid_records": 1,
+            "corrected_records": 9,
+            "final_usable_records": 850
+        },
+        {
+            "dataset": "Customer Orders",
+            "total_records": 867,
+            "duplicate_records": 17,
+            "missing_values": 15,
+            "invalid_records": 0,
+            "corrected_records": 15,
+            "final_usable_records": 850
+        }
+    ],
+    "overall_summary": {
+        "dataset": "TOTAL / SYSTEM SUMMARY",
+        "total_records": 4386,
+        "duplicate_records": 85,
+        "missing_values": 68,
+        "invalid_records": 4,
+        "corrected_records": 37,
+        "final_usable_records": 4301,
+        "data_health_index": 98.06
+    }
+}

@@ -1,0 +1,851 @@
+Shipment_ID,Supplier_ID,Destination_Plant,Shipment_Date,Expected_Arrival,Actual_Arrival,Transport_Mode,Carrier,Route,Distance,Transit_Time,Delay_Days,Shipment_Status,Traffic_Risk,Weather_Risk,Logistics_Risk_Level
+SHP_3001,SUP_104,PLANT_SND,2026-09-20,2026-09-21,2026-09-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3002,SUP_118,PLANT_SND,2026-09-24,2026-09-25,2026-09-25,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3003,SUP_107,PLANT_PNT,2026-09-18,2026-09-19,2026-09-19,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3004,SUP_102,PLANT_DHW,2026-10-14,2026-10-17,2026-10-18,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3005,SUP_114,PLANT_SND,2026-10-13,2026-10-14,2026-10-17,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3006,SUP_115,PLANT_DHW,2026-09-07,2026-09-08,2026-09-10,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3007,SUP_111,PLANT_SND,2026-10-17,2026-10-18,2026-10-18,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3008,SUP_115,PLANT_DHW,2026-10-05,2026-10-06,2026-10-06,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3009,SUP_118,PLANT_PUN,2026-09-21,2026-09-22,2026-09-24,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3010,SUP_105,PLANT_PNT,2026-09-14,2026-09-15,2026-09-15,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3011,SUP_106,PLANT_PNT,2026-09-03,2026-09-04,2026-09-04,Air Freight Expedited,Blue Dart Automotive Aviation,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3012,SUP_119,PLANT_PUN,2026-10-06,2026-10-07,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3013,SUP_103,PLANT_SND,2026-09-20,2026-09-21,2026-09-23,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3014,SUP_115,PLANT_PNT,2026-10-10,2026-10-12,2026-10-12,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3015,SUP_120,PLANT_JSR,2026-09-27,2026-09-28,2026-09-28,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3016,SUP_101,PLANT_JSR,2026-09-16,2026-09-17,2026-09-17,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3017,SUP_118,PLANT_SND,2026-09-07,2026-09-09,2026-09-09,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3018,SUP_107,PLANT_PUN,2026-09-12,2026-09-13,2026-09-13,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3019,SUP_113,PLANT_DHW,2026-10-19,2026-10-20,2026-10-24,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3020,SUP_111,PLANT_JSR,2026-10-13,2026-10-15,2026-10-15,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3021,SUP_111,PLANT_DHW,2026-09-15,2026-09-16,2026-09-16,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3022,SUP_116,PLANT_PNT,2026-09-11,2026-09-12,2026-09-12,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3023,SUP_106,PLANT_PNT,2026-10-05,2026-10-06,2026-10-06,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3024,SUP_115,PLANT_SND,2026-09-25,2026-09-27,2026-09-27,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3025,SUP_114,PLANT_PNT,2026-10-11,2026-10-14,2026-10-18,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3026,SUP_105,PLANT_DHW,2026-10-09,2026-10-11,2026-10-11,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3027,SUP_114,PLANT_PUN,2026-09-11,2026-09-12,2026-09-12,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3028,SUP_116,PLANT_PUN,2026-10-18,2026-10-19,2026-10-19,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3029,SUP_113,PLANT_DHW,2026-09-11,2026-09-14,2026-09-14,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3030,SUP_108,PLANT_SND,2026-09-21,2026-09-24,2026-09-26,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3031,SUP_101,PLANT_SND,2026-09-30,2026-10-01,2026-10-06,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3032,SUP_108,PLANT_SND,2026-10-09,2026-10-11,2026-10-11,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3033,SUP_106,PLANT_SND,2026-09-01,2026-09-03,2026-09-03,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3034,SUP_114,PLANT_DHW,2026-09-05,2026-09-06,2026-09-06,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3035,SUP_109,PLANT_DHW,2026-09-29,2026-09-30,2026-09-30,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3036,SUP_102,PLANT_JSR,2026-09-24,2026-09-25,2026-09-25,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3037,SUP_117,PLANT_PNT,2026-09-07,2026-09-09,2026-09-12,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3038,SUP_119,PLANT_PUN,2026-09-24,2026-09-26,2026-09-26,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3039,SUP_111,PLANT_SND,2026-09-14,2026-09-15,2026-09-17,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3040,SUP_103,PLANT_PNT,2026-10-19,2026-10-20,2026-10-24,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3041,SUP_111,PLANT_JSR,2026-09-22,2026-09-23,2026-09-23,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3042,SUP_109,PLANT_DHW,2026-10-19,2026-10-20,2026-10-24,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3043,SUP_110,PLANT_PUN,2026-10-07,2026-10-08,2026-10-08,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3044,SUP_110,PLANT_JSR,2026-10-07,2026-10-09,2026-10-09,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3045,SUP_116,PLANT_PNT,2026-09-10,2026-09-11,2026-09-11,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3046,SUP_105,PLANT_SND,2026-09-25,2026-09-26,2026-09-27,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3047,SUP_101,PLANT_SND,2026-09-10,2026-09-11,2026-09-11,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3048,SUP_109,PLANT_JSR,2026-10-01,2026-10-02,2026-10-02,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3049,SUP_106,PLANT_JSR,2026-10-08,2026-10-10,2026-10-10,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3050,SUP_111,PLANT_DHW,2026-10-02,2026-10-03,2026-10-03,Air Freight Expedited,Blue Dart Automotive Aviation,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3051,SUP_117,PLANT_PNT,2026-09-25,2026-09-26,2026-09-29,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3052,SUP_111,PLANT_SND,2026-09-15,2026-09-16,2026-09-20,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3053,SUP_104,PLANT_SND,2026-09-30,2026-10-01,2026-10-01,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3054,SUP_101,PLANT_DHW,2026-09-24,2026-09-27,2026-09-27,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3055,SUP_113,PLANT_PUN,2026-09-18,2026-09-19,2026-09-19,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3056,SUP_118,PLANT_DHW,2026-09-29,2026-09-30,2026-09-30,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3057,SUP_108,PLANT_SND,2026-10-15,2026-10-16,2026-10-16,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3058,SUP_108,PLANT_SND,2026-09-12,2026-09-13,2026-09-20,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3059,SUP_109,PLANT_DHW,2026-10-18,2026-10-19,2026-10-21,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3060,SUP_105,PLANT_DHW,2026-09-14,2026-09-15,2026-09-20,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3061,SUP_115,PLANT_PUN,2026-09-21,2026-09-22,2026-09-22,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3062,SUP_103,PLANT_SND,2026-09-29,2026-10-01,2026-10-03,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3063,SUP_104,PLANT_DHW,2026-10-09,2026-10-12,2026-10-12,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3064,SUP_119,PLANT_PUN,2026-09-08,2026-09-09,2026-09-09,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3065,SUP_115,PLANT_SND,2026-09-01,2026-09-02,2026-09-04,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3066,SUP_120,PLANT_JSR,2026-09-22,2026-09-25,2026-09-25,Multimodal Rail Cargo,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3067,SUP_117,PLANT_JSR,2026-09-17,2026-09-18,2026-09-18,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3068,SUP_108,PLANT_JSR,2026-10-11,2026-10-12,2026-10-12,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3069,SUP_106,PLANT_PNT,2026-10-03,2026-10-04,2026-10-04,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3070,SUP_106,PLANT_SND,2026-10-14,2026-10-15,2026-10-17,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3071,SUP_111,PLANT_DHW,2026-10-20,2026-10-23,2026-10-25,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3072,SUP_107,PLANT_JSR,2026-09-21,2026-09-22,2026-09-22,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3073,SUP_116,PLANT_PUN,2026-10-10,2026-10-11,2026-10-14,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3074,SUP_111,PLANT_SND,2026-10-21,2026-10-22,2026-10-24,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3075,SUP_120,PLANT_SND,2026-10-12,2026-10-13,2026-10-13,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3076,SUP_114,PLANT_JSR,2026-10-01,2026-10-02,2026-10-02,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3077,SUP_110,PLANT_JSR,2026-09-22,2026-09-23,2026-09-23,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3078,SUP_111,PLANT_PNT,2026-10-07,2026-10-08,2026-10-08,Air Freight Expedited,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3079,SUP_114,PLANT_PUN,2026-09-27,2026-09-28,2026-09-28,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3080,SUP_105,PLANT_PNT,2026-10-16,2026-10-17,2026-10-21,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3081,SUP_110,PLANT_JSR,2026-09-28,2026-09-29,2026-09-29,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3082,SUP_111,PLANT_DHW,2026-09-14,2026-09-17,2026-09-17,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3083,SUP_115,PLANT_JSR,2026-09-16,2026-09-18,2026-09-22,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3084,SUP_116,PLANT_DHW,2026-10-20,2026-10-21,2026-10-21,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3085,SUP_116,PLANT_SND,2026-09-04,2026-09-05,2026-09-09,Air Freight Expedited,Blue Dart Automotive Aviation,Hosur-Dharwad South Expressway,440,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3086,SUP_111,PLANT_JSR,2026-09-29,2026-09-30,2026-09-30,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3087,SUP_104,PLANT_PNT,2026-09-21,2026-09-23,2026-09-23,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3088,SUP_114,PLANT_SND,2026-10-07,2026-10-08,2026-10-10,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3089,SUP_115,PLANT_SND,2026-10-06,2026-10-07,2026-10-07,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3090,SUP_110,PLANT_PUN,2026-10-21,2026-10-23,2026-10-23,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3091,SUP_111,PLANT_JSR,2026-09-12,2026-09-15,2026-09-16,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3092,SUP_115,PLANT_JSR,2026-10-14,2026-10-15,2026-10-15,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3093,SUP_109,PLANT_JSR,2026-09-09,2026-09-10,2026-09-13,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3094,SUP_114,PLANT_PNT,2026-10-04,2026-10-05,2026-10-12,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3095,SUP_112,PLANT_PUN,2026-09-03,2026-09-04,2026-09-04,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3096,SUP_111,PLANT_DHW,2026-10-07,2026-10-08,2026-10-09,Multimodal Rail Cargo,Container Corp of India (CONCOR),Noida-Pantnagar Industrial Highway,260,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3097,SUP_103,PLANT_DHW,2026-10-05,2026-10-07,2026-10-11,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3098,SUP_103,PLANT_DHW,2026-10-19,2026-10-22,2026-10-28,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3099,SUP_109,PLANT_PNT,2026-10-12,2026-10-15,2026-10-16,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3100,SUP_119,PLANT_JSR,2026-09-02,2026-09-03,2026-09-03,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3101,SUP_110,PLANT_PUN,2026-09-02,2026-09-03,2026-09-08,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3102,SUP_114,PLANT_SND,2026-10-08,2026-10-09,2026-10-09,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3103,SUP_111,PLANT_DHW,2026-10-20,2026-10-23,2026-10-23,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3104,SUP_112,PLANT_DHW,2026-10-20,2026-10-23,2026-10-26,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3105,SUP_106,PLANT_PUN,2026-10-20,2026-10-21,2026-10-24,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3106,SUP_103,PLANT_JSR,2026-10-13,2026-10-14,2026-10-18,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3107,SUP_106,PLANT_PNT,2026-09-14,2026-09-15,2026-09-15,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3108,SUP_101,PLANT_SND,2026-09-25,2026-09-27,2026-10-01,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3109,SUP_113,PLANT_PUN,2026-09-26,2026-09-27,2026-10-02,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3110,SUP_119,PLANT_PUN,2026-10-03,2026-10-05,2026-10-05,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3111,SUP_117,PLANT_PUN,2026-09-08,2026-09-11,2026-09-11,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3112,SUP_120,PLANT_JSR,2026-09-27,2026-09-28,2026-09-30,Road Freight Carrier,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3113,SUP_117,PLANT_JSR,2026-10-03,2026-10-04,2026-10-07,Multimodal Rail Cargo,Container Corp of India (CONCOR),Noida-Pantnagar Industrial Highway,260,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3114,SUP_101,PLANT_PUN,2026-09-26,2026-09-27,2026-09-27,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3115,SUP_104,PLANT_JSR,2026-09-05,2026-09-06,2026-09-06,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3116,SUP_110,PLANT_SND,2026-10-12,2026-10-14,2026-10-14,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3117,SUP_113,PLANT_PNT,2026-10-17,2026-10-18,2026-10-18,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3118,SUP_111,PLANT_PUN,2026-09-12,2026-09-15,2026-09-15,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3119,SUP_105,PLANT_DHW,2026-10-15,2026-10-17,2026-10-17,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3120,SUP_102,PLANT_PUN,2026-10-18,2026-10-21,2026-10-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3121,SUP_112,PLANT_DHW,2026-09-27,2026-09-30,2026-10-04,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3122,SUP_105,PLANT_SND,2026-10-21,2026-10-22,2026-10-25,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3123,SUP_107,PLANT_JSR,2026-09-17,2026-09-18,2026-09-18,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3124,SUP_101,PLANT_PUN,2026-10-01,2026-10-02,2026-10-06,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3125,SUP_114,PLANT_PUN,2026-10-19,2026-10-20,2026-10-20,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3126,SUP_117,PLANT_SND,2026-09-01,2026-09-03,2026-09-04,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3127,SUP_103,PLANT_PNT,2026-10-01,2026-10-03,2026-10-03,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3128,SUP_114,PLANT_DHW,2026-10-09,2026-10-12,2026-10-12,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3129,SUP_101,PLANT_JSR,2026-09-17,2026-09-18,2026-09-22,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3130,SUP_118,PLANT_JSR,2026-10-01,2026-10-03,2026-10-03,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3131,SUP_119,PLANT_SND,2026-10-03,2026-10-06,2026-10-08,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3132,SUP_108,PLANT_PUN,2026-10-16,2026-10-18,2026-10-18,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3133,SUP_120,PLANT_PUN,2026-09-17,2026-09-20,2026-09-24,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3134,SUP_111,PLANT_PNT,2026-10-19,2026-10-20,2026-10-20,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3135,SUP_111,PLANT_PNT,2026-10-08,2026-10-09,2026-10-09,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3136,SUP_102,PLANT_PNT,2026-10-21,2026-10-22,2026-10-25,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3137,SUP_101,PLANT_SND,2026-10-21,2026-10-22,2026-10-27,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3138,SUP_111,PLANT_PUN,2026-10-01,2026-10-02,2026-10-02,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3139,SUP_107,PLANT_DHW,2026-09-14,2026-09-15,2026-09-15,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3140,SUP_109,PLANT_DHW,2026-10-18,2026-10-20,2026-10-23,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3141,SUP_111,PLANT_JSR,2026-09-22,2026-09-23,2026-09-23,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3142,SUP_116,PLANT_DHW,2026-10-13,2026-10-15,2026-10-15,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3143,SUP_117,PLANT_JSR,2026-09-28,2026-09-29,2026-09-29,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3144,SUP_118,PLANT_SND,2026-09-30,2026-10-03,2026-10-03,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3145,SUP_104,PLANT_DHW,2026-09-09,2026-09-10,2026-09-10,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3146,SUP_110,PLANT_PNT,2026-10-03,2026-10-05,2026-10-08,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3147,SUP_105,PLANT_SND,2026-10-17,2026-10-20,2026-10-20,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3148,SUP_117,PLANT_DHW,2026-10-05,2026-10-06,2026-10-06,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3149,SUP_108,PLANT_DHW,2026-09-11,2026-09-12,2026-09-14,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3150,SUP_120,PLANT_SND,2026-10-05,2026-10-07,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3151,SUP_120,PLANT_PNT,2026-09-04,2026-09-05,2026-09-05,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3152,SUP_113,PLANT_JSR,2026-10-01,2026-10-02,2026-10-02,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3153,SUP_105,PLANT_JSR,2026-09-17,2026-09-19,2026-09-19,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3154,SUP_110,PLANT_SND,2026-09-04,2026-09-06,2026-09-06,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3155,SUP_105,PLANT_SND,2026-10-19,2026-10-22,2026-10-22,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3156,SUP_108,PLANT_PNT,2026-09-26,2026-09-27,2026-09-27,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3157,SUP_108,PLANT_JSR,2026-09-18,2026-09-21,2026-09-24,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3158,SUP_104,PLANT_DHW,2026-09-14,2026-09-16,2026-09-16,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3159,SUP_109,PLANT_JSR,2026-10-04,2026-10-06,2026-10-07,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3160,SUP_120,PLANT_PNT,2026-09-20,2026-09-21,2026-09-21,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3161,SUP_118,PLANT_DHW,2026-09-05,2026-09-08,2026-09-08,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3162,SUP_111,PLANT_JSR,2026-09-17,2026-09-18,2026-09-21,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3163,SUP_114,PLANT_DHW,2026-10-19,2026-10-20,2026-10-23,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3164,SUP_104,PLANT_PUN,2026-09-16,2026-09-17,2026-09-17,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3165,SUP_116,PLANT_PNT,2026-10-11,2026-10-12,2026-10-15,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3166,SUP_109,PLANT_JSR,2026-09-27,2026-09-28,2026-09-28,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3167,SUP_109,PLANT_JSR,2026-09-07,2026-09-08,2026-09-08,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3168,SUP_116,PLANT_SND,2026-09-15,2026-09-16,2026-09-16,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3169,SUP_109,PLANT_PUN,2026-10-06,2026-10-07,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3170,SUP_119,PLANT_PNT,2026-09-03,2026-09-04,2026-09-04,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3171,SUP_119,PLANT_PUN,2026-09-08,2026-09-10,2026-09-10,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3172,SUP_108,PLANT_JSR,2026-09-26,2026-09-27,2026-09-27,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3173,SUP_102,PLANT_JSR,2026-09-30,2026-10-01,2026-10-01,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3174,SUP_117,PLANT_PUN,2026-10-13,2026-10-14,2026-10-14,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3175,SUP_107,PLANT_DHW,2026-10-11,2026-10-12,2026-10-12,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3176,SUP_104,PLANT_JSR,2026-10-17,2026-10-18,2026-10-18,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3177,SUP_109,PLANT_JSR,2026-09-23,2026-09-24,2026-09-24,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3178,SUP_108,PLANT_JSR,2026-09-21,2026-09-22,2026-09-22,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3179,SUP_109,PLANT_SND,2026-10-18,2026-10-19,2026-10-19,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3180,SUP_112,PLANT_SND,2026-09-22,2026-09-24,2026-09-24,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3181,SUP_118,PLANT_SND,2026-09-07,2026-09-08,2026-09-08,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3182,SUP_103,PLANT_PNT,2026-10-11,2026-10-12,2026-10-17,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3183,SUP_107,PLANT_JSR,2026-09-23,2026-09-24,2026-09-26,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3184,SUP_112,PLANT_SND,2026-09-02,2026-09-03,2026-09-07,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3185,SUP_110,PLANT_DHW,2026-10-19,2026-10-20,2026-10-20,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3186,SUP_106,PLANT_PNT,2026-09-13,2026-09-15,2026-09-19,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3187,SUP_120,PLANT_PNT,2026-10-16,2026-10-17,2026-10-19,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3188,SUP_113,PLANT_SND,2026-10-18,2026-10-20,2026-10-20,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3189,SUP_110,PLANT_DHW,2026-09-21,2026-09-23,2026-09-23,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3190,SUP_115,PLANT_PUN,2026-10-13,2026-10-15,2026-10-15,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3191,SUP_101,PLANT_PNT,2026-09-16,2026-09-19,2026-09-19,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3192,SUP_115,PLANT_SND,2026-09-19,2026-09-20,2026-09-22,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3193,SUP_120,PLANT_PNT,2026-10-06,2026-10-07,2026-10-07,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3194,SUP_119,PLANT_SND,2026-10-04,2026-10-07,2026-10-07,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3195,SUP_119,PLANT_PNT,2026-10-16,2026-10-17,2026-10-17,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3196,SUP_112,PLANT_JSR,2026-09-24,2026-09-25,2026-09-25,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3197,SUP_108,PLANT_JSR,2026-09-05,2026-09-06,2026-09-06,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3198,SUP_105,PLANT_JSR,2026-10-21,2026-10-24,2026-10-24,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3199,SUP_105,PLANT_PUN,2026-10-05,2026-10-06,2026-10-09,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3200,SUP_108,PLANT_JSR,2026-09-30,2026-10-03,2026-10-04,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3201,SUP_115,PLANT_DHW,2026-10-08,2026-10-09,2026-10-09,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3202,SUP_106,PLANT_PUN,2026-10-06,2026-10-07,2026-10-07,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3203,SUP_112,PLANT_PNT,2026-09-05,2026-09-07,2026-09-07,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3204,SUP_103,PLANT_JSR,2026-10-17,2026-10-18,2026-10-25,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3205,SUP_116,PLANT_PNT,2026-09-26,2026-09-28,2026-10-03,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3206,SUP_110,PLANT_DHW,2026-09-22,2026-09-23,2026-09-28,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3207,SUP_105,PLANT_DHW,2026-09-01,2026-09-02,2026-09-02,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3208,SUP_102,PLANT_JSR,2026-10-20,2026-10-22,2026-10-22,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3209,SUP_120,PLANT_PUN,2026-10-17,2026-10-18,2026-10-20,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3210,SUP_108,PLANT_DHW,2026-09-02,2026-09-04,2026-09-04,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3211,SUP_116,PLANT_PUN,2026-09-07,2026-09-08,2026-09-08,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3212,SUP_119,PLANT_PNT,2026-10-15,2026-10-16,2026-10-16,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3213,SUP_111,PLANT_SND,2026-09-23,2026-09-24,2026-09-27,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3214,SUP_109,PLANT_PNT,2026-09-17,2026-09-19,2026-09-19,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3215,SUP_108,PLANT_JSR,2026-09-22,2026-09-24,2026-09-24,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3216,SUP_104,PLANT_DHW,2026-10-09,2026-10-10,2026-10-17,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3217,SUP_102,PLANT_JSR,2026-09-01,2026-09-03,2026-09-03,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3218,SUP_117,PLANT_PUN,2026-09-25,2026-09-26,2026-09-29,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3219,SUP_119,PLANT_JSR,2026-09-13,2026-09-15,2026-09-15,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3220,SUP_116,PLANT_SND,2026-09-23,2026-09-26,2026-09-30,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3221,SUP_105,PLANT_DHW,2026-09-29,2026-09-30,2026-09-30,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3222,SUP_106,PLANT_DHW,2026-09-02,2026-09-03,2026-09-03,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3223,SUP_118,PLANT_PUN,2026-09-07,2026-09-08,2026-09-09,Air Freight Expedited,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3224,SUP_119,PLANT_DHW,2026-10-02,2026-10-04,2026-10-07,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3225,SUP_120,PLANT_JSR,2026-10-21,2026-10-22,2026-10-22,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3226,SUP_104,PLANT_DHW,2026-09-16,2026-09-17,2026-09-17,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3227,SUP_108,PLANT_PNT,2026-09-03,2026-09-04,2026-09-04,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3228,SUP_116,PLANT_DHW,2026-10-13,2026-10-15,2026-10-15,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3229,SUP_117,PLANT_DHW,2026-10-19,2026-10-20,2026-10-20,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3230,SUP_107,PLANT_JSR,2026-09-29,2026-09-30,2026-09-30,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3231,SUP_110,PLANT_PNT,2026-09-25,2026-09-26,2026-09-28,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3232,SUP_116,PLANT_PUN,2026-10-10,2026-10-11,2026-10-11,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3233,SUP_116,PLANT_JSR,2026-10-04,2026-10-05,2026-10-05,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3234,SUP_107,PLANT_PUN,2026-10-12,2026-10-13,2026-10-14,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3235,SUP_118,PLANT_PUN,2026-09-25,2026-09-26,2026-09-28,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3236,SUP_114,PLANT_DHW,2026-10-03,2026-10-05,2026-10-05,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3237,SUP_102,PLANT_SND,2026-09-12,2026-09-13,2026-09-13,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3238,SUP_111,PLANT_PUN,2026-10-02,2026-10-05,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3239,SUP_102,PLANT_PNT,2026-09-19,2026-09-21,2026-09-25,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3240,SUP_111,PLANT_SND,2026-09-24,2026-09-27,2026-09-27,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3241,SUP_113,PLANT_PUN,2026-10-09,2026-10-11,2026-10-15,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3242,SUP_114,PLANT_DHW,2026-09-14,2026-09-15,2026-09-15,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3243,SUP_109,PLANT_PNT,2026-09-27,2026-09-28,2026-09-28,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3244,SUP_113,PLANT_JSR,2026-09-17,2026-09-18,2026-09-18,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3245,SUP_113,PLANT_PUN,2026-09-09,2026-09-10,2026-09-10,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3246,SUP_108,PLANT_PUN,2026-09-08,2026-09-10,2026-09-13,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3247,SUP_103,PLANT_SND,2026-09-11,2026-09-12,2026-09-12,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3248,SUP_109,PLANT_PNT,2026-09-19,2026-09-20,2026-09-20,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3249,SUP_109,PLANT_PUN,2026-09-13,2026-09-14,2026-09-14,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3250,SUP_118,PLANT_PNT,2026-10-04,2026-10-06,2026-10-06,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3251,SUP_116,PLANT_PNT,2026-09-15,2026-09-17,2026-09-23,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3252,SUP_106,PLANT_PUN,2026-09-16,2026-09-18,2026-09-18,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3253,SUP_112,PLANT_PNT,2026-09-29,2026-10-01,2026-10-01,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3254,SUP_102,PLANT_DHW,2026-10-17,2026-10-20,2026-10-23,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3255,SUP_101,PLANT_SND,2026-09-12,2026-09-13,2026-09-13,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3256,SUP_107,PLANT_PUN,2026-09-10,2026-09-11,2026-09-11,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3257,SUP_117,PLANT_PUN,2026-10-11,2026-10-13,2026-10-18,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3258,SUP_101,PLANT_PNT,2026-10-09,2026-10-12,2026-10-12,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3259,SUP_118,PLANT_SND,2026-09-04,2026-09-05,2026-09-07,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3260,SUP_114,PLANT_DHW,2026-10-10,2026-10-11,2026-10-11,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3261,SUP_111,PLANT_JSR,2026-09-07,2026-09-09,2026-09-09,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3262,SUP_101,PLANT_PNT,2026-09-25,2026-09-26,2026-09-26,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3263,SUP_104,PLANT_SND,2026-10-07,2026-10-08,2026-10-08,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3264,SUP_101,PLANT_PNT,2026-09-19,2026-09-20,2026-09-20,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3265,SUP_113,PLANT_PNT,2026-10-14,2026-10-17,2026-10-17,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3266,SUP_109,PLANT_JSR,2026-10-01,2026-10-02,2026-10-02,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3267,SUP_105,PLANT_PNT,2026-09-15,2026-09-16,2026-09-20,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3268,SUP_106,PLANT_PNT,2026-09-24,2026-09-25,2026-09-25,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3269,SUP_114,PLANT_JSR,2026-09-30,2026-10-01,2026-10-01,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3270,SUP_118,PLANT_SND,2026-10-11,2026-10-14,2026-10-14,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3271,SUP_113,PLANT_PNT,2026-10-17,2026-10-18,2026-10-18,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3272,SUP_113,PLANT_PNT,2026-09-21,2026-09-22,2026-09-22,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3273,SUP_105,PLANT_DHW,2026-09-14,2026-09-17,2026-09-17,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3274,SUP_119,PLANT_SND,2026-09-30,2026-10-01,2026-10-01,Road Freight Carrier,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3275,SUP_114,PLANT_JSR,2026-09-14,2026-09-15,2026-09-15,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3276,SUP_116,PLANT_PUN,2026-09-20,2026-09-21,2026-09-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3277,SUP_120,PLANT_PNT,2026-09-14,2026-09-17,2026-09-18,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3278,SUP_113,PLANT_DHW,2026-09-29,2026-10-02,2026-10-06,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3279,SUP_113,PLANT_DHW,2026-09-18,2026-09-20,2026-09-20,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3280,SUP_119,PLANT_SND,2026-10-07,2026-10-08,2026-10-08,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3281,SUP_107,PLANT_SND,2026-09-30,2026-10-01,2026-10-04,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3282,SUP_116,PLANT_JSR,2026-10-14,2026-10-15,2026-10-17,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3283,SUP_103,PLANT_PUN,2026-09-22,2026-09-23,2026-09-23,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3284,SUP_111,PLANT_JSR,2026-09-14,2026-09-16,2026-09-17,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3285,SUP_112,PLANT_DHW,2026-10-01,2026-10-02,2026-10-03,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3286,SUP_110,PLANT_JSR,2026-09-10,2026-09-12,2026-09-14,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3287,SUP_118,PLANT_DHW,2026-10-06,2026-10-09,2026-10-09,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3288,SUP_116,PLANT_JSR,2026-09-08,2026-09-11,2026-09-11,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3289,SUP_105,PLANT_PNT,2026-09-09,2026-09-10,2026-09-10,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3290,SUP_116,PLANT_PNT,2026-10-20,2026-10-23,2026-10-28,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3291,SUP_115,PLANT_DHW,2026-09-29,2026-10-01,2026-10-01,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3292,SUP_116,PLANT_DHW,2026-09-06,2026-09-07,2026-09-07,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3293,SUP_103,PLANT_SND,2026-10-14,2026-10-15,2026-10-15,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3294,SUP_105,PLANT_PUN,2026-10-11,2026-10-14,2026-10-17,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3295,SUP_103,PLANT_JSR,2026-09-02,2026-09-03,2026-09-03,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3296,SUP_119,PLANT_PNT,2026-09-17,2026-09-18,2026-09-22,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3297,SUP_117,PLANT_PUN,2026-09-11,2026-09-12,2026-09-16,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3298,SUP_110,PLANT_JSR,2026-09-22,2026-09-23,2026-09-29,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3299,SUP_103,PLANT_JSR,2026-09-09,2026-09-10,2026-09-10,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3300,SUP_120,PLANT_PUN,2026-09-20,2026-09-21,2026-09-21,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3301,SUP_116,PLANT_PNT,2026-10-15,2026-10-16,2026-10-16,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3302,SUP_113,PLANT_JSR,2026-09-27,2026-09-28,2026-09-28,Air Freight Expedited,Blue Dart Automotive Aviation,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3303,SUP_105,PLANT_JSR,2026-10-06,2026-10-07,2026-10-11,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3304,SUP_109,PLANT_PUN,2026-10-13,2026-10-15,2026-10-15,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3305,SUP_117,PLANT_PUN,2026-10-19,2026-10-21,2026-10-23,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3306,SUP_106,PLANT_JSR,2026-10-07,2026-10-09,2026-10-09,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3307,SUP_103,PLANT_PUN,2026-10-18,2026-10-19,2026-10-19,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3308,SUP_120,PLANT_PUN,2026-10-11,2026-10-12,2026-10-12,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3309,SUP_104,PLANT_DHW,2026-10-16,2026-10-17,2026-10-21,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3310,SUP_103,PLANT_SND,2026-09-01,2026-09-03,2026-09-03,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3311,SUP_108,PLANT_SND,2026-09-25,2026-09-27,2026-09-30,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3312,SUP_107,PLANT_PNT,2026-10-09,2026-10-10,2026-10-10,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3313,SUP_116,PLANT_JSR,2026-09-29,2026-09-30,2026-10-02,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3314,SUP_103,PLANT_SND,2026-09-10,2026-09-11,2026-09-11,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3315,SUP_119,PLANT_SND,2026-10-15,2026-10-17,2026-10-17,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3316,SUP_107,PLANT_SND,2026-09-11,2026-09-12,2026-09-12,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3317,SUP_119,PLANT_JSR,2026-10-03,2026-10-04,2026-10-04,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3318,SUP_107,PLANT_PNT,2026-10-18,2026-10-19,2026-10-21,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3319,SUP_109,PLANT_JSR,2026-09-04,2026-09-06,2026-09-11,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3320,SUP_102,PLANT_DHW,2026-10-14,2026-10-16,2026-10-16,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3321,SUP_115,PLANT_PUN,2026-09-21,2026-09-23,2026-09-23,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3322,SUP_112,PLANT_DHW,2026-10-07,2026-10-09,2026-10-11,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3323,SUP_115,PLANT_JSR,2026-09-24,2026-09-25,2026-09-25,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3324,SUP_116,PLANT_JSR,2026-09-15,2026-09-18,2026-09-18,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3325,SUP_102,PLANT_JSR,2026-09-30,2026-10-01,2026-10-03,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3326,SUP_115,PLANT_PNT,2026-09-10,2026-09-13,2026-09-13,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3327,SUP_113,PLANT_PNT,2026-10-21,2026-10-23,2026-10-26,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3328,SUP_105,PLANT_PNT,2026-09-28,2026-09-29,2026-09-29,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3329,SUP_106,PLANT_SND,2026-09-14,2026-09-16,2026-09-19,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3330,SUP_116,PLANT_SND,2026-09-13,2026-09-14,2026-09-20,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3331,SUP_106,PLANT_JSR,2026-09-15,2026-09-16,2026-09-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3332,SUP_114,PLANT_PNT,2026-10-13,2026-10-14,2026-10-17,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3333,SUP_103,PLANT_JSR,2026-10-09,2026-10-10,2026-10-11,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3334,SUP_117,PLANT_PNT,2026-10-02,2026-10-03,2026-10-08,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3335,SUP_106,PLANT_JSR,2026-10-14,2026-10-15,2026-10-15,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3336,SUP_120,PLANT_PUN,2026-10-04,2026-10-06,2026-10-09,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3337,SUP_112,PLANT_SND,2026-09-05,2026-09-06,2026-09-11,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3338,SUP_114,PLANT_SND,2026-10-15,2026-10-16,2026-10-20,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3339,SUP_116,PLANT_JSR,2026-10-07,2026-10-08,2026-10-08,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3340,SUP_107,PLANT_SND,2026-10-16,2026-10-17,2026-10-17,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3341,SUP_108,PLANT_SND,2026-09-02,2026-09-03,2026-09-04,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3342,SUP_113,PLANT_SND,2026-09-06,2026-09-07,2026-09-07,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3343,SUP_115,PLANT_DHW,2026-09-05,2026-09-06,2026-09-06,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3344,SUP_107,PLANT_JSR,2026-09-24,2026-09-26,2026-09-26,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3345,SUP_102,PLANT_PNT,2026-10-11,2026-10-14,2026-10-19,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3346,SUP_120,PLANT_PNT,2026-10-21,2026-10-23,2026-10-25,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3347,SUP_116,PLANT_JSR,2026-10-12,2026-10-15,2026-10-17,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3348,SUP_110,PLANT_PUN,2026-10-04,2026-10-07,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3349,SUP_110,PLANT_SND,2026-10-15,2026-10-16,2026-10-16,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3350,SUP_101,PLANT_JSR,2026-09-10,2026-09-11,2026-09-12,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3351,SUP_114,PLANT_PUN,2026-10-20,2026-10-21,2026-10-21,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3352,SUP_105,PLANT_PNT,2026-10-06,2026-10-07,2026-10-10,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3353,SUP_111,PLANT_PUN,2026-09-18,2026-09-19,2026-09-24,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3354,SUP_110,PLANT_SND,2026-09-21,2026-09-23,2026-09-23,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3355,SUP_104,PLANT_PUN,2026-09-24,2026-09-25,2026-09-29,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3356,SUP_113,PLANT_DHW,2026-10-12,2026-10-13,2026-10-14,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3357,SUP_111,PLANT_DHW,2026-09-21,2026-09-22,2026-09-22,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3358,SUP_119,PLANT_PUN,2026-10-17,2026-10-18,2026-10-18,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3359,SUP_105,PLANT_PNT,2026-09-09,2026-09-11,2026-09-15,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3360,SUP_106,PLANT_SND,2026-09-23,2026-09-24,2026-09-26,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3361,SUP_111,PLANT_PUN,2026-10-05,2026-10-06,2026-10-12,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3362,SUP_113,PLANT_SND,2026-09-14,2026-09-16,2026-09-16,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3363,SUP_104,PLANT_JSR,2026-09-04,2026-09-07,2026-09-07,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3364,SUP_118,PLANT_PUN,2026-10-01,2026-10-04,2026-10-08,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3365,SUP_108,PLANT_SND,2026-09-21,2026-09-22,2026-09-22,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3366,SUP_113,PLANT_PUN,2026-10-02,2026-10-03,2026-10-09,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3367,SUP_118,PLANT_PUN,2026-10-08,2026-10-11,2026-10-15,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3368,SUP_119,PLANT_PNT,2026-10-15,2026-10-16,2026-10-19,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3369,SUP_117,PLANT_SND,2026-09-10,2026-09-13,2026-09-13,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3370,SUP_120,PLANT_JSR,2026-10-03,2026-10-04,2026-10-04,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3371,SUP_107,PLANT_DHW,2026-09-13,2026-09-14,2026-09-16,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3372,SUP_113,PLANT_PUN,2026-09-29,2026-09-30,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3373,SUP_117,PLANT_PNT,2026-09-08,2026-09-10,2026-09-13,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3374,SUP_107,PLANT_SND,2026-10-15,2026-10-16,2026-10-16,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3375,SUP_119,PLANT_JSR,2026-09-04,2026-09-05,2026-09-05,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3376,SUP_108,PLANT_DHW,2026-10-03,2026-10-04,2026-10-07,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3377,SUP_107,PLANT_SND,2026-10-02,2026-10-03,2026-10-03,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3378,SUP_113,PLANT_JSR,2026-10-09,2026-10-10,2026-10-10,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3379,SUP_116,PLANT_PNT,2026-10-21,2026-10-22,2026-10-22,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3380,SUP_108,PLANT_PUN,2026-09-01,2026-09-03,2026-09-03,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3381,SUP_120,PLANT_PUN,2026-09-01,2026-09-02,2026-09-04,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3382,SUP_119,PLANT_SND,2026-09-24,2026-09-25,2026-09-28,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3383,SUP_114,PLANT_JSR,2026-09-27,2026-09-28,2026-09-28,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3384,SUP_110,PLANT_PUN,2026-09-10,2026-09-11,2026-09-12,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3385,SUP_104,PLANT_PUN,2026-09-01,2026-09-04,2026-09-08,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3386,SUP_108,PLANT_PNT,2026-09-18,2026-09-19,2026-09-26,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3387,SUP_116,PLANT_PUN,2026-09-14,2026-09-16,2026-09-22,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3388,SUP_101,PLANT_PUN,2026-09-30,2026-10-01,2026-10-01,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3389,SUP_101,PLANT_DHW,2026-10-20,2026-10-22,2026-10-22,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3390,SUP_110,PLANT_PNT,2026-09-02,2026-09-03,2026-09-03,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3391,SUP_107,PLANT_SND,2026-09-01,2026-09-02,2026-09-02,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3392,SUP_102,PLANT_DHW,2026-10-21,2026-10-22,2026-10-24,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3393,SUP_110,PLANT_JSR,2026-09-30,2026-10-01,2026-10-01,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3394,SUP_118,PLANT_SND,2026-10-17,2026-10-18,2026-10-18,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3395,SUP_105,PLANT_JSR,2026-09-27,2026-09-28,2026-10-01,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3396,SUP_112,PLANT_PNT,2026-09-10,2026-09-11,2026-09-11,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3397,SUP_116,PLANT_DHW,2026-09-28,2026-09-29,2026-10-02,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3398,SUP_105,PLANT_JSR,2026-09-29,2026-09-30,2026-09-30,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3399,SUP_106,PLANT_PUN,2026-10-09,2026-10-10,2026-10-13,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3400,SUP_106,PLANT_DHW,2026-10-15,2026-10-18,2026-10-18,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3401,SUP_114,PLANT_PUN,2026-10-04,2026-10-05,2026-10-07,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3402,SUP_109,PLANT_DHW,2026-10-18,2026-10-20,2026-10-24,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3403,SUP_116,PLANT_PUN,2026-10-06,2026-10-07,2026-10-07,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3404,SUP_117,PLANT_PNT,2026-10-18,2026-10-19,2026-10-19,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3405,SUP_104,PLANT_SND,2026-09-10,2026-09-11,2026-09-11,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3406,SUP_107,PLANT_PUN,2026-10-02,2026-10-04,2026-10-06,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3407,SUP_110,PLANT_SND,2026-09-14,2026-09-15,2026-09-15,Multimodal Rail Cargo,Container Corp of India (CONCOR),Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3408,SUP_104,PLANT_SND,2026-09-02,2026-09-03,2026-09-04,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3409,SUP_106,PLANT_PUN,2026-09-29,2026-09-30,2026-09-30,Express Road Freight,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3410,SUP_114,PLANT_JSR,2026-09-01,2026-09-02,2026-09-02,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3411,SUP_110,PLANT_JSR,2026-09-14,2026-09-15,2026-09-18,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3412,SUP_119,PLANT_PNT,2026-10-14,2026-10-15,2026-10-15,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3413,SUP_102,PLANT_PNT,2026-09-02,2026-09-03,2026-09-05,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3414,SUP_113,PLANT_DHW,2026-10-15,2026-10-16,2026-10-16,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3415,SUP_112,PLANT_PNT,2026-09-03,2026-09-04,2026-09-04,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3416,SUP_103,PLANT_PNT,2026-09-06,2026-09-07,2026-09-09,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3417,SUP_115,PLANT_PNT,2026-09-16,2026-09-17,2026-09-17,Road Freight Carrier,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3418,SUP_116,PLANT_PUN,2026-10-06,2026-10-07,2026-10-07,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3419,SUP_115,PLANT_SND,2026-09-07,2026-09-08,2026-09-12,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3420,SUP_119,PLANT_PUN,2026-09-05,2026-09-06,2026-09-06,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3421,SUP_115,PLANT_JSR,2026-10-05,2026-10-06,2026-10-06,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3422,SUP_102,PLANT_JSR,2026-10-15,2026-10-17,2026-10-17,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3423,SUP_106,PLANT_PNT,2026-09-03,2026-09-04,2026-09-06,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3424,SUP_114,PLANT_PUN,2026-09-05,2026-09-07,2026-09-12,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3425,SUP_108,PLANT_PUN,2026-10-20,2026-10-23,2026-10-23,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3426,SUP_110,PLANT_SND,2026-10-14,2026-10-15,2026-10-15,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3427,SUP_116,PLANT_SND,2026-10-15,2026-10-16,2026-10-16,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3428,SUP_104,PLANT_PUN,2026-09-09,2026-09-11,2026-09-11,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3429,SUP_120,PLANT_DHW,2026-10-02,2026-10-03,2026-10-03,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3430,SUP_114,PLANT_PUN,2026-10-11,2026-10-12,2026-10-12,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3431,SUP_114,PLANT_PNT,2026-09-28,2026-09-29,2026-09-29,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3432,SUP_114,PLANT_PUN,2026-09-17,2026-09-19,2026-09-19,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3433,SUP_112,PLANT_PNT,2026-09-09,2026-09-12,2026-09-14,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3434,SUP_103,PLANT_DHW,2026-09-29,2026-10-02,2026-10-02,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3435,SUP_118,PLANT_JSR,2026-10-01,2026-10-02,2026-10-06,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3436,SUP_119,PLANT_PNT,2026-09-15,2026-09-16,2026-09-20,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3437,SUP_105,PLANT_PNT,2026-09-04,2026-09-05,2026-09-05,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3438,SUP_101,PLANT_PUN,2026-10-08,2026-10-09,2026-10-09,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3439,SUP_110,PLANT_SND,2026-10-01,2026-10-02,2026-10-02,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3440,SUP_107,PLANT_PNT,2026-09-14,2026-09-15,2026-09-18,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3441,SUP_118,PLANT_DHW,2026-10-13,2026-10-15,2026-10-19,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3442,SUP_105,PLANT_PUN,2026-10-07,2026-10-09,2026-10-13,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3443,SUP_114,PLANT_JSR,2026-09-27,2026-09-28,2026-10-04,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3444,SUP_102,PLANT_JSR,2026-09-13,2026-09-14,2026-09-14,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3445,SUP_112,PLANT_PNT,2026-10-18,2026-10-21,2026-10-21,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3446,SUP_116,PLANT_DHW,2026-10-12,2026-10-13,2026-10-13,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3447,SUP_106,PLANT_SND,2026-10-02,2026-10-03,2026-10-03,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3448,SUP_114,PLANT_DHW,2026-09-05,2026-09-06,2026-09-06,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3449,SUP_105,PLANT_PUN,2026-09-26,2026-09-27,2026-09-30,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3450,SUP_111,PLANT_JSR,2026-09-20,2026-09-21,2026-09-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3451,SUP_116,PLANT_DHW,2026-10-19,2026-10-20,2026-10-20,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3452,SUP_119,PLANT_DHW,2026-10-01,2026-10-03,2026-10-06,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3453,SUP_116,PLANT_JSR,2026-09-17,2026-09-19,2026-09-19,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3454,SUP_109,PLANT_JSR,2026-09-21,2026-09-24,2026-09-24,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3455,SUP_111,PLANT_SND,2026-09-23,2026-09-26,2026-09-26,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3456,SUP_107,PLANT_JSR,2026-09-18,2026-09-19,2026-09-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3457,SUP_107,PLANT_DHW,2026-09-13,2026-09-14,2026-09-14,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3458,SUP_112,PLANT_DHW,2026-09-14,2026-09-15,2026-09-15,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3459,SUP_119,PLANT_DHW,2026-10-17,2026-10-19,2026-10-19,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3460,SUP_110,PLANT_SND,2026-09-12,2026-09-13,2026-09-13,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3461,SUP_116,PLANT_JSR,2026-10-01,2026-10-02,2026-10-02,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3462,SUP_119,PLANT_PNT,2026-09-10,2026-09-11,2026-09-12,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3463,SUP_109,PLANT_PUN,2026-09-01,2026-09-02,2026-09-07,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3464,SUP_116,PLANT_PNT,2026-10-03,2026-10-04,2026-10-04,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3465,SUP_107,PLANT_JSR,2026-10-11,2026-10-12,2026-10-12,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3466,SUP_120,PLANT_PUN,2026-09-25,2026-09-26,2026-09-27,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3467,SUP_106,PLANT_PUN,2026-09-03,2026-09-04,2026-09-04,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3468,SUP_109,PLANT_PUN,2026-09-09,2026-09-10,2026-09-10,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3469,SUP_114,PLANT_SND,2026-09-01,2026-09-02,2026-09-06,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3470,SUP_109,PLANT_JSR,2026-09-15,2026-09-18,2026-09-22,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3471,SUP_118,PLANT_JSR,2026-09-02,2026-09-04,2026-09-04,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3472,SUP_111,PLANT_SND,2026-09-14,2026-09-15,2026-09-15,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3473,SUP_101,PLANT_SND,2026-10-02,2026-10-03,2026-10-05,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3474,SUP_114,PLANT_SND,2026-10-10,2026-10-11,2026-10-13,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3475,SUP_108,PLANT_JSR,2026-09-16,2026-09-17,2026-09-17,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3476,SUP_114,PLANT_DHW,2026-09-29,2026-09-30,2026-10-02,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3477,SUP_103,PLANT_PNT,2026-09-29,2026-09-30,2026-10-03,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3478,SUP_120,PLANT_PNT,2026-09-14,2026-09-15,2026-09-15,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3479,SUP_116,PLANT_PNT,2026-09-21,2026-09-22,2026-09-29,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3480,SUP_120,PLANT_PNT,2026-09-24,2026-09-27,2026-09-29,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3481,SUP_120,PLANT_PNT,2026-09-14,2026-09-15,2026-09-19,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3482,SUP_113,PLANT_JSR,2026-09-15,2026-09-16,2026-09-16,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3483,SUP_116,PLANT_PUN,2026-10-12,2026-10-15,2026-10-15,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3484,SUP_115,PLANT_PUN,2026-09-24,2026-09-25,2026-09-25,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3485,SUP_116,PLANT_PNT,2026-09-28,2026-09-29,2026-10-02,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3486,SUP_112,PLANT_SND,2026-09-17,2026-09-18,2026-09-18,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3487,SUP_106,PLANT_SND,2026-09-03,2026-09-06,2026-09-06,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3488,SUP_112,PLANT_PUN,2026-10-16,2026-10-18,2026-10-18,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3489,SUP_103,PLANT_DHW,2026-09-17,2026-09-18,2026-09-23,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3490,SUP_115,PLANT_SND,2026-09-28,2026-09-29,2026-09-30,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3491,SUP_108,PLANT_PNT,2026-10-04,2026-10-05,2026-10-08,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3492,SUP_120,PLANT_PUN,2026-09-19,2026-09-21,2026-09-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3493,SUP_114,PLANT_SND,2026-09-13,2026-09-14,2026-09-14,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3494,SUP_103,PLANT_PUN,2026-10-21,2026-10-22,2026-10-24,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3495,SUP_115,PLANT_DHW,2026-09-10,2026-09-11,2026-09-11,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3496,SUP_106,PLANT_SND,2026-09-11,2026-09-12,2026-09-12,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3497,SUP_117,PLANT_PUN,2026-09-26,2026-09-27,2026-09-29,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3498,SUP_116,PLANT_SND,2026-10-09,2026-10-12,2026-10-12,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3499,SUP_119,PLANT_JSR,2026-09-30,2026-10-03,2026-10-05,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3500,SUP_108,PLANT_SND,2026-09-05,2026-09-06,2026-09-06,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3501,SUP_105,PLANT_PUN,2026-10-04,2026-10-05,2026-10-05,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3502,SUP_113,PLANT_DHW,2026-10-04,2026-10-05,2026-10-05,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3503,SUP_117,PLANT_JSR,2026-10-19,2026-10-20,2026-10-22,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3504,SUP_106,PLANT_DHW,2026-09-03,2026-09-06,2026-09-10,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3505,SUP_110,PLANT_PUN,2026-09-25,2026-09-26,2026-09-26,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3506,SUP_112,PLANT_PUN,2026-09-13,2026-09-14,2026-09-14,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3507,SUP_107,PLANT_PNT,2026-09-29,2026-10-01,2026-10-01,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3508,SUP_105,PLANT_JSR,2026-09-10,2026-09-13,2026-09-17,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3509,SUP_115,PLANT_JSR,2026-09-30,2026-10-01,2026-10-01,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3510,SUP_112,PLANT_SND,2026-09-27,2026-09-30,2026-09-30,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3511,SUP_108,PLANT_SND,2026-09-19,2026-09-21,2026-09-21,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3512,SUP_112,PLANT_PNT,2026-09-05,2026-09-06,2026-09-06,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3513,SUP_112,PLANT_DHW,2026-09-03,2026-09-04,2026-09-04,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3514,SUP_116,PLANT_PUN,2026-09-13,2026-09-14,2026-09-17,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3515,SUP_106,PLANT_PUN,2026-10-18,2026-10-20,2026-10-20,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3516,SUP_109,PLANT_PUN,2026-10-11,2026-10-14,2026-10-14,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3517,SUP_101,PLANT_PNT,2026-10-10,2026-10-11,2026-10-11,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3518,SUP_120,PLANT_JSR,2026-09-04,2026-09-05,2026-09-05,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3519,SUP_119,PLANT_PUN,2026-09-28,2026-09-29,2026-09-29,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3520,SUP_102,PLANT_DHW,2026-09-10,2026-09-12,2026-09-12,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3521,SUP_113,PLANT_JSR,2026-10-17,2026-10-18,2026-10-18,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3522,SUP_109,PLANT_SND,2026-09-06,2026-09-09,2026-09-09,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3523,SUP_109,PLANT_PNT,2026-09-03,2026-09-04,2026-09-05,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3524,SUP_107,PLANT_PNT,2026-09-27,2026-09-30,2026-09-30,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3525,SUP_105,PLANT_PNT,2026-09-14,2026-09-15,2026-09-18,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3526,SUP_106,PLANT_PUN,2026-10-21,2026-10-22,2026-10-28,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3527,SUP_106,PLANT_PNT,2026-10-13,2026-10-15,2026-10-15,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3528,SUP_111,PLANT_DHW,2026-10-01,2026-10-02,2026-10-02,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3529,SUP_109,PLANT_DHW,2026-10-11,2026-10-12,2026-10-12,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3530,SUP_117,PLANT_SND,2026-10-09,2026-10-10,2026-10-10,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3531,SUP_108,PLANT_SND,2026-10-01,2026-10-02,2026-10-05,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3532,SUP_110,PLANT_PNT,2026-09-04,2026-09-05,2026-09-05,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3533,SUP_110,PLANT_JSR,2026-10-06,2026-10-08,2026-10-11,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3534,SUP_108,PLANT_PNT,2026-10-15,2026-10-17,2026-10-17,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3535,SUP_112,PLANT_PNT,2026-09-27,2026-09-28,2026-09-28,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3536,SUP_110,PLANT_PUN,2026-10-10,2026-10-12,2026-10-12,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3537,SUP_103,PLANT_JSR,2026-09-26,2026-09-27,2026-09-27,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3538,SUP_105,PLANT_PNT,2026-09-22,2026-09-23,2026-09-23,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3539,SUP_104,PLANT_JSR,2026-10-02,2026-10-03,2026-10-03,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3540,SUP_113,PLANT_DHW,2026-09-28,2026-09-29,2026-09-29,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3541,SUP_110,PLANT_SND,2026-09-22,2026-09-24,2026-09-27,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3542,SUP_119,PLANT_PNT,2026-09-06,2026-09-08,2026-09-12,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3543,SUP_101,PLANT_SND,2026-10-02,2026-10-03,2026-10-03,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3544,SUP_105,PLANT_PUN,2026-09-12,2026-09-13,2026-09-18,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3545,SUP_112,PLANT_JSR,2026-09-03,2026-09-05,2026-09-08,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3546,SUP_111,PLANT_PUN,2026-09-03,2026-09-05,2026-09-05,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3547,SUP_107,PLANT_SND,2026-09-07,2026-09-08,2026-09-10,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3548,SUP_120,PLANT_DHW,2026-09-09,2026-09-10,2026-09-17,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3549,SUP_109,PLANT_SND,2026-10-02,2026-10-04,2026-10-04,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3550,SUP_110,PLANT_PUN,2026-10-13,2026-10-14,2026-10-17,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3551,SUP_115,PLANT_JSR,2026-09-19,2026-09-20,2026-09-20,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3552,SUP_113,PLANT_PNT,2026-10-13,2026-10-14,2026-10-15,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3553,SUP_115,PLANT_SND,2026-09-03,2026-09-05,2026-09-12,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,7,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3554,SUP_104,PLANT_SND,2026-09-09,2026-09-10,2026-09-12,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3555,SUP_110,PLANT_JSR,2026-10-08,2026-10-09,2026-10-14,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3556,SUP_114,PLANT_PNT,2026-10-16,2026-10-17,2026-10-22,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3557,SUP_102,PLANT_JSR,2026-09-13,2026-09-14,2026-09-15,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3558,SUP_102,PLANT_JSR,2026-10-02,2026-10-05,2026-10-05,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3559,SUP_113,PLANT_JSR,2026-09-21,2026-09-24,2026-09-24,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3560,SUP_114,PLANT_JSR,2026-09-01,2026-09-03,2026-09-03,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3561,SUP_106,PLANT_JSR,2026-10-02,2026-10-04,2026-10-04,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3562,SUP_111,PLANT_SND,2026-09-16,2026-09-18,2026-09-18,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3563,SUP_116,PLANT_JSR,2026-09-27,2026-09-29,2026-10-02,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3564,SUP_112,PLANT_JSR,2026-09-22,2026-09-23,2026-09-29,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3565,SUP_117,PLANT_SND,2026-09-22,2026-09-24,2026-09-24,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3566,SUP_117,PLANT_JSR,2026-10-04,2026-10-05,2026-10-05,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3567,SUP_120,PLANT_DHW,2026-10-20,2026-10-21,2026-10-21,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3568,SUP_102,PLANT_PNT,2026-10-05,2026-10-06,2026-10-06,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3569,SUP_115,PLANT_PUN,2026-09-02,2026-09-03,2026-09-03,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3570,SUP_103,PLANT_PNT,2026-10-09,2026-10-10,2026-10-10,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3571,SUP_111,PLANT_DHW,2026-09-17,2026-09-18,2026-09-21,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3572,SUP_102,PLANT_SND,2026-09-26,2026-09-27,2026-09-30,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3573,SUP_108,PLANT_PUN,2026-09-16,2026-09-17,2026-09-17,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3574,SUP_114,PLANT_PUN,2026-10-05,2026-10-06,2026-10-06,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3575,SUP_118,PLANT_PNT,2026-10-20,2026-10-21,2026-10-21,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3576,SUP_102,PLANT_PNT,2026-10-05,2026-10-08,2026-10-08,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3577,SUP_110,PLANT_PUN,2026-10-06,2026-10-07,2026-10-07,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3578,SUP_106,PLANT_DHW,2026-09-01,2026-09-04,2026-09-04,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3579,SUP_103,PLANT_JSR,2026-10-01,2026-10-04,2026-10-08,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3580,SUP_109,PLANT_SND,2026-10-13,2026-10-14,2026-10-15,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3581,SUP_114,PLANT_SND,2026-09-24,2026-09-26,2026-09-29,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3582,SUP_110,PLANT_DHW,2026-09-05,2026-09-07,2026-09-07,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3583,SUP_104,PLANT_PUN,2026-10-20,2026-10-22,2026-10-22,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3584,SUP_109,PLANT_SND,2026-09-22,2026-09-23,2026-09-27,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3585,SUP_115,PLANT_DHW,2026-10-13,2026-10-14,2026-10-14,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3586,SUP_103,PLANT_JSR,2026-09-12,2026-09-13,2026-09-13,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3587,SUP_107,PLANT_DHW,2026-10-10,2026-10-11,2026-10-11,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3588,SUP_103,PLANT_PUN,2026-09-22,2026-09-24,2026-09-28,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3589,SUP_118,PLANT_SND,2026-09-02,2026-09-03,2026-09-05,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3590,SUP_114,PLANT_PUN,2026-09-14,2026-09-15,2026-09-19,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3591,SUP_116,PLANT_DHW,2026-10-18,2026-10-20,2026-10-25,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3592,SUP_118,PLANT_PNT,2026-10-12,2026-10-13,2026-10-13,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3593,SUP_102,PLANT_PUN,2026-09-01,2026-09-04,2026-09-04,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3594,SUP_101,PLANT_JSR,2026-09-27,2026-09-28,2026-09-28,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3595,SUP_101,PLANT_JSR,2026-09-09,2026-09-11,2026-09-11,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3596,SUP_120,PLANT_DHW,2026-10-08,2026-10-10,2026-10-13,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3597,SUP_118,PLANT_DHW,2026-09-08,2026-09-09,2026-09-09,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3598,SUP_102,PLANT_JSR,2026-10-05,2026-10-06,2026-10-06,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3599,SUP_110,PLANT_PUN,2026-09-20,2026-09-21,2026-09-21,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3600,SUP_105,PLANT_JSR,2026-09-18,2026-09-21,2026-09-23,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3601,SUP_103,PLANT_DHW,2026-10-02,2026-10-03,2026-10-05,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3602,SUP_114,PLANT_PUN,2026-09-21,2026-09-22,2026-09-24,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3603,SUP_105,PLANT_DHW,2026-09-24,2026-09-26,2026-09-29,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3604,SUP_111,PLANT_JSR,2026-10-07,2026-10-09,2026-10-11,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3605,SUP_108,PLANT_PUN,2026-10-19,2026-10-20,2026-10-20,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3606,SUP_118,PLANT_PUN,2026-10-06,2026-10-07,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3607,SUP_104,PLANT_PNT,2026-09-27,2026-09-28,2026-10-01,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3608,SUP_109,PLANT_PUN,2026-09-07,2026-09-09,2026-09-09,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3609,SUP_119,PLANT_PUN,2026-09-03,2026-09-04,2026-09-04,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3610,SUP_112,PLANT_PNT,2026-09-17,2026-09-19,2026-09-23,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3611,SUP_108,PLANT_PUN,2026-09-12,2026-09-13,2026-09-13,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3612,SUP_119,PLANT_PUN,2026-10-01,2026-10-02,2026-10-05,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3613,SUP_106,PLANT_DHW,2026-09-01,2026-09-02,2026-09-02,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3614,SUP_109,PLANT_DHW,2026-10-02,2026-10-05,2026-10-05,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3615,SUP_102,PLANT_PNT,2026-09-13,2026-09-14,2026-09-14,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3616,SUP_110,PLANT_JSR,2026-10-08,2026-10-09,2026-10-09,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3617,SUP_119,PLANT_JSR,2026-10-10,2026-10-11,2026-10-11,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3618,SUP_104,PLANT_PNT,2026-09-01,2026-09-02,2026-09-02,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3619,SUP_113,PLANT_DHW,2026-10-15,2026-10-16,2026-10-18,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3620,SUP_119,PLANT_PUN,2026-09-09,2026-09-12,2026-09-12,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3621,SUP_108,PLANT_SND,2026-10-17,2026-10-18,2026-10-24,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3622,SUP_105,PLANT_SND,2026-10-07,2026-10-08,2026-10-12,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3623,SUP_104,PLANT_PUN,2026-09-22,2026-09-24,2026-09-27,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3624,SUP_105,PLANT_PUN,2026-09-27,2026-09-28,2026-09-28,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3625,SUP_117,PLANT_JSR,2026-10-11,2026-10-14,2026-10-17,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3626,SUP_112,PLANT_SND,2026-10-02,2026-10-05,2026-10-05,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3627,SUP_109,PLANT_PNT,2026-09-01,2026-09-02,2026-09-02,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3628,SUP_106,PLANT_PUN,2026-10-04,2026-10-05,2026-10-07,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3629,SUP_104,PLANT_JSR,2026-09-18,2026-09-19,2026-09-21,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3630,SUP_116,PLANT_DHW,2026-09-23,2026-09-24,2026-09-25,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3631,SUP_115,PLANT_SND,2026-10-01,2026-10-02,2026-10-02,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3632,SUP_109,PLANT_SND,2026-09-29,2026-10-02,2026-10-02,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3633,SUP_101,PLANT_SND,2026-09-25,2026-09-26,2026-09-29,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3634,SUP_104,PLANT_JSR,2026-10-04,2026-10-05,2026-10-06,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3635,SUP_109,PLANT_DHW,2026-09-02,2026-09-03,2026-09-06,Air Freight Expedited,Blue Dart Automotive Aviation,Hosur-Dharwad South Expressway,440,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3636,SUP_108,PLANT_JSR,2026-10-19,2026-10-20,2026-10-20,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3637,SUP_118,PLANT_DHW,2026-10-11,2026-10-13,2026-10-13,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3638,SUP_117,PLANT_PUN,2026-09-21,2026-09-22,2026-09-22,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3639,SUP_118,PLANT_PNT,2026-09-01,2026-09-02,2026-09-02,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3640,SUP_106,PLANT_PUN,2026-10-17,2026-10-18,2026-10-18,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3641,SUP_109,PLANT_JSR,2026-10-11,2026-10-14,2026-10-14,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3642,SUP_120,PLANT_DHW,2026-09-07,2026-09-08,2026-09-08,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3643,SUP_120,PLANT_SND,2026-09-03,2026-09-04,2026-09-04,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3644,SUP_112,PLANT_PNT,2026-10-02,2026-10-03,2026-10-05,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3645,SUP_103,PLANT_PUN,2026-09-15,2026-09-17,2026-09-17,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3646,SUP_102,PLANT_SND,2026-10-05,2026-10-06,2026-10-06,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3647,SUP_103,PLANT_PUN,2026-10-16,2026-10-17,2026-10-21,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3648,SUP_107,PLANT_SND,2026-09-03,2026-09-04,2026-09-07,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3649,SUP_114,PLANT_PUN,2026-09-14,2026-09-15,2026-09-17,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3650,SUP_120,PLANT_PUN,2026-10-21,2026-10-22,2026-10-22,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3651,SUP_108,PLANT_PUN,2026-10-05,2026-10-06,2026-10-10,Multimodal Rail Cargo,Container Corp of India (CONCOR),Noida-Pantnagar Industrial Highway,260,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3652,SUP_101,PLANT_PNT,2026-09-22,2026-09-23,2026-09-27,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3653,SUP_119,PLANT_SND,2026-09-01,2026-09-02,2026-09-02,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3654,SUP_112,PLANT_JSR,2026-09-02,2026-09-05,2026-09-05,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3655,SUP_119,PLANT_PUN,2026-09-13,2026-09-14,2026-09-16,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3656,SUP_108,PLANT_PUN,2026-09-13,2026-09-15,2026-09-15,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3657,SUP_107,PLANT_SND,2026-09-04,2026-09-05,2026-09-05,Air Freight Expedited,Blue Dart Automotive Aviation,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3658,SUP_108,PLANT_DHW,2026-09-08,2026-09-09,2026-09-09,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3659,SUP_107,PLANT_JSR,2026-10-14,2026-10-15,2026-10-15,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3660,SUP_103,PLANT_SND,2026-09-01,2026-09-02,2026-09-04,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3661,SUP_118,PLANT_SND,2026-09-07,2026-09-08,2026-09-10,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3662,SUP_107,PLANT_PUN,2026-09-07,2026-09-08,2026-09-08,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3663,SUP_106,PLANT_JSR,2026-09-29,2026-09-30,2026-10-04,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3664,SUP_118,PLANT_DHW,2026-09-28,2026-09-29,2026-10-02,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3665,SUP_109,PLANT_JSR,2026-10-17,2026-10-18,2026-10-18,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3666,SUP_101,PLANT_SND,2026-09-25,2026-09-26,2026-09-26,Multimodal Rail Cargo,Container Corp of India (CONCOR),Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3667,SUP_115,PLANT_PUN,2026-10-21,2026-10-23,2026-10-23,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3668,SUP_102,PLANT_SND,2026-10-06,2026-10-08,2026-10-08,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3669,SUP_119,PLANT_SND,2026-10-05,2026-10-07,2026-10-07,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3670,SUP_105,PLANT_SND,2026-09-16,2026-09-18,2026-09-18,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3671,SUP_103,PLANT_JSR,2026-09-17,2026-09-19,2026-09-22,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3672,SUP_105,PLANT_SND,2026-10-02,2026-10-03,2026-10-03,Express Road Freight,VRL Logistics Fleet,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3673,SUP_107,PLANT_SND,2026-10-04,2026-10-06,2026-10-09,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3674,SUP_103,PLANT_PNT,2026-10-18,2026-10-20,2026-10-20,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3675,SUP_115,PLANT_SND,2026-09-22,2026-09-23,2026-09-26,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3676,SUP_101,PLANT_PUN,2026-09-06,2026-09-07,2026-09-10,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3677,SUP_119,PLANT_PUN,2026-10-01,2026-10-04,2026-10-04,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3678,SUP_104,PLANT_PNT,2026-09-04,2026-09-05,2026-09-05,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3679,SUP_120,PLANT_PUN,2026-09-23,2026-09-25,2026-09-28,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3680,SUP_104,PLANT_DHW,2026-10-19,2026-10-20,2026-10-21,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3681,SUP_103,PLANT_DHW,2026-09-19,2026-09-20,2026-09-20,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3682,SUP_103,PLANT_SND,2026-10-03,2026-10-04,2026-10-04,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3683,SUP_102,PLANT_JSR,2026-09-03,2026-09-04,2026-09-04,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3684,SUP_115,PLANT_PUN,2026-09-01,2026-09-02,2026-09-02,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3685,SUP_108,PLANT_PNT,2026-09-06,2026-09-07,2026-09-07,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3686,SUP_117,PLANT_JSR,2026-09-26,2026-09-28,2026-09-28,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3687,SUP_104,PLANT_SND,2026-09-18,2026-09-21,2026-09-21,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3688,SUP_111,PLANT_JSR,2026-09-24,2026-09-25,2026-09-26,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3689,SUP_119,PLANT_PNT,2026-10-06,2026-10-07,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3690,SUP_116,PLANT_PUN,2026-09-16,2026-09-19,2026-09-19,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3691,SUP_120,PLANT_DHW,2026-10-21,2026-10-22,2026-10-22,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3692,SUP_120,PLANT_DHW,2026-09-05,2026-09-07,2026-09-10,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3693,SUP_104,PLANT_PNT,2026-10-06,2026-10-07,2026-10-07,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3694,SUP_101,PLANT_JSR,2026-10-12,2026-10-13,2026-10-16,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3695,SUP_116,PLANT_SND,2026-09-25,2026-09-28,2026-09-28,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3696,SUP_107,PLANT_DHW,2026-09-26,2026-09-28,2026-09-29,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3697,SUP_103,PLANT_SND,2026-10-10,2026-10-11,2026-10-11,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3698,SUP_106,PLANT_DHW,2026-09-27,2026-09-28,2026-09-29,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3699,SUP_108,PLANT_PNT,2026-09-24,2026-09-26,2026-09-26,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3700,SUP_117,PLANT_PNT,2026-09-20,2026-09-22,2026-09-22,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3701,SUP_109,PLANT_PUN,2026-09-25,2026-09-26,2026-09-29,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3702,SUP_113,PLANT_SND,2026-10-19,2026-10-20,2026-10-21,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3703,SUP_106,PLANT_PNT,2026-09-22,2026-09-23,2026-09-23,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3704,SUP_106,PLANT_JSR,2026-10-13,2026-10-14,2026-10-17,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3705,SUP_110,PLANT_PNT,2026-10-03,2026-10-04,2026-10-04,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3706,SUP_117,PLANT_DHW,2026-10-17,2026-10-20,2026-10-22,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3707,SUP_118,PLANT_DHW,2026-09-18,2026-09-20,2026-09-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3708,SUP_115,PLANT_DHW,2026-10-14,2026-10-15,2026-10-15,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3709,SUP_102,PLANT_JSR,2026-09-19,2026-09-20,2026-09-23,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3710,SUP_107,PLANT_JSR,2026-10-08,2026-10-09,2026-10-12,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3711,SUP_104,PLANT_PNT,2026-09-10,2026-09-13,2026-09-13,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3712,SUP_103,PLANT_PUN,2026-10-04,2026-10-05,2026-10-05,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3713,SUP_104,PLANT_DHW,2026-09-16,2026-09-19,2026-09-19,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3714,SUP_107,PLANT_PNT,2026-09-26,2026-09-28,2026-09-28,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3715,SUP_108,PLANT_PUN,2026-10-17,2026-10-18,2026-10-21,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3716,SUP_120,PLANT_DHW,2026-09-25,2026-09-26,2026-09-30,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3717,SUP_114,PLANT_DHW,2026-09-01,2026-09-02,2026-09-02,Road Freight Carrier,Mahindra Logistics Linehaul,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3718,SUP_107,PLANT_PUN,2026-09-22,2026-09-24,2026-09-24,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3719,SUP_104,PLANT_DHW,2026-09-16,2026-09-17,2026-09-17,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3720,SUP_111,PLANT_PNT,2026-09-17,2026-09-18,2026-09-18,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3721,SUP_120,PLANT_PUN,2026-09-01,2026-09-02,2026-09-02,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3722,SUP_107,PLANT_PNT,2026-09-09,2026-09-10,2026-09-10,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3723,SUP_103,PLANT_JSR,2026-09-08,2026-09-10,2026-09-10,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3724,SUP_119,PLANT_JSR,2026-09-15,2026-09-16,2026-09-21,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3725,SUP_111,PLANT_PUN,2026-10-19,2026-10-21,2026-10-21,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3726,SUP_107,PLANT_SND,2026-09-14,2026-09-16,2026-09-16,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3727,SUP_117,PLANT_SND,2026-09-29,2026-10-02,2026-10-04,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3728,SUP_114,PLANT_PUN,2026-09-03,2026-09-04,2026-09-04,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3729,SUP_110,PLANT_SND,2026-10-18,2026-10-19,2026-10-24,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3730,SUP_101,PLANT_JSR,2026-09-26,2026-09-27,2026-09-27,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3731,SUP_102,PLANT_DHW,2026-09-08,2026-09-10,2026-09-10,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3732,SUP_114,PLANT_PUN,2026-09-04,2026-09-07,2026-09-07,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3733,SUP_107,PLANT_JSR,2026-10-09,2026-10-10,2026-10-12,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3734,SUP_113,PLANT_SND,2026-09-05,2026-09-06,2026-09-09,Road Freight Carrier,Mahindra Logistics Linehaul,Nhava Sheva Port-Pune Express Link,130,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3735,SUP_107,PLANT_PUN,2026-09-17,2026-09-20,2026-09-20,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3736,SUP_112,PLANT_PUN,2026-09-28,2026-10-01,2026-10-01,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3737,SUP_116,PLANT_PNT,2026-10-10,2026-10-13,2026-10-17,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3738,SUP_110,PLANT_PUN,2026-09-20,2026-09-23,2026-09-23,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3739,SUP_101,PLANT_DHW,2026-09-22,2026-09-25,2026-09-27,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3740,SUP_118,PLANT_DHW,2026-09-03,2026-09-04,2026-09-08,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3741,SUP_120,PLANT_PUN,2026-10-13,2026-10-15,2026-10-15,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3742,SUP_101,PLANT_DHW,2026-10-07,2026-10-08,2026-10-08,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3743,SUP_103,PLANT_JSR,2026-09-02,2026-09-03,2026-09-03,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3744,SUP_115,PLANT_JSR,2026-09-26,2026-09-28,2026-09-28,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3745,SUP_119,PLANT_DHW,2026-10-20,2026-10-21,2026-10-21,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3746,SUP_113,PLANT_JSR,2026-09-06,2026-09-07,2026-09-07,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3747,SUP_110,PLANT_SND,2026-10-08,2026-10-09,2026-10-09,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3748,SUP_119,PLANT_SND,2026-10-07,2026-10-08,2026-10-10,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3749,SUP_117,PLANT_JSR,2026-09-12,2026-09-15,2026-09-15,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3750,SUP_104,PLANT_SND,2026-10-20,2026-10-21,2026-10-24,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3751,SUP_113,PLANT_DHW,2026-09-27,2026-09-28,2026-09-28,Heavy Road Carrier,Gati KWE Heavy Haulage,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3752,SUP_101,PLANT_DHW,2026-09-26,2026-09-29,2026-09-29,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3753,SUP_115,PLANT_PNT,2026-09-12,2026-09-13,2026-09-13,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3754,SUP_110,PLANT_DHW,2026-10-04,2026-10-07,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3755,SUP_111,PLANT_DHW,2026-10-04,2026-10-05,2026-10-09,Air Freight Expedited,Blue Dart Automotive Aviation,Chennai-Pune NH-48 Freightway,1150,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3756,SUP_101,PLANT_JSR,2026-09-27,2026-09-28,2026-09-28,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3757,SUP_104,PLANT_SND,2026-09-22,2026-09-23,2026-09-27,Road Freight Carrier,Mahindra Logistics Linehaul,Hosur-Dharwad South Expressway,440,1,4,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3758,SUP_113,PLANT_DHW,2026-09-28,2026-09-29,2026-09-29,Air Freight Expedited,Blue Dart Automotive Aviation,Manesar-Sanand Western Corridor,890,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3759,SUP_103,PLANT_DHW,2026-09-23,2026-09-24,2026-09-24,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3760,SUP_103,PLANT_SND,2026-09-28,2026-09-29,2026-10-03,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3761,SUP_105,PLANT_SND,2026-10-07,2026-10-08,2026-10-09,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3762,SUP_109,PLANT_SND,2026-10-05,2026-10-06,2026-10-10,Air Freight Expedited,Blue Dart Automotive Aviation,Hosur-Dharwad South Expressway,440,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3763,SUP_110,PLANT_DHW,2026-09-02,2026-09-03,2026-09-03,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3764,SUP_106,PLANT_PNT,2026-09-01,2026-09-02,2026-09-02,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3765,SUP_117,PLANT_PNT,2026-09-25,2026-09-26,2026-09-29,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3766,SUP_104,PLANT_PNT,2026-09-05,2026-09-08,2026-09-10,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3767,SUP_120,PLANT_JSR,2026-09-05,2026-09-06,2026-09-06,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3768,SUP_102,PLANT_DHW,2026-09-06,2026-09-07,2026-09-10,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3769,SUP_103,PLANT_JSR,2026-09-27,2026-09-28,2026-09-28,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3770,SUP_117,PLANT_SND,2026-10-12,2026-10-13,2026-10-13,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3771,SUP_105,PLANT_PUN,2026-09-15,2026-09-16,2026-09-16,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3772,SUP_109,PLANT_PUN,2026-09-29,2026-09-30,2026-09-30,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3773,SUP_113,PLANT_SND,2026-09-09,2026-09-10,2026-09-10,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3774,SUP_114,PLANT_SND,2026-09-23,2026-09-25,2026-09-28,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3775,SUP_116,PLANT_PNT,2026-09-11,2026-09-12,2026-09-12,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3776,SUP_120,PLANT_PUN,2026-09-26,2026-09-27,2026-09-27,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3777,SUP_118,PLANT_JSR,2026-09-13,2026-09-16,2026-09-19,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,3,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3778,SUP_103,PLANT_SND,2026-10-16,2026-10-17,2026-10-17,Air Freight Expedited,Blue Dart Automotive Aviation,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3779,SUP_107,PLANT_JSR,2026-09-30,2026-10-02,2026-10-02,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3780,SUP_103,PLANT_PNT,2026-09-11,2026-09-14,2026-09-14,Express Road Freight,VRL Logistics Fleet,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3781,SUP_103,PLANT_DHW,2026-09-25,2026-09-26,2026-09-29,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,3,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3782,SUP_108,PLANT_DHW,2026-09-09,2026-09-10,2026-09-10,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3783,SUP_118,PLANT_DHW,2026-09-08,2026-09-09,2026-09-14,Air Freight Expedited,Blue Dart Automotive Aviation,Hosur-Dharwad South Expressway,440,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3784,SUP_103,PLANT_DHW,2026-09-17,2026-09-18,2026-09-18,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3785,SUP_106,PLANT_DHW,2026-09-10,2026-09-11,2026-09-11,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3786,SUP_110,PLANT_DHW,2026-09-28,2026-09-30,2026-10-01,Express Road Freight,VRL Logistics Fleet,Bengaluru-Pune Golden Quadrilateral,840,2,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3787,SUP_108,PLANT_PNT,2026-09-07,2026-09-08,2026-09-08,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3788,SUP_118,PLANT_PUN,2026-10-18,2026-10-19,2026-10-19,Dedicated Container Road,TCI Supply Chain Solutions,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3789,SUP_117,PLANT_SND,2026-09-01,2026-09-03,2026-09-03,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3790,SUP_103,PLANT_PNT,2026-09-07,2026-09-09,2026-09-09,Heavy Road Carrier,Gati KWE Heavy Haulage,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3791,SUP_109,PLANT_DHW,2026-10-07,2026-10-10,2026-10-10,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3792,SUP_116,PLANT_DHW,2026-10-19,2026-10-22,2026-10-22,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3793,SUP_108,PLANT_DHW,2026-10-03,2026-10-05,2026-10-09,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3794,SUP_111,PLANT_PNT,2026-09-15,2026-09-16,2026-09-16,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3795,SUP_115,PLANT_PUN,2026-09-26,2026-09-27,2026-09-27,Multimodal Rail Cargo,Container Corp of India (CONCOR),Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3796,SUP_104,PLANT_PNT,2026-09-26,2026-09-27,2026-09-27,Multimodal Rail Cargo,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3797,SUP_116,PLANT_SND,2026-10-21,2026-10-24,2026-10-27,Multimodal Rail Cargo,Container Corp of India (CONCOR),Manesar-Sanand Western Corridor,890,3,3,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3798,SUP_113,PLANT_DHW,2026-10-13,2026-10-15,2026-10-15,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3799,SUP_106,PLANT_SND,2026-09-21,2026-09-22,2026-09-22,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3800,SUP_103,PLANT_PNT,2026-09-01,2026-09-02,2026-09-02,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3801,SUP_118,PLANT_PNT,2026-09-26,2026-09-27,2026-09-27,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3802,SUP_103,PLANT_DHW,2026-09-05,2026-09-07,2026-09-07,Road Freight Carrier,Mahindra Logistics Linehaul,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3803,SUP_105,PLANT_JSR,2026-09-30,2026-10-01,2026-10-01,Heavy Road Carrier,Gati KWE Heavy Haulage,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3804,SUP_102,PLANT_DHW,2026-09-16,2026-09-17,2026-09-17,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3805,SUP_120,PLANT_DHW,2026-09-11,2026-09-12,2026-09-14,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,2,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3806,SUP_111,PLANT_PUN,2026-10-13,2026-10-16,2026-10-16,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3807,SUP_114,PLANT_DHW,2026-10-03,2026-10-04,2026-10-04,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3808,SUP_105,PLANT_JSR,2026-10-18,2026-10-19,2026-10-19,Heavy Road Carrier,Gati KWE Heavy Haulage,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3809,SUP_118,PLANT_PUN,2026-09-19,2026-09-21,2026-09-24,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3810,SUP_118,PLANT_DHW,2026-10-15,2026-10-16,2026-10-16,Multimodal Rail Cargo,Container Corp of India (CONCOR),Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3811,SUP_103,PLANT_JSR,2026-10-05,2026-10-08,2026-10-08,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3812,SUP_113,PLANT_PNT,2026-09-02,2026-09-04,2026-09-04,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3813,SUP_115,PLANT_JSR,2026-10-10,2026-10-12,2026-10-18,Multimodal Rail Cargo,Container Corp of India (CONCOR),Bengaluru-Pune Golden Quadrilateral,840,2,6,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3814,SUP_116,PLANT_DHW,2026-09-25,2026-09-26,2026-09-26,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3815,SUP_120,PLANT_DHW,2026-10-16,2026-10-17,2026-10-17,Multimodal Rail Cargo,Container Corp of India (CONCOR),Nhava Sheva Port-Pune Express Link,130,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3816,SUP_105,PLANT_JSR,2026-10-02,2026-10-05,2026-10-05,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3817,SUP_102,PLANT_DHW,2026-09-26,2026-09-27,2026-09-27,Air Freight Expedited,Blue Dart Automotive Aviation,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3818,SUP_108,PLANT_JSR,2026-09-02,2026-09-03,2026-09-03,Express Road Freight,VRL Logistics Fleet,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3819,SUP_112,PLANT_PNT,2026-10-14,2026-10-15,2026-10-15,Multimodal Rail Cargo,Container Corp of India (CONCOR),Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3820,SUP_102,PLANT_PUN,2026-09-11,2026-09-13,2026-09-16,Road Freight Carrier,Mahindra Logistics Linehaul,Bengaluru-Pune Golden Quadrilateral,840,2,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3821,SUP_106,PLANT_JSR,2026-09-17,2026-09-18,2026-09-23,Air Freight Expedited,Blue Dart Automotive Aviation,Noida-Pantnagar Industrial Highway,260,1,5,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3822,SUP_115,PLANT_DHW,2026-09-09,2026-09-12,2026-09-12,Multimodal Rail Cargo,Container Corp of India (CONCOR),Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3823,SUP_120,PLANT_JSR,2026-10-11,2026-10-14,2026-10-14,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3824,SUP_118,PLANT_DHW,2026-09-15,2026-09-16,2026-09-16,Air Freight Expedited,Blue Dart Automotive Aviation,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3825,SUP_107,PLANT_DHW,2026-09-22,2026-09-24,2026-09-24,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3826,SUP_109,PLANT_PUN,2026-09-12,2026-09-13,2026-09-13,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3827,SUP_111,PLANT_PNT,2026-09-25,2026-09-26,2026-09-30,Dedicated Container Road,TCI Supply Chain Solutions,Jamshedpur-Kolkata Dedicated Corridor,285,1,4,Delayed in Transit,High (Choke Point Congestion),Low,HIGH
+SHP_3828,SUP_106,PLANT_PNT,2026-10-15,2026-10-18,2026-10-22,Heavy Road Carrier,Gati KWE Heavy Haulage,Chennai-Pune NH-48 Freightway,1150,3,4,Vehicle Breakdown / Hold,Low,Low,HIGH
+SHP_3829,SUP_104,PLANT_SND,2026-10-06,2026-10-08,2026-10-08,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3830,SUP_112,PLANT_JSR,2026-10-04,2026-10-05,2026-10-07,Express Road Freight,VRL Logistics Fleet,Nhava Sheva Port-Pune Express Link,130,1,2,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3831,SUP_118,PLANT_JSR,2026-10-19,2026-10-20,2026-10-20,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3832,SUP_110,PLANT_JSR,2026-09-13,2026-09-14,2026-09-17,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3833,SUP_104,PLANT_DHW,2026-09-08,2026-09-10,2026-09-10,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3834,SUP_120,PLANT_PNT,2026-09-13,2026-09-14,2026-09-14,Dedicated Container Road,TCI Supply Chain Solutions,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3835,SUP_111,PLANT_DHW,2026-10-21,2026-10-22,2026-10-27,Dedicated Container Road,TCI Supply Chain Solutions,Noida-Pantnagar Industrial Highway,260,1,5,Delayed in Transit,Medium,Severe (Monsoon Flooding / Landslide),CRITICAL
+SHP_3836,SUP_107,PLANT_PNT,2026-09-21,2026-09-22,2026-09-23,Air Freight Expedited,Blue Dart Automotive Aviation,Bengaluru-Pune Golden Quadrilateral,840,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3837,SUP_111,PLANT_JSR,2026-09-14,2026-09-16,2026-09-16,Dedicated Container Road,TCI Supply Chain Solutions,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3838,SUP_112,PLANT_DHW,2026-10-01,2026-10-02,2026-10-02,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3839,SUP_117,PLANT_PUN,2026-09-29,2026-09-30,2026-09-30,Dedicated Container Road,TCI Supply Chain Solutions,Hosur-Dharwad South Expressway,440,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3840,SUP_102,PLANT_PUN,2026-09-10,2026-09-11,2026-09-11,Heavy Road Carrier,Gati KWE Heavy Haulage,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3841,SUP_104,PLANT_JSR,2026-10-20,2026-10-21,2026-10-21,Express Road Freight,VRL Logistics Fleet,Aurangabad-Pune NH-60 Expressway,235,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3842,SUP_115,PLANT_PNT,2026-10-15,2026-10-17,2026-10-17,Heavy Road Carrier,Gati KWE Heavy Haulage,Bengaluru-Pune Golden Quadrilateral,840,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3843,SUP_116,PLANT_DHW,2026-10-19,2026-10-21,2026-10-21,Express Road Freight,VRL Logistics Fleet,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3844,SUP_109,PLANT_JSR,2026-10-03,2026-10-06,2026-10-06,Dedicated Container Road,TCI Supply Chain Solutions,Chennai-Pune NH-48 Freightway,1150,3,0,Delivered / On Route,Low,Clear,LOW
+SHP_3845,SUP_112,PLANT_PNT,2026-09-22,2026-09-24,2026-09-24,Dedicated Container Road,TCI Supply Chain Solutions,Manesar-Sanand Western Corridor,890,2,0,Delivered / On Route,Low,Clear,LOW
+SHP_3846,SUP_114,PLANT_PNT,2026-10-20,2026-10-21,2026-10-21,Express Road Freight,VRL Logistics Fleet,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3847,SUP_114,PLANT_PNT,2026-09-18,2026-09-19,2026-09-20,Heavy Road Carrier,Gati KWE Heavy Haulage,Nhava Sheva Port-Pune Express Link,130,1,1,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3848,SUP_105,PLANT_PNT,2026-10-03,2026-10-04,2026-10-07,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,3,Customs / Terminal Hold,Medium,Low,MEDIUM
+SHP_3849,SUP_109,PLANT_DHW,2026-10-17,2026-10-18,2026-10-18,Road Freight Carrier,Mahindra Logistics Linehaul,Jamshedpur-Kolkata Dedicated Corridor,285,1,0,Delivered / On Route,Low,Clear,LOW
+SHP_3850,SUP_112,PLANT_JSR,2026-09-12,2026-09-13,2026-09-13,Road Freight Carrier,Mahindra Logistics Linehaul,Noida-Pantnagar Industrial Highway,260,1,0,Delivered / On Route,Low,Clear,LOW

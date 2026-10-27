@@ -1,0 +1,851 @@
+Production_ID,Plant_ID,Production_Line,Product,Planned_Production,Actual_Production,Production_Date,Machine_Capacity,Capacity_Utilization,Downtime_Hours,Backlog,Required_Component,Component_Availability,Production_Status,Expected_Completion_Date
+PRD_2001,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,105,105.0,2026-10-04,120,87.7,1.5,10,PMSM Traction Motor,Available,On Schedule,2026-10-10
+PRD_2002,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,156,158.0,2026-10-01,180,86.9,1.1,8,ADAS Radar & Front Camera,Available,On Schedule,2026-10-05
+PRD_2003,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,189,186.0,2026-10-04,220,86.3,3.4,2,Brake Assembly System,Available,On Schedule,2026-10-09
+PRD_2004,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,110,76.0,2026-09-03,180,61.3,13.4,74,Electric Power Steering Rack,Unavailable - Supplier Delay,Delayed,2026-09-12
+PRD_2005,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,146,101.0,2026-10-13,250,58.5,11.5,58,Radiator Cooling Module,Unavailable - Supplier Delay,Delayed,2026-10-24
+PRD_2006,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,145,99.0,2026-10-03,220,66.2,17.6,83,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-10-08
+PRD_2007,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,157,158.0,2026-09-03,180,87.7,1.8,14,PMSM Traction Motor,Available,On Schedule,2026-09-05
+PRD_2008,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,118,115.0,2026-09-30,150,78.8,2.5,13,Brake Assembly System,Available,On Schedule,2026-10-05
+PRD_2009,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,118,106.0,2026-09-12,150,79.2,2.1,3,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-15
+PRD_2010,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,161,102.0,2026-10-14,250,64.7,15.1,63,Hydraulic Suspension Strut,Available,Delayed,2026-10-22
+PRD_2011,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,225,222.0,2026-09-01,250,90.1,2.0,4,Automated Manual Transmission,Available,On Schedule,2026-09-04
+PRD_2012,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,215,208.0,2026-10-09,250,86.3,2.0,1,High-Voltage Wiring Harness,Available,On Schedule,2026-10-14
+PRD_2013,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,107,104.0,2026-09-06,120,89.5,2.2,10,ADAS Radar & Front Camera,Available,On Schedule,2026-09-09
+PRD_2014,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,88,63.0,2026-09-02,120,73.6,11.5,56,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-09-08
+PRD_2015,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,147,142.0,2026-09-28,180,81.8,1.5,14,PMSM Traction Motor,Available,On Schedule,2026-10-04
+PRD_2016,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,152,152.0,2026-09-10,180,84.6,3.1,6,Electronic Control Unit (ECU),Available,On Schedule,2026-09-15
+PRD_2017,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,247,218.0,2026-09-10,250,99.0,5.8,38,Heavy-Duty Drive Axle,Constrained,At Risk,2026-09-15
+PRD_2018,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,106,105.0,2026-10-08,120,88.5,3.5,12,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-11
+PRD_2019,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,120,121.0,2026-09-26,150,80.6,1.8,7,High-Voltage Wiring Harness,Available,On Schedule,2026-09-28
+PRD_2020,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,225,217.0,2026-10-16,250,90.1,3.1,1,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-21
+PRD_2021,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,131,85.0,2026-09-26,220,59.6,15.9,69,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-08
+PRD_2022,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,124,121.0,2026-10-04,150,83.0,1.6,5,PMSM Traction Motor,Available,On Schedule,2026-10-06
+PRD_2023,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,182,134.0,2026-10-12,250,73.0,20.9,35,Heavy-Duty Drive Axle,Available,Delayed,2026-10-23
+PRD_2024,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,212,214.0,2026-09-23,250,85.0,2.9,8,Electronic Control Unit (ECU),Available,On Schedule,2026-09-28
+PRD_2025,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,106,78.0,2026-09-13,150,71.3,22.8,73,Variable Geometry Turbocharger,Available,Delayed,2026-09-23
+PRD_2026,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,206,198.0,2026-10-14,250,82.4,2.1,9,PMSM Traction Motor,Available,On Schedule,2026-10-18
+PRD_2027,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,150,145.0,2026-10-16,180,83.8,1.4,9,PMSM Traction Motor,Available,On Schedule,2026-10-21
+PRD_2028,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,155,152.0,2026-09-11,180,86.5,2.7,5,Hydraulic Suspension Strut,Available,On Schedule,2026-09-17
+PRD_2029,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,108,108.0,2026-09-09,120,90.2,2.7,8,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-12
+PRD_2030,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,93,91.0,2026-09-27,120,78.1,3.5,9,High-Voltage Wiring Harness,Available,On Schedule,2026-10-02
+PRD_2031,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,97,98.0,2026-09-02,120,81.5,1.5,9,PMSM Traction Motor,Available,On Schedule,2026-09-06
+PRD_2032,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,209,192.0,2026-10-03,220,95.3,9.7,52,PMSM Traction Motor,Constrained,At Risk,2026-10-05
+PRD_2033,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,69,42.0,2026-09-15,120,57.8,17.2,62,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-09-24
+PRD_2034,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,156,152.0,2026-09-23,180,87.1,1.9,4,Electronic Control Unit (ECU),Available,On Schedule,2026-09-25
+PRD_2035,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,222,223.0,2026-10-03,250,88.9,2.6,13,Hydraulic Suspension Strut,Available,On Schedule,2026-10-09
+PRD_2036,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,199,197.0,2026-09-29,250,79.9,1.1,10,Automated Manual Transmission,Available,On Schedule,2026-10-04
+PRD_2037,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,107,104.0,2026-09-07,120,89.7,1.3,6,Electronic Control Unit (ECU),Available,On Schedule,2026-09-13
+PRD_2038,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,238,211.0,2026-09-08,250,95.2,8.7,59,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-09-11
+PRD_2039,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,157,150.0,2026-10-03,180,87.5,1.1,5,Brake Assembly System,Available,On Schedule,2026-10-08
+PRD_2040,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,191,141.0,2026-09-09,250,76.4,17.5,66,Brake Assembly System,Available,Delayed,2026-09-15
+PRD_2041,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,208,178.0,2026-10-01,220,94.6,7.0,51,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-05
+PRD_2042,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,111,90.0,2026-10-16,180,62.2,23.9,46,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-10-26
+PRD_2043,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,196,192.0,2026-09-15,250,78.8,2.7,4,High-Voltage Wiring Harness,Available,On Schedule,2026-09-18
+PRD_2044,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,127,125.0,2026-10-04,150,84.9,3.0,3,Hydraulic Suspension Strut,Available,On Schedule,2026-10-08
+PRD_2045,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,154,152.0,2026-10-16,180,85.7,1.3,5,PMSM Traction Motor,Available,On Schedule,2026-10-22
+PRD_2046,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,159,102.0,2026-09-11,250,63.8,22.5,57,Brake Assembly System,Available,Delayed,2026-09-19
+PRD_2047,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,154,157.0,2026-09-04,180,86.0,0.8,11,Variable Geometry Turbocharger,Available,On Schedule,2026-09-10
+PRD_2048,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,145,140.0,2026-10-15,180,81.1,1.8,12,ADAS Radar & Front Camera,Available,On Schedule,2026-10-21
+PRD_2049,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,76,61.0,2026-09-18,120,63.9,15.1,58,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-10-01
+PRD_2050,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,132,128.0,2026-09-14,150,88.6,3.3,10,ADAS Radar & Front Camera,Available,On Schedule,2026-09-20
+PRD_2051,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,96,97.0,2026-10-12,120,80.1,0.7,1,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-17
+PRD_2052,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,110,70.0,2026-09-22,150,73.6,14.9,56,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-01
+PRD_2053,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,162,98.0,2026-10-06,220,73.9,15.5,76,Hydraulic Suspension Strut,Unavailable - Supplier Delay,Delayed,2026-10-17
+PRD_2054,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,115,75.0,2026-10-05,180,64.3,17.3,52,Heavy-Duty Drive Axle,Unavailable - Supplier Delay,Delayed,2026-10-16
+PRD_2055,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,163,163.0,2026-09-08,180,91.0,3.3,10,Brake Assembly System,Available,On Schedule,2026-09-10
+PRD_2056,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,159,153.0,2026-09-04,180,88.8,1.3,8,Electronic Control Unit (ECU),Available,On Schedule,2026-09-06
+PRD_2057,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,208,211.0,2026-09-16,250,83.5,0.9,14,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-22
+PRD_2058,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,193,126.0,2026-10-13,250,77.3,16.7,50,Heavy-Duty Drive Axle,Available,Delayed,2026-10-23
+PRD_2059,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,104,82.0,2026-10-08,150,69.4,22.5,37,Heavy-Duty Drive Axle,Available,Delayed,2026-10-16
+PRD_2060,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,130,131.0,2026-09-27,150,86.8,2.2,8,PMSM Traction Motor,Available,On Schedule,2026-09-29
+PRD_2061,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,148,148.0,2026-10-01,180,82.5,0.8,10,ADAS Radar & Front Camera,Available,On Schedule,2026-10-04
+PRD_2062,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,94,93.0,2026-09-26,120,78.7,0.9,8,Brake Assembly System,Available,On Schedule,2026-10-02
+PRD_2063,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,186,185.0,2026-10-11,220,84.7,0.7,5,Brake Assembly System,Available,On Schedule,2026-10-16
+PRD_2064,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,126,122.0,2026-09-10,150,84.3,2.9,14,High-Voltage Wiring Harness,Available,On Schedule,2026-09-16
+PRD_2065,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,218,197.0,2026-10-16,220,99.1,6.4,55,ADAS Radar & Front Camera,Constrained,At Risk,2026-10-22
+PRD_2066,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,152,148.0,2026-09-03,180,84.8,2.1,11,Hydraulic Suspension Strut,Available,On Schedule,2026-09-06
+PRD_2067,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,163,165.0,2026-09-27,180,90.9,1.7,9,Automated Manual Transmission,Available,On Schedule,2026-09-29
+PRD_2068,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,113,77.0,2026-10-04,150,75.5,23.7,49,Electronic Control Unit (ECU),Available,Delayed,2026-10-10
+PRD_2069,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,76,49.0,2026-10-02,120,63.4,12.1,44,Brake Assembly System,Available,Delayed,2026-10-08
+PRD_2070,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,161,111.0,2026-09-20,220,73.4,16.8,62,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-09-28
+PRD_2071,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,120,88.0,2026-10-06,180,67.1,11.6,42,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-10-13
+PRD_2072,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,96,92.0,2026-10-07,120,80.6,1.9,7,Brake Assembly System,Available,On Schedule,2026-10-12
+PRD_2073,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,207,203.0,2026-10-09,250,82.9,2.6,3,Radiator Cooling Module,Available,On Schedule,2026-10-12
+PRD_2074,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,219,217.0,2026-10-13,250,87.7,3.5,14,ADAS Radar & Front Camera,Available,On Schedule,2026-10-18
+PRD_2075,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,68,41.0,2026-10-10,120,57.2,12.2,40,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-22
+PRD_2076,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,75,59.0,2026-09-03,120,62.8,22.2,58,Hydraulic Suspension Strut,Available,Delayed,2026-09-13
+PRD_2077,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,128,126.0,2026-10-16,150,85.9,0.6,13,Automated Manual Transmission,Available,On Schedule,2026-10-20
+PRD_2078,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,112,101.0,2026-10-10,120,93.8,4.9,53,Automated Manual Transmission,Constrained,At Risk,2026-10-16
+PRD_2079,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,188,182.0,2026-10-01,220,85.5,2.6,3,Electronic Control Unit (ECU),Available,On Schedule,2026-10-07
+PRD_2080,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,173,155.0,2026-09-02,180,96.3,6.9,52,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-06
+PRD_2081,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,120,118.0,2026-10-05,150,80.4,1.6,5,High-Voltage Wiring Harness,Available,On Schedule,2026-10-11
+PRD_2082,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,82,49.0,2026-09-02,120,68.6,12.5,52,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-09-12
+PRD_2083,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,214,214.0,2026-09-21,250,85.7,2.1,8,Automated Manual Transmission,Available,On Schedule,2026-09-26
+PRD_2084,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,120,116.0,2026-10-05,150,80.6,0.7,11,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-08
+PRD_2085,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,150,107.0,2026-09-06,250,60.3,14.5,55,PMSM Traction Motor,Available,Delayed,2026-09-14
+PRD_2086,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,122,118.0,2026-09-21,150,81.7,3.2,12,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-24
+PRD_2087,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,74,53.0,2026-09-07,120,61.8,15.4,73,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-09-15
+PRD_2088,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,129,127.0,2026-09-08,150,86.1,0.7,13,Brake Assembly System,Available,On Schedule,2026-09-10
+PRD_2089,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,106,106.0,2026-10-02,120,89.0,3.0,7,High-Voltage Wiring Harness,Available,On Schedule,2026-10-08
+PRD_2090,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,107,82.0,2026-09-21,150,71.5,23.8,46,Automated Manual Transmission,Available,Delayed,2026-10-03
+PRD_2091,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,76,55.0,2026-10-11,120,64.0,11.6,89,Hydraulic Suspension Strut,Unavailable - Supplier Delay,Delayed,2026-10-17
+PRD_2092,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,118,114.0,2026-10-12,150,79.1,3.3,4,PMSM Traction Motor,Available,On Schedule,2026-10-15
+PRD_2093,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,124,90.0,2026-10-11,220,56.5,16.7,61,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-10-21
+PRD_2094,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,127,127.0,2026-09-16,150,85.3,1.2,14,Hydraulic Suspension Strut,Available,On Schedule,2026-09-22
+PRD_2095,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,104,66.0,2026-09-30,180,58.0,15.9,46,Heavy-Duty Drive Axle,Unavailable - Supplier Delay,Delayed,2026-10-11
+PRD_2096,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,158,156.0,2026-10-01,180,88.2,1.4,1,Automated Manual Transmission,Available,On Schedule,2026-10-05
+PRD_2097,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,202,205.0,2026-10-11,250,80.9,1.2,14,Brake Assembly System,Available,On Schedule,2026-10-14
+PRD_2098,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,245,215.0,2026-10-05,250,98.2,5.1,37,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-11
+PRD_2099,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,213,206.0,2026-09-08,250,85.3,1.3,3,Automated Manual Transmission,Available,On Schedule,2026-09-11
+PRD_2100,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,206,187.0,2026-10-03,220,93.9,6.5,35,Radiator Cooling Module,Constrained,At Risk,2026-10-07
+PRD_2101,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,177,131.0,2026-10-13,250,71.0,20.2,72,Radiator Cooling Module,Available,Delayed,2026-10-22
+PRD_2102,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,151,101.0,2026-10-15,220,69.0,22.3,40,High-Voltage Wiring Harness,Available,Delayed,2026-10-21
+PRD_2103,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,122,118.0,2026-10-14,150,81.6,1.2,3,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-17
+PRD_2104,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,123,121.0,2026-10-12,150,82.3,3.0,2,Hydraulic Suspension Strut,Available,On Schedule,2026-10-14
+PRD_2105,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,220,216.0,2026-09-23,250,88.1,3.3,2,Radiator Cooling Module,Available,On Schedule,2026-09-28
+PRD_2106,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,144,132.0,2026-10-15,150,96.2,4.5,50,Brake Assembly System,Constrained,At Risk,2026-10-17
+PRD_2107,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,213,214.0,2026-09-29,250,85.4,2.9,11,Brake Assembly System,Available,On Schedule,2026-10-01
+PRD_2108,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,146,146.0,2026-10-16,180,81.4,1.5,1,Electronic Control Unit (ECU),Available,On Schedule,2026-10-20
+PRD_2109,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,104,102.0,2026-10-16,120,87.1,3.5,0,High-Voltage Wiring Harness,Available,On Schedule,2026-10-19
+PRD_2110,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,105,81.0,2026-10-02,150,70.4,12.3,80,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-10-12
+PRD_2111,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,125,81.0,2026-09-18,180,69.8,14.9,52,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-01
+PRD_2112,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,199,193.0,2026-10-07,220,90.9,0.9,9,PMSM Traction Motor,Available,On Schedule,2026-10-13
+PRD_2113,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,188,190.0,2026-09-05,220,85.6,3.2,12,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-08
+PRD_2114,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,93,91.0,2026-09-18,120,78.1,0.6,8,Electric Power Steering Rack,Available,On Schedule,2026-09-21
+PRD_2115,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,203,204.0,2026-10-14,250,81.5,1.4,1,ADAS Radar & Front Camera,Available,On Schedule,2026-10-20
+PRD_2116,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,151,147.0,2026-10-12,180,84.0,1.8,12,High-Voltage Wiring Harness,Available,On Schedule,2026-10-14
+PRD_2117,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,97,60.0,2026-10-14,150,65.2,17.9,61,Radiator Cooling Module,Available,Delayed,2026-10-26
+PRD_2118,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,178,177.0,2026-09-15,220,81.2,3.4,5,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-17
+PRD_2119,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,126,124.0,2026-09-01,150,84.4,0.7,0,Electric Power Steering Rack,Available,On Schedule,2026-09-06
+PRD_2120,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,101,99.0,2026-09-02,120,84.7,2.2,10,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-05
+PRD_2121,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,177,152.0,2026-09-22,180,98.4,6.8,55,Variable Geometry Turbocharger,Constrained,At Risk,2026-09-26
+PRD_2122,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,134,101.0,2026-09-28,180,74.6,11.8,41,Automated Manual Transmission,Unavailable - Supplier Delay,Delayed,2026-10-07
+PRD_2123,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,172,108.0,2026-09-16,250,69.0,12.6,66,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-09-23
+PRD_2124,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,214,209.0,2026-10-10,250,85.6,3.5,1,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-15
+PRD_2125,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,96,95.0,2026-09-06,120,80.7,1.3,7,ADAS Radar & Front Camera,Available,On Schedule,2026-09-08
+PRD_2126,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,147,148.0,2026-10-15,180,82.0,1.4,4,Electronic Control Unit (ECU),Available,On Schedule,2026-10-17
+PRD_2127,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,162,98.0,2026-10-10,250,65.0,8.1,85,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-10-18
+PRD_2128,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,220,222.0,2026-09-19,250,88.2,1.4,9,Automated Manual Transmission,Available,On Schedule,2026-09-24
+PRD_2129,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,170,148.0,2026-10-09,180,94.5,5.2,61,Hydraulic Suspension Strut,Constrained,At Risk,2026-10-15
+PRD_2130,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,151,145.0,2026-09-28,180,84.3,1.9,9,Brake Assembly System,Available,On Schedule,2026-10-04
+PRD_2131,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,218,209.0,2026-10-14,250,87.2,0.9,6,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-16
+PRD_2132,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,151,100.0,2026-09-01,220,68.7,15.6,81,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-09-10
+PRD_2133,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,212,182.0,2026-10-03,220,96.6,8.2,50,Electronic Control Unit (ECU),Constrained,At Risk,2026-10-07
+PRD_2134,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,119,118.0,2026-09-29,150,79.6,1.3,12,Radiator Cooling Module,Available,On Schedule,2026-10-02
+PRD_2135,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,172,122.0,2026-09-20,250,69.0,12.5,66,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-02
+PRD_2136,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,160,154.0,2026-10-05,180,89.1,1.2,12,Brake Assembly System,Available,On Schedule,2026-10-08
+PRD_2137,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,174,170.0,2026-09-19,220,79.4,2.1,11,Brake Assembly System,Available,On Schedule,2026-09-23
+PRD_2138,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,225,216.0,2026-09-10,250,90.0,1.8,2,ADAS Radar & Front Camera,Available,On Schedule,2026-09-12
+PRD_2139,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,89,72.0,2026-09-13,120,74.9,19.5,51,Brake Assembly System,Available,Delayed,2026-09-19
+PRD_2140,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,196,195.0,2026-09-30,250,78.8,2.7,0,Radiator Cooling Module,Available,On Schedule,2026-10-06
+PRD_2141,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,73,46.0,2026-09-22,120,61.4,23.8,59,Electronic Control Unit (ECU),Available,Delayed,2026-09-28
+PRD_2142,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,174,160.0,2026-09-01,180,97.0,5.7,62,High-Voltage Wiring Harness,Constrained,At Risk,2026-09-04
+PRD_2143,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,237,206.0,2026-10-01,250,94.8,4.6,37,High-Voltage Wiring Harness,Constrained,At Risk,2026-10-05
+PRD_2144,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,233,216.0,2026-09-01,250,93.5,6.6,48,Hydraulic Suspension Strut,Constrained,At Risk,2026-09-05
+PRD_2145,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,124,93.0,2026-09-08,180,69.1,8.9,45,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-09-16
+PRD_2146,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,87,59.0,2026-09-02,120,73.3,15.4,56,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-09-09
+PRD_2147,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,153,153.0,2026-09-12,180,85.5,3.3,0,PMSM Traction Motor,Available,On Schedule,2026-09-16
+PRD_2148,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,113,103.0,2026-09-12,120,94.4,7.9,53,Hydraulic Suspension Strut,Constrained,At Risk,2026-09-16
+PRD_2149,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,121,122.0,2026-09-08,150,80.7,2.1,11,Variable Geometry Turbocharger,Available,On Schedule,2026-09-12
+PRD_2150,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,116,99.0,2026-09-24,120,97.2,6.4,51,Brake Assembly System,Constrained,At Risk,2026-09-27
+PRD_2151,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,94,67.0,2026-09-09,150,62.9,9.0,81,Automated Manual Transmission,Unavailable - Supplier Delay,Delayed,2026-09-16
+PRD_2152,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,88,65.0,2026-09-28,120,73.7,22.1,40,Brake Assembly System,Available,Delayed,2026-10-04
+PRD_2153,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,153,103.0,2026-09-10,250,61.5,19.1,42,Electronic Control Unit (ECU),Available,Delayed,2026-09-18
+PRD_2154,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,150,147.0,2026-10-03,180,83.5,3.2,7,Electronic Control Unit (ECU),Available,On Schedule,2026-10-09
+PRD_2155,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,197,196.0,2026-10-13,220,89.8,2.0,4,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-19
+PRD_2156,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,118,118.0,2026-10-12,150,79.0,0.6,14,Electronic Control Unit (ECU),Available,On Schedule,2026-10-18
+PRD_2157,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,199,194.0,2026-09-21,220,90.8,3.0,13,Electronic Control Unit (ECU),Available,On Schedule,2026-09-25
+PRD_2158,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,97,93.0,2026-10-08,120,81.5,1.1,14,Radiator Cooling Module,Available,On Schedule,2026-10-13
+PRD_2159,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,141,124.0,2026-09-13,150,94.0,8.9,39,PMSM Traction Motor,Constrained,At Risk,2026-09-18
+PRD_2160,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,127,80.0,2026-09-25,180,70.8,17.9,55,PMSM Traction Motor,Available,Delayed,2026-10-05
+PRD_2161,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,120,74.0,2026-09-06,180,67.1,12.9,64,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-09-16
+PRD_2162,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,123,124.0,2026-09-30,150,82.2,1.8,8,Hydraulic Suspension Strut,Available,On Schedule,2026-10-06
+PRD_2163,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,117,116.0,2026-09-28,150,78.2,1.8,6,Brake Assembly System,Available,On Schedule,2026-10-03
+PRD_2164,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,136,84.0,2026-09-02,180,76.0,13.2,72,Brake Assembly System,Available,Delayed,2026-09-11
+PRD_2165,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,107,105.0,2026-09-06,120,89.8,0.6,9,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-10
+PRD_2166,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,212,210.0,2026-09-07,250,85.1,1.1,0,Brake Assembly System,Available,On Schedule,2026-09-09
+PRD_2167,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,221,222.0,2026-09-22,250,88.7,1.7,14,Automated Manual Transmission,Available,On Schedule,2026-09-25
+PRD_2168,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,134,135.0,2026-10-14,150,89.6,1.8,8,Brake Assembly System,Available,On Schedule,2026-10-18
+PRD_2169,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,135,131.0,2026-09-01,150,90.5,1.5,11,High-Voltage Wiring Harness,Available,On Schedule,2026-09-05
+PRD_2170,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,200,193.0,2026-10-08,250,80.3,1.5,13,ADAS Radar & Front Camera,Available,On Schedule,2026-10-10
+PRD_2171,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,213,191.0,2026-09-14,220,96.9,4.7,41,High-Voltage Wiring Harness,Constrained,At Risk,2026-09-19
+PRD_2172,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,91,58.0,2026-09-06,120,76.0,23.7,43,Brake Assembly System,Available,Delayed,2026-09-14
+PRD_2173,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,192,186.0,2026-10-06,220,87.4,2.2,1,Variable Geometry Turbocharger,Available,On Schedule,2026-10-08
+PRD_2174,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,226,230.0,2026-09-20,250,90.4,1.7,6,Electronic Control Unit (ECU),Available,On Schedule,2026-09-22
+PRD_2175,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,211,197.0,2026-09-28,220,96.1,7.2,54,Brake Assembly System,Constrained,At Risk,2026-10-03
+PRD_2176,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,107,104.0,2026-10-07,120,89.6,2.6,11,Brake Assembly System,Available,On Schedule,2026-10-09
+PRD_2177,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,132,128.0,2026-10-09,150,88.2,1.4,8,Brake Assembly System,Available,On Schedule,2026-10-15
+PRD_2178,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,169,150.0,2026-09-26,180,94.2,5.8,47,Brake Assembly System,Constrained,At Risk,2026-09-28
+PRD_2179,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,94,92.0,2026-09-22,120,78.6,2.7,1,Hydraulic Suspension Strut,Available,On Schedule,2026-09-28
+PRD_2180,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,140,125.0,2026-10-14,150,93.9,4.8,45,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-20
+PRD_2181,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,190,183.0,2026-09-12,220,86.8,2.7,10,Hydraulic Suspension Strut,Available,On Schedule,2026-09-15
+PRD_2182,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,240,210.0,2026-09-19,250,96.2,8.5,48,Brake Assembly System,Constrained,At Risk,2026-09-25
+PRD_2183,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,100,97.0,2026-09-01,120,84.1,2.6,4,Automated Manual Transmission,Available,On Schedule,2026-09-04
+PRD_2184,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,217,188.0,2026-09-08,220,98.8,8.4,49,Radiator Cooling Module,Constrained,At Risk,2026-09-11
+PRD_2185,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,101,98.0,2026-09-25,120,84.6,2.4,9,Radiator Cooling Module,Available,On Schedule,2026-09-28
+PRD_2186,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,126,122.0,2026-10-16,150,84.1,3.3,0,Brake Assembly System,Available,On Schedule,2026-10-21
+PRD_2187,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,120,121.0,2026-10-08,150,80.2,2.8,12,Hydraulic Suspension Strut,Available,On Schedule,2026-10-11
+PRD_2188,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,175,159.0,2026-09-10,180,97.3,8.0,54,Brake Assembly System,Constrained,At Risk,2026-09-15
+PRD_2189,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,218,215.0,2026-10-04,250,87.3,0.7,7,Electronic Control Unit (ECU),Available,On Schedule,2026-10-08
+PRD_2190,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,140,135.0,2026-09-03,180,78.2,1.5,1,Brake Assembly System,Available,On Schedule,2026-09-05
+PRD_2191,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,172,174.0,2026-10-16,220,78.4,2.5,12,Electronic Control Unit (ECU),Available,On Schedule,2026-10-20
+PRD_2192,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,241,226.0,2026-10-10,250,96.4,9.0,31,Hydraulic Suspension Strut,Constrained,At Risk,2026-10-15
+PRD_2193,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,180,178.0,2026-09-07,220,82.1,3.1,5,PMSM Traction Motor,Available,On Schedule,2026-09-12
+PRD_2194,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,152,112.0,2026-10-11,220,69.2,23.6,46,PMSM Traction Motor,Available,Delayed,2026-10-22
+PRD_2195,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,143,143.0,2026-09-27,180,79.7,2.0,6,Variable Geometry Turbocharger,Available,On Schedule,2026-10-03
+PRD_2196,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,142,142.0,2026-10-03,180,78.9,1.0,11,Automated Manual Transmission,Available,On Schedule,2026-10-07
+PRD_2197,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,161,131.0,2026-10-03,250,64.4,13.8,57,Variable Geometry Turbocharger,Available,Delayed,2026-10-11
+PRD_2198,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,123,121.0,2026-09-26,150,82.6,1.3,3,Brake Assembly System,Available,On Schedule,2026-09-29
+PRD_2199,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,151,99.0,2026-10-16,250,60.5,12.6,73,Heavy-Duty Drive Axle,Available,Delayed,2026-10-24
+PRD_2200,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,160,115.0,2026-10-06,220,72.9,13.2,46,High-Voltage Wiring Harness,Unavailable - Supplier Delay,Delayed,2026-10-15
+PRD_2201,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,178,181.0,2026-09-11,220,81.2,2.0,10,Brake Assembly System,Available,On Schedule,2026-09-13
+PRD_2202,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,95,69.0,2026-10-05,120,79.6,19.7,69,PMSM Traction Motor,Available,Delayed,2026-10-14
+PRD_2203,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,117,113.0,2026-09-10,150,78.1,0.5,1,Automated Manual Transmission,Available,On Schedule,2026-09-15
+PRD_2204,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,102,102.0,2026-10-14,120,85.7,1.4,5,Variable Geometry Turbocharger,Available,On Schedule,2026-10-20
+PRD_2205,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,135,121.0,2026-10-04,150,90.2,1.3,7,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-06
+PRD_2206,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,160,122.0,2026-09-01,220,72.8,16.5,61,Hydraulic Suspension Strut,Unavailable - Supplier Delay,Delayed,2026-09-09
+PRD_2207,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,172,175.0,2026-09-13,220,78.5,2.8,6,Electronic Control Unit (ECU),Available,On Schedule,2026-09-15
+PRD_2208,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,134,136.0,2026-09-22,150,89.6,1.8,8,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-25
+PRD_2209,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,180,173.0,2026-10-13,220,81.9,3.3,2,Automated Manual Transmission,Available,On Schedule,2026-10-16
+PRD_2210,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,153,148.0,2026-09-21,180,85.0,2.7,3,ADAS Radar & Front Camera,Available,On Schedule,2026-09-25
+PRD_2211,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,148,145.0,2026-09-26,180,82.7,1.9,0,Hydraulic Suspension Strut,Available,On Schedule,2026-10-01
+PRD_2212,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,146,94.0,2026-09-21,250,58.4,11.6,49,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-09-27
+PRD_2213,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,153,149.0,2026-09-30,180,85.0,2.7,3,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-03
+PRD_2214,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,189,186.0,2026-09-24,220,86.3,2.6,10,Brake Assembly System,Available,On Schedule,2026-09-26
+PRD_2215,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,110,71.0,2026-10-09,180,61.4,22.3,66,ADAS Radar & Front Camera,Available,Delayed,2026-10-17
+PRD_2216,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,141,136.0,2026-10-09,180,78.5,1.2,5,Brake Assembly System,Available,On Schedule,2026-10-13
+PRD_2217,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,170,156.0,2026-10-15,180,94.5,7.2,54,Brake Assembly System,Constrained,At Risk,2026-10-19
+PRD_2218,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,145,92.0,2026-10-08,250,58.1,14.5,44,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-19
+PRD_2219,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,243,211.0,2026-10-10,250,97.2,4.9,36,Automated Manual Transmission,Constrained,At Risk,2026-10-12
+PRD_2220,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,104,103.0,2026-10-10,120,86.8,3.0,8,ADAS Radar & Front Camera,Available,On Schedule,2026-10-12
+PRD_2221,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,156,150.0,2026-09-13,180,87.0,3.3,10,Electronic Control Unit (ECU),Available,On Schedule,2026-09-16
+PRD_2222,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,235,212.0,2026-10-09,250,94.0,4.1,51,Heavy-Duty Drive Axle,Constrained,At Risk,2026-10-14
+PRD_2223,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,139,93.0,2026-09-03,180,77.3,13.5,68,Brake Assembly System,Available,Delayed,2026-09-15
+PRD_2224,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,119,115.0,2026-09-22,150,79.8,0.9,1,PMSM Traction Motor,Available,On Schedule,2026-09-26
+PRD_2225,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,133,90.0,2026-10-13,180,74.2,13.8,89,High-Voltage Wiring Harness,Unavailable - Supplier Delay,Delayed,2026-10-20
+PRD_2226,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,117,90.0,2026-09-29,150,78.0,14.3,74,Electronic Control Unit (ECU),Available,Delayed,2026-10-04
+PRD_2227,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,82,56.0,2026-09-10,120,68.5,13.9,76,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-09-17
+PRD_2228,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,206,201.0,2026-09-14,250,82.7,0.9,6,Electronic Control Unit (ECU),Available,On Schedule,2026-09-17
+PRD_2229,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,141,140.0,2026-09-20,180,78.7,2.9,3,Radiator Cooling Module,Available,On Schedule,2026-09-23
+PRD_2230,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,217,199.0,2026-09-16,220,98.7,9.1,63,Brake Assembly System,Constrained,At Risk,2026-09-20
+PRD_2231,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,173,132.0,2026-10-01,220,78.9,14.1,45,PMSM Traction Motor,Available,Delayed,2026-10-08
+PRD_2232,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,183,175.0,2026-09-28,220,83.3,3.4,14,Variable Geometry Turbocharger,Available,On Schedule,2026-10-04
+PRD_2233,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,212,214.0,2026-10-01,250,84.8,3.3,12,PMSM Traction Motor,Available,On Schedule,2026-10-03
+PRD_2234,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,151,150.0,2026-09-20,180,83.9,2.0,2,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-26
+PRD_2235,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,157,122.0,2026-09-30,250,63.0,22.0,68,Hydraulic Suspension Strut,Available,Delayed,2026-10-10
+PRD_2236,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,98,98.0,2026-09-05,120,81.7,2.7,11,Electric Power Steering Rack,Available,On Schedule,2026-09-09
+PRD_2237,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,213,198.0,2026-09-13,220,97.1,7.0,48,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-15
+PRD_2238,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,226,221.0,2026-09-27,250,90.8,1.2,9,Electronic Control Unit (ECU),Available,On Schedule,2026-10-02
+PRD_2239,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,86,59.0,2026-10-08,120,71.9,14.5,45,Radiator Cooling Module,Available,Delayed,2026-10-16
+PRD_2240,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,94,94.0,2026-09-11,120,79.0,2.5,6,Brake Assembly System,Available,On Schedule,2026-09-14
+PRD_2241,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,103,102.0,2026-10-02,120,85.9,1.2,9,Brake Assembly System,Available,On Schedule,2026-10-06
+PRD_2242,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,94,93.0,2026-09-16,120,79.1,3.0,9,Brake Assembly System,Available,On Schedule,2026-09-19
+PRD_2243,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,102,100.0,2026-10-14,120,85.0,2.5,1,Brake Assembly System,Available,On Schedule,2026-10-16
+PRD_2244,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,195,189.0,2026-10-14,250,78.1,1.5,7,Hydraulic Suspension Strut,Available,On Schedule,2026-10-17
+PRD_2245,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,134,136.0,2026-10-13,150,89.7,0.6,12,Electric Power Steering Rack,Available,On Schedule,2026-10-16
+PRD_2246,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,120,118.0,2026-09-25,150,80.2,1.8,5,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-30
+PRD_2247,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,180,181.0,2026-09-28,220,82.2,1.8,2,Electronic Control Unit (ECU),Available,On Schedule,2026-10-01
+PRD_2248,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,204,208.0,2026-10-05,250,81.6,3.5,12,Brake Assembly System,Available,On Schedule,2026-10-10
+PRD_2249,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,162,160.0,2026-09-06,180,90.4,3.2,2,Brake Assembly System,Available,On Schedule,2026-09-08
+PRD_2250,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,148,112.0,2026-09-14,220,67.4,14.3,39,PMSM Traction Motor,Available,Delayed,2026-09-24
+PRD_2251,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,187,147.0,2026-09-05,250,75.0,11.6,43,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-09-17
+PRD_2252,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,149,138.0,2026-09-24,150,99.4,6.0,40,Hydraulic Suspension Strut,Constrained,At Risk,2026-09-27
+PRD_2253,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,167,142.0,2026-09-08,180,93.2,8.6,53,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-13
+PRD_2254,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,216,201.0,2026-09-12,220,98.6,6.3,48,PMSM Traction Motor,Constrained,At Risk,2026-09-15
+PRD_2255,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,203,201.0,2026-10-10,250,81.4,1.1,1,ADAS Radar & Front Camera,Available,On Schedule,2026-10-12
+PRD_2256,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,84,67.0,2026-09-08,150,56.0,14.7,89,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-09-15
+PRD_2257,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,118,109.0,2026-10-02,120,98.4,5.3,41,Electronic Control Unit (ECU),Constrained,At Risk,2026-10-04
+PRD_2258,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,118,118.0,2026-09-01,150,78.9,2.6,5,Electronic Control Unit (ECU),Available,On Schedule,2026-09-07
+PRD_2259,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,181,183.0,2026-09-01,220,82.5,1.9,11,PMSM Traction Motor,Available,On Schedule,2026-09-06
+PRD_2260,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,101,102.0,2026-09-22,120,84.8,0.6,7,Brake Assembly System,Available,On Schedule,2026-09-28
+PRD_2261,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,163,158.0,2026-09-22,180,90.9,1.5,12,Brake Assembly System,Available,On Schedule,2026-09-26
+PRD_2262,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,124,120.0,2026-09-04,150,82.9,3.1,3,Brake Assembly System,Available,On Schedule,2026-09-08
+PRD_2263,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,225,220.0,2026-10-15,250,90.2,0.5,10,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-20
+PRD_2264,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,207,183.0,2026-10-04,220,94.4,7.0,42,Hydraulic Suspension Strut,Constrained,At Risk,2026-10-08
+PRD_2265,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,210,207.0,2026-10-13,250,84.1,2.6,10,Brake Assembly System,Available,On Schedule,2026-10-18
+PRD_2266,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,67,42.0,2026-10-11,120,56.2,12.9,78,Hydraulic Suspension Strut,Unavailable - Supplier Delay,Delayed,2026-10-18
+PRD_2267,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,121,122.0,2026-09-15,150,81.0,2.4,5,Brake Assembly System,Available,On Schedule,2026-09-21
+PRD_2268,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,100,72.0,2026-10-01,150,67.1,18.3,58,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-10-09
+PRD_2269,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,147,148.0,2026-10-07,180,82.0,0.9,11,PMSM Traction Motor,Available,On Schedule,2026-10-13
+PRD_2270,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,128,123.0,2026-09-20,150,85.4,1.8,8,Brake Assembly System,Available,On Schedule,2026-09-26
+PRD_2271,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,100,99.0,2026-10-01,120,84.0,3.0,11,High-Voltage Wiring Harness,Available,On Schedule,2026-10-07
+PRD_2272,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,142,126.0,2026-10-13,150,95.3,8.1,39,PMSM Traction Motor,Constrained,At Risk,2026-10-15
+PRD_2273,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,113,104.0,2026-09-21,120,94.2,9.6,48,Automated Manual Transmission,Constrained,At Risk,2026-09-26
+PRD_2274,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,183,177.0,2026-10-13,220,83.6,0.9,2,Electronic Control Unit (ECU),Available,On Schedule,2026-10-15
+PRD_2275,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,106,74.0,2026-10-15,180,59.4,12.8,42,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-10-23
+PRD_2276,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,136,134.0,2026-10-16,150,90.9,3.1,0,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-21
+PRD_2277,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,116,108.0,2026-09-08,120,96.8,4.5,55,Hydraulic Suspension Strut,Constrained,At Risk,2026-09-12
+PRD_2278,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,116,75.0,2026-10-08,150,77.5,20.1,61,Automated Manual Transmission,Available,Delayed,2026-10-14
+PRD_2279,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,163,158.0,2026-09-25,180,90.9,1.7,14,PMSM Traction Motor,Available,On Schedule,2026-10-01
+PRD_2280,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,196,193.0,2026-09-13,220,89.2,0.6,4,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-18
+PRD_2281,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,133,131.0,2026-09-09,150,88.9,2.5,10,Brake Assembly System,Available,On Schedule,2026-09-15
+PRD_2282,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,195,197.0,2026-10-05,250,78.3,3.4,0,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-10
+PRD_2283,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,223,225.0,2026-10-02,250,89.6,1.5,5,Brake Assembly System,Available,On Schedule,2026-10-07
+PRD_2284,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,237,202.0,2026-10-13,250,95.1,4.3,59,Brake Assembly System,Constrained,At Risk,2026-10-15
+PRD_2285,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,198,192.0,2026-10-15,250,79.6,3.1,11,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-17
+PRD_2286,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,205,207.0,2026-10-16,250,82.1,2.0,3,PMSM Traction Motor,Available,On Schedule,2026-10-21
+PRD_2287,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,146,142.0,2026-09-14,180,81.2,2.8,0,PMSM Traction Motor,Available,On Schedule,2026-09-17
+PRD_2288,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,154,155.0,2026-09-20,180,86.0,2.9,5,Brake Assembly System,Available,On Schedule,2026-09-23
+PRD_2289,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,109,88.0,2026-10-14,150,72.8,17.0,46,Brake Assembly System,Available,Delayed,2026-10-24
+PRD_2290,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,99,100.0,2026-09-19,120,82.8,2.6,7,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-23
+PRD_2291,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,175,162.0,2026-10-08,180,97.4,5.3,64,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-10
+PRD_2292,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,108,106.0,2026-09-29,120,90.8,1.3,7,PMSM Traction Motor,Available,On Schedule,2026-10-04
+PRD_2293,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,169,146.0,2026-09-13,180,94.3,9.5,60,PMSM Traction Motor,Constrained,At Risk,2026-09-15
+PRD_2294,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,134,130.0,2026-09-28,150,89.4,0.8,11,Variable Geometry Turbocharger,Available,On Schedule,2026-10-01
+PRD_2295,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,201,203.0,2026-09-12,250,80.4,2.8,6,Electronic Control Unit (ECU),Available,On Schedule,2026-09-14
+PRD_2296,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,117,116.0,2026-09-10,150,78.5,2.5,4,Brake Assembly System,Available,On Schedule,2026-09-15
+PRD_2297,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,167,156.0,2026-10-02,180,93.3,8.1,57,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-06
+PRD_2298,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,149,148.0,2026-10-13,180,83.1,3.0,12,Brake Assembly System,Available,On Schedule,2026-10-15
+PRD_2299,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,204,197.0,2026-09-29,250,81.7,0.9,13,Brake Assembly System,Available,On Schedule,2026-10-03
+PRD_2300,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,121,96.0,2026-10-02,220,55.2,13.4,68,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-12
+PRD_2301,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,99,99.0,2026-10-01,120,83.0,1.3,5,ADAS Radar & Front Camera,Available,On Schedule,2026-10-05
+PRD_2302,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,141,139.0,2026-10-12,180,78.7,2.2,4,Variable Geometry Turbocharger,Available,On Schedule,2026-10-17
+PRD_2303,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,196,132.0,2026-10-16,250,78.7,22.7,42,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-10-26
+PRD_2304,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,198,200.0,2026-10-05,250,79.2,1.6,3,Hydraulic Suspension Strut,Available,On Schedule,2026-10-11
+PRD_2305,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,217,215.0,2026-09-14,250,87.1,1.0,1,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-16
+PRD_2306,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,111,83.0,2026-09-29,150,74.4,9.3,48,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-10-06
+PRD_2307,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,233,205.0,2026-09-11,250,93.4,9.3,60,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-13
+PRD_2308,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,74,48.0,2026-09-08,120,61.7,14.6,86,Automated Manual Transmission,Unavailable - Supplier Delay,Delayed,2026-09-19
+PRD_2309,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,150,144.0,2026-10-13,180,83.6,1.9,8,Radiator Cooling Module,Available,On Schedule,2026-10-15
+PRD_2310,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,149,145.0,2026-10-04,180,83.3,2.0,13,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-08
+PRD_2311,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,193,193.0,2026-10-15,220,88.0,2.0,9,Hydraulic Suspension Strut,Available,On Schedule,2026-10-19
+PRD_2312,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,213,209.0,2026-10-13,250,85.4,3.2,0,Hydraulic Suspension Strut,Available,On Schedule,2026-10-15
+PRD_2313,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,248,226.0,2026-09-14,250,99.4,7.0,49,PMSM Traction Motor,Constrained,At Risk,2026-09-17
+PRD_2314,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,118,116.0,2026-09-09,150,78.8,3.1,13,Electronic Control Unit (ECU),Available,On Schedule,2026-09-15
+PRD_2315,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,168,101.0,2026-10-12,220,76.7,20.9,45,Brake Assembly System,Available,Delayed,2026-10-21
+PRD_2316,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,162,161.0,2026-10-15,180,90.2,3.4,14,Brake Assembly System,Available,On Schedule,2026-10-18
+PRD_2317,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,102,102.0,2026-09-18,120,85.5,1.8,11,Automated Manual Transmission,Available,On Schedule,2026-09-21
+PRD_2318,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,127,125.0,2026-09-21,150,84.8,2.1,4,Radiator Cooling Module,Available,On Schedule,2026-09-26
+PRD_2319,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,148,116.0,2026-09-08,220,67.6,14.7,50,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-09-17
+PRD_2320,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,143,92.0,2026-09-06,180,79.5,16.7,71,Automated Manual Transmission,Available,Delayed,2026-09-15
+PRD_2321,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,190,116.0,2026-09-07,250,76.2,23.3,40,PMSM Traction Motor,Available,Delayed,2026-09-16
+PRD_2322,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,233,205.0,2026-09-20,250,93.2,7.7,34,Heavy-Duty Drive Axle,Constrained,At Risk,2026-09-26
+PRD_2323,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,174,177.0,2026-09-19,220,79.3,0.9,0,Brake Assembly System,Available,On Schedule,2026-09-25
+PRD_2324,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,239,203.0,2026-09-25,250,95.9,6.7,42,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-09-28
+PRD_2325,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,185,186.0,2026-09-17,220,84.5,3.0,12,Radiator Cooling Module,Available,On Schedule,2026-09-19
+PRD_2326,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,114,104.0,2026-10-07,120,95.6,4.8,47,Hydraulic Suspension Strut,Constrained,At Risk,2026-10-11
+PRD_2327,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,106,106.0,2026-09-16,120,88.4,1.9,7,Electronic Control Unit (ECU),Available,On Schedule,2026-09-22
+PRD_2328,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,191,192.0,2026-09-23,220,87.1,1.8,6,Variable Geometry Turbocharger,Available,On Schedule,2026-09-28
+PRD_2329,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,153,152.0,2026-10-04,180,85.3,3.2,9,Brake Assembly System,Available,On Schedule,2026-10-07
+PRD_2330,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,221,225.0,2026-09-21,250,88.4,2.9,5,Electronic Control Unit (ECU),Available,On Schedule,2026-09-23
+PRD_2331,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,154,154.0,2026-09-11,180,85.7,0.7,10,Variable Geometry Turbocharger,Available,On Schedule,2026-09-17
+PRD_2332,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,201,199.0,2026-10-02,250,80.5,1.9,12,Electronic Control Unit (ECU),Available,On Schedule,2026-10-04
+PRD_2333,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,107,104.0,2026-10-14,120,89.2,1.1,5,Hydraulic Suspension Strut,Available,On Schedule,2026-10-20
+PRD_2334,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,217,217.0,2026-09-01,250,87.0,2.7,0,Automated Manual Transmission,Available,On Schedule,2026-09-06
+PRD_2335,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,158,154.0,2026-10-13,180,87.9,0.6,7,Hydraulic Suspension Strut,Available,On Schedule,2026-10-19
+PRD_2336,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,192,184.0,2026-09-11,220,87.6,2.8,9,Electronic Control Unit (ECU),Available,On Schedule,2026-09-17
+PRD_2337,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,130,126.0,2026-09-09,150,86.9,0.6,12,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-15
+PRD_2338,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,173,166.0,2026-09-11,220,79.0,3.3,7,Radiator Cooling Module,Available,On Schedule,2026-09-15
+PRD_2339,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,198,195.0,2026-09-08,220,90.3,3.3,10,Variable Geometry Turbocharger,Available,On Schedule,2026-09-12
+PRD_2340,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,153,102.0,2026-09-01,220,69.6,22.7,42,Electronic Control Unit (ECU),Available,Delayed,2026-09-13
+PRD_2341,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,120,116.0,2026-09-03,150,80.1,0.5,6,High-Voltage Wiring Harness,Available,On Schedule,2026-09-08
+PRD_2342,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,206,198.0,2026-10-10,250,82.5,1.1,9,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-15
+PRD_2343,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,96,59.0,2026-09-23,150,64.1,13.1,41,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-02
+PRD_2344,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,198,193.0,2026-09-13,220,90.3,1.4,13,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-15
+PRD_2345,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,206,188.0,2026-10-02,220,93.8,8.7,42,Radiator Cooling Module,Constrained,At Risk,2026-10-04
+PRD_2346,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,243,207.0,2026-09-26,250,97.4,7.5,50,Brake Assembly System,Constrained,At Risk,2026-09-30
+PRD_2347,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,179,173.0,2026-10-05,220,81.5,3.3,6,ADAS Radar & Front Camera,Available,On Schedule,2026-10-09
+PRD_2348,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,168,147.0,2026-09-23,180,93.8,7.0,49,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-28
+PRD_2349,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,170,127.0,2026-09-19,250,68.0,17.1,81,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-09-25
+PRD_2350,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,178,181.0,2026-09-11,220,81.1,1.2,14,Brake Assembly System,Available,On Schedule,2026-09-14
+PRD_2351,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,200,197.0,2026-10-06,220,91.0,0.6,6,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-11
+PRD_2352,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,208,208.0,2026-09-25,250,83.4,0.6,6,ADAS Radar & Front Camera,Available,On Schedule,2026-09-28
+PRD_2353,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,246,227.0,2026-09-23,250,98.7,6.0,34,Automated Manual Transmission,Constrained,At Risk,2026-09-29
+PRD_2354,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,138,109.0,2026-09-22,220,62.8,13.0,78,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-10-04
+PRD_2355,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,158,124.0,2026-10-02,220,72.1,13.9,55,Brake Assembly System,Available,Delayed,2026-10-10
+PRD_2356,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,114,101.0,2026-09-18,120,95.7,7.6,64,High-Voltage Wiring Harness,Constrained,At Risk,2026-09-20
+PRD_2357,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,244,221.0,2026-10-16,250,97.7,6.1,61,ADAS Radar & Front Camera,Constrained,At Risk,2026-10-18
+PRD_2358,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,177,172.0,2026-10-08,220,80.7,2.6,11,Hydraulic Suspension Strut,Available,On Schedule,2026-10-11
+PRD_2359,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,212,214.0,2026-09-18,250,84.9,2.0,8,PMSM Traction Motor,Available,On Schedule,2026-09-21
+PRD_2360,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,105,106.0,2026-09-06,120,88.3,2.8,10,Automated Manual Transmission,Available,On Schedule,2026-09-08
+PRD_2361,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,101,100.0,2026-09-15,120,84.2,2.1,2,Brake Assembly System,Available,On Schedule,2026-09-18
+PRD_2362,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,170,127.0,2026-09-28,250,68.0,9.8,42,Radiator Cooling Module,Unavailable - Supplier Delay,Delayed,2026-10-05
+PRD_2363,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,170,118.0,2026-09-23,220,77.3,14.4,71,Brake Assembly System,Available,Delayed,2026-10-02
+PRD_2364,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,108,83.0,2026-09-04,180,60.1,14.7,87,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-09-12
+PRD_2365,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,144,145.0,2026-09-07,180,80.2,3.5,7,Electronic Control Unit (ECU),Available,On Schedule,2026-09-12
+PRD_2366,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,104,105.0,2026-09-20,120,87.2,3.0,9,ADAS Radar & Front Camera,Available,On Schedule,2026-09-22
+PRD_2367,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,201,199.0,2026-09-09,250,80.4,3.3,1,Automated Manual Transmission,Available,On Schedule,2026-09-13
+PRD_2368,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,98,96.0,2026-09-24,120,82.0,2.5,7,Electronic Control Unit (ECU),Available,On Schedule,2026-09-27
+PRD_2369,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,99,99.0,2026-09-07,120,83.3,2.5,10,Electric Power Steering Rack,Available,On Schedule,2026-09-10
+PRD_2370,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,106,107.0,2026-10-12,120,88.5,1.7,7,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-15
+PRD_2371,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,134,80.0,2026-10-05,180,74.5,11.0,74,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-16
+PRD_2372,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,157,154.0,2026-09-10,180,87.3,2.2,2,PMSM Traction Motor,Available,On Schedule,2026-09-12
+PRD_2373,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,193,191.0,2026-09-17,220,88.0,1.9,9,ADAS Radar & Front Camera,Available,On Schedule,2026-09-23
+PRD_2374,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,161,155.0,2026-09-08,180,89.6,1.9,11,Radiator Cooling Module,Available,On Schedule,2026-09-13
+PRD_2375,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,160,154.0,2026-10-03,180,89.3,1.0,0,ADAS Radar & Front Camera,Available,On Schedule,2026-10-05
+PRD_2376,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,202,194.0,2026-09-09,250,81.1,0.8,10,Brake Assembly System,Available,On Schedule,2026-09-13
+PRD_2377,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,126,124.0,2026-10-15,150,84.3,1.6,5,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-18
+PRD_2378,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,242,217.0,2026-10-03,250,97.0,4.2,62,Heavy-Duty Drive Axle,Constrained,At Risk,2026-10-08
+PRD_2379,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,176,178.0,2026-09-14,220,80.3,3.2,2,Radiator Cooling Module,Available,On Schedule,2026-09-17
+PRD_2380,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,115,100.0,2026-10-15,120,96.1,6.3,34,ADAS Radar & Front Camera,Constrained,At Risk,2026-10-17
+PRD_2381,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,106,76.0,2026-09-15,150,71.1,13.5,52,Brake Assembly System,Available,Delayed,2026-09-24
+PRD_2382,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,141,124.0,2026-10-05,150,94.5,7.8,45,Hydraulic Suspension Strut,Constrained,At Risk,2026-10-08
+PRD_2383,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,199,201.0,2026-09-18,250,79.8,3.3,14,PMSM Traction Motor,Available,On Schedule,2026-09-21
+PRD_2384,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,163,164.0,2026-09-14,180,90.9,1.7,2,PMSM Traction Motor,Available,On Schedule,2026-09-20
+PRD_2385,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,134,133.0,2026-09-24,150,89.5,0.7,6,Brake Assembly System,Available,On Schedule,2026-09-28
+PRD_2386,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,135,81.0,2026-09-09,180,75.3,20.9,71,Electronic Control Unit (ECU),Available,Delayed,2026-09-21
+PRD_2387,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,222,213.0,2026-09-01,250,88.8,2.5,13,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-05
+PRD_2388,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,178,130.0,2026-09-02,250,71.4,12.4,55,PMSM Traction Motor,Available,Delayed,2026-09-15
+PRD_2389,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,103,103.0,2026-09-17,120,86.3,3.4,3,ADAS Radar & Front Camera,Available,On Schedule,2026-09-23
+PRD_2390,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,119,109.0,2026-09-18,120,99.4,9.5,31,Radiator Cooling Module,Constrained,At Risk,2026-09-21
+PRD_2391,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,216,219.0,2026-09-28,250,86.6,1.7,4,PMSM Traction Motor,Available,On Schedule,2026-10-02
+PRD_2392,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,130,128.0,2026-09-30,150,87.2,3.4,10,Automated Manual Transmission,Available,On Schedule,2026-10-03
+PRD_2393,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,156,150.0,2026-09-12,180,86.9,1.2,0,Hydraulic Suspension Strut,Available,On Schedule,2026-09-16
+PRD_2394,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,119,121.0,2026-09-26,150,79.5,2.6,12,PMSM Traction Motor,Available,On Schedule,2026-10-02
+PRD_2395,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,104,71.0,2026-09-16,150,69.9,12.9,61,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-09-27
+PRD_2396,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,248,227.0,2026-09-01,250,99.3,8.1,41,Electronic Control Unit (ECU),Constrained,At Risk,2026-09-07
+PRD_2397,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,86,58.0,2026-09-01,150,57.5,12.8,77,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-09-07
+PRD_2398,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,174,149.0,2026-10-11,180,96.8,8.7,35,Electronic Control Unit (ECU),Constrained,At Risk,2026-10-17
+PRD_2399,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,130,128.0,2026-09-22,150,87.3,1.5,4,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-24
+PRD_2400,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,187,185.0,2026-09-29,220,85.3,1.0,4,Brake Assembly System,Available,On Schedule,2026-10-02
+PRD_2401,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,139,124.0,2026-09-04,150,93.1,8.0,44,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-10
+PRD_2402,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,102,99.0,2026-09-07,120,85.2,3.4,1,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-13
+PRD_2403,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,220,215.0,2026-09-27,250,88.2,3.2,8,Electric Power Steering Rack,Available,On Schedule,2026-09-30
+PRD_2404,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,204,176.0,2026-09-25,220,93.1,6.4,37,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-09-28
+PRD_2405,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,105,101.0,2026-10-14,120,88.3,2.8,2,Variable Geometry Turbocharger,Available,On Schedule,2026-10-19
+PRD_2406,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,225,219.0,2026-09-15,250,90.1,1.4,13,Variable Geometry Turbocharger,Available,On Schedule,2026-09-17
+PRD_2407,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,118,119.0,2026-09-08,150,79.3,1.2,6,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-12
+PRD_2408,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,119,107.0,2026-09-28,120,99.5,9.8,30,Electronic Control Unit (ECU),Constrained,At Risk,2026-10-04
+PRD_2409,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,241,216.0,2026-10-13,250,96.5,6.5,48,Radiator Cooling Module,Constrained,At Risk,2026-10-17
+PRD_2410,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,184,180.0,2026-09-18,220,84.0,0.8,6,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-23
+PRD_2411,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,105,103.0,2026-09-10,120,88.3,3.5,13,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-13
+PRD_2412,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,161,155.0,2026-10-01,180,89.9,2.6,6,Radiator Cooling Module,Available,On Schedule,2026-10-03
+PRD_2413,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,97,93.0,2026-09-18,120,81.4,2.9,4,ADAS Radar & Front Camera,Available,On Schedule,2026-09-21
+PRD_2414,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,235,219.0,2026-09-25,250,94.3,8.5,52,Variable Geometry Turbocharger,Constrained,At Risk,2026-09-29
+PRD_2415,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,148,143.0,2026-09-27,180,82.7,3.3,8,Radiator Cooling Module,Available,On Schedule,2026-10-03
+PRD_2416,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,222,221.0,2026-10-06,250,88.8,2.2,6,Variable Geometry Turbocharger,Available,On Schedule,2026-10-11
+PRD_2417,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,176,177.0,2026-10-08,220,80.0,0.7,11,Hydraulic Suspension Strut,Available,On Schedule,2026-10-13
+PRD_2418,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,143,124.0,2026-09-01,150,95.6,9.7,62,Automated Manual Transmission,Constrained,At Risk,2026-09-04
+PRD_2419,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,99,100.0,2026-09-09,120,83.3,2.5,5,ADAS Radar & Front Camera,Available,On Schedule,2026-09-11
+PRD_2420,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,129,128.0,2026-09-09,150,86.0,1.6,5,Electronic Control Unit (ECU),Available,On Schedule,2026-09-13
+PRD_2421,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,244,228.0,2026-09-15,250,97.8,6.4,46,High-Voltage Wiring Harness,Constrained,At Risk,2026-09-17
+PRD_2422,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,103,104.0,2026-09-02,120,86.4,1.7,13,Variable Geometry Turbocharger,Available,On Schedule,2026-09-07
+PRD_2423,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,191,187.0,2026-09-05,220,87.0,0.7,14,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-10
+PRD_2424,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,178,157.0,2026-09-10,180,99.4,6.9,37,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-09-12
+PRD_2425,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,96,94.0,2026-09-27,120,80.1,2.1,5,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-30
+PRD_2426,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,118,114.0,2026-10-15,150,78.9,3.5,10,Variable Geometry Turbocharger,Available,On Schedule,2026-10-19
+PRD_2427,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,146,140.0,2026-10-12,180,81.6,1.4,11,Brake Assembly System,Available,On Schedule,2026-10-14
+PRD_2428,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,120,73.0,2026-10-12,180,66.7,15.8,77,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-10-21
+PRD_2429,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,107,68.0,2026-09-28,180,59.5,13.5,72,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-10-10
+PRD_2430,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,97,94.0,2026-09-11,120,81.6,1.5,9,PMSM Traction Motor,Available,On Schedule,2026-09-15
+PRD_2431,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,100,96.0,2026-09-09,120,84.1,1.5,11,ADAS Radar & Front Camera,Available,On Schedule,2026-09-12
+PRD_2432,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,197,192.0,2026-10-06,250,79.0,2.6,5,Variable Geometry Turbocharger,Available,On Schedule,2026-10-12
+PRD_2433,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,143,138.0,2026-10-12,180,79.8,3.5,0,ADAS Radar & Front Camera,Available,On Schedule,2026-10-17
+PRD_2434,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,121,119.0,2026-10-12,150,81.0,2.4,0,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-17
+PRD_2435,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,144,129.0,2026-09-24,250,57.8,14.7,88,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-05
+PRD_2436,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,217,201.0,2026-09-07,220,99.0,6.4,41,Electronic Control Unit (ECU),Constrained,At Risk,2026-09-09
+PRD_2437,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,206,175.0,2026-09-13,220,93.9,4.5,59,Electronic Control Unit (ECU),Constrained,At Risk,2026-09-15
+PRD_2438,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,131,126.0,2026-10-07,150,87.4,1.1,11,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-09
+PRD_2439,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,121,73.0,2026-09-06,180,67.5,14.8,64,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-09-13
+PRD_2440,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,99,96.0,2026-09-21,120,83.2,1.8,13,Radiator Cooling Module,Available,On Schedule,2026-09-26
+PRD_2441,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,140,109.0,2026-10-03,180,77.8,15.9,35,Heavy-Duty Drive Axle,Available,Delayed,2026-10-12
+PRD_2442,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,161,154.0,2026-10-01,180,89.7,3.0,10,Hydraulic Suspension Strut,Available,On Schedule,2026-10-07
+PRD_2443,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,242,208.0,2026-09-30,250,97.1,7.1,41,PMSM Traction Motor,Constrained,At Risk,2026-10-02
+PRD_2444,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,135,136.0,2026-10-14,150,90.0,1.8,5,Variable Geometry Turbocharger,Available,On Schedule,2026-10-17
+PRD_2445,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,210,207.0,2026-10-09,250,84.3,1.1,1,Hydraulic Suspension Strut,Available,On Schedule,2026-10-15
+PRD_2446,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,109,85.0,2026-09-24,150,73.1,14.8,52,Variable Geometry Turbocharger,Available,Delayed,2026-10-06
+PRD_2447,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,171,153.0,2026-10-10,180,95.1,5.9,56,Brake Assembly System,Constrained,At Risk,2026-10-16
+PRD_2448,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,213,208.0,2026-10-02,250,85.2,0.6,1,Electronic Control Unit (ECU),Available,On Schedule,2026-10-04
+PRD_2449,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,183,184.0,2026-09-06,220,83.2,0.9,5,Electronic Control Unit (ECU),Available,On Schedule,2026-09-11
+PRD_2450,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,113,101.0,2026-09-19,120,94.4,8.3,62,Brake Assembly System,Constrained,At Risk,2026-09-22
+PRD_2451,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,173,170.0,2026-09-06,220,79.0,2.5,13,Electronic Control Unit (ECU),Available,On Schedule,2026-09-08
+PRD_2452,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,95,66.0,2026-10-01,120,79.6,19.1,63,ADAS Radar & Front Camera,Available,Delayed,2026-10-11
+PRD_2453,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,99,100.0,2026-09-24,120,82.8,2.1,14,Hydraulic Suspension Strut,Available,On Schedule,2026-09-28
+PRD_2454,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,191,192.0,2026-10-03,220,87.0,2.2,10,Variable Geometry Turbocharger,Available,On Schedule,2026-10-09
+PRD_2455,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,98,94.0,2026-10-03,120,82.2,3.4,14,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-08
+PRD_2456,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,153,151.0,2026-09-04,180,85.4,1.2,14,Electric Power Steering Rack,Available,On Schedule,2026-09-07
+PRD_2457,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,133,132.0,2026-09-19,150,89.3,0.6,10,Hydraulic Suspension Strut,Available,On Schedule,2026-09-24
+PRD_2458,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,193,194.0,2026-09-15,220,88.0,1.6,13,ADAS Radar & Front Camera,Available,On Schedule,2026-09-20
+PRD_2459,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,215,215.0,2026-10-12,250,86.3,3.2,9,Brake Assembly System,Available,On Schedule,2026-10-18
+PRD_2460,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,233,199.0,2026-09-07,250,93.4,8.7,51,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-09-12
+PRD_2461,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,73,59.0,2026-09-21,120,61.6,20.8,56,Hydraulic Suspension Strut,Available,Delayed,2026-10-02
+PRD_2462,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,77,47.0,2026-09-30,120,64.8,8.9,59,High-Voltage Wiring Harness,Unavailable - Supplier Delay,Delayed,2026-10-09
+PRD_2463,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,117,116.0,2026-09-21,150,78.1,1.0,4,Variable Geometry Turbocharger,Available,On Schedule,2026-09-27
+PRD_2464,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,118,90.0,2026-09-24,180,65.8,15.1,57,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-05
+PRD_2465,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,221,212.0,2026-10-14,250,88.5,1.7,0,PMSM Traction Motor,Available,On Schedule,2026-10-19
+PRD_2466,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,71,56.0,2026-09-05,120,59.7,8.7,69,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-09-15
+PRD_2467,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,106,104.0,2026-10-04,120,89.0,2.8,5,ADAS Radar & Front Camera,Available,On Schedule,2026-10-07
+PRD_2468,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,86,63.0,2026-09-28,120,72.3,9.1,57,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-07
+PRD_2469,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,184,180.0,2026-10-01,220,84.0,0.8,0,Brake Assembly System,Available,On Schedule,2026-10-06
+PRD_2470,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,179,179.0,2026-10-15,220,81.8,3.5,12,Radiator Cooling Module,Available,On Schedule,2026-10-21
+PRD_2471,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,180,139.0,2026-10-13,250,72.0,13.3,46,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-10-26
+PRD_2472,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,134,103.0,2026-09-30,180,74.7,16.5,86,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-09
+PRD_2473,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,136,90.0,2026-09-01,220,61.9,15.2,71,Radiator Cooling Module,Available,Delayed,2026-09-10
+PRD_2474,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,143,131.0,2026-09-13,150,95.7,5.8,31,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-09-18
+PRD_2475,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,171,156.0,2026-09-14,180,95.4,9.7,54,Radiator Cooling Module,Constrained,At Risk,2026-09-17
+PRD_2476,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,126,121.0,2026-09-02,150,84.4,1.4,1,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-06
+PRD_2477,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,105,105.0,2026-09-30,120,88.1,1.9,4,ADAS Radar & Front Camera,Available,On Schedule,2026-10-05
+PRD_2478,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,177,171.0,2026-09-28,220,80.6,1.4,7,Brake Assembly System,Available,On Schedule,2026-10-04
+PRD_2479,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,97,94.0,2026-09-24,120,81.5,1.2,7,Variable Geometry Turbocharger,Available,On Schedule,2026-09-27
+PRD_2480,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,157,141.0,2026-10-13,180,87.6,2.7,1,Radiator Cooling Module,Available,On Schedule,2026-10-18
+PRD_2481,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,144,142.0,2026-09-07,180,80.5,1.0,8,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-09
+PRD_2482,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,67,53.0,2026-10-10,120,56.0,13.0,52,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-19
+PRD_2483,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,96,86.0,2026-09-14,120,80.7,2.2,1,Brake Assembly System,Available,On Schedule,2026-09-17
+PRD_2484,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,240,217.0,2026-10-01,250,96.0,4.5,30,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-03
+PRD_2485,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,128,123.0,2026-10-12,150,85.9,2.6,9,Radiator Cooling Module,Available,On Schedule,2026-10-17
+PRD_2486,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,143,139.0,2026-09-18,180,79.7,3.0,11,PMSM Traction Motor,Available,On Schedule,2026-09-22
+PRD_2487,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,133,87.0,2026-09-27,180,74.3,13.9,80,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-10-02
+PRD_2488,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,130,129.0,2026-10-04,150,86.9,2.5,8,Electronic Control Unit (ECU),Available,On Schedule,2026-10-10
+PRD_2489,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,97,94.0,2026-09-28,120,81.5,1.6,13,Variable Geometry Turbocharger,Available,On Schedule,2026-10-01
+PRD_2490,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,151,149.0,2026-09-26,180,83.9,1.9,6,Hydraulic Suspension Strut,Available,On Schedule,2026-09-28
+PRD_2491,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,195,192.0,2026-09-25,220,89.0,2.9,10,PMSM Traction Motor,Available,On Schedule,2026-09-28
+PRD_2492,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,192,190.0,2026-09-07,220,87.3,1.5,9,Variable Geometry Turbocharger,Available,On Schedule,2026-09-10
+PRD_2493,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,209,209.0,2026-10-11,250,83.6,1.9,14,Radiator Cooling Module,Available,On Schedule,2026-10-15
+PRD_2494,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,208,184.0,2026-09-06,220,94.6,7.8,35,Brake Assembly System,Constrained,At Risk,2026-09-08
+PRD_2495,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,139,91.0,2026-10-16,220,63.6,17.0,54,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-10-25
+PRD_2496,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,159,154.0,2026-09-09,180,88.5,3.0,2,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-14
+PRD_2497,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,141,137.0,2026-09-15,180,78.5,2.8,12,Variable Geometry Turbocharger,Available,On Schedule,2026-09-19
+PRD_2498,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,141,138.0,2026-10-13,180,78.5,3.4,12,Brake Assembly System,Available,On Schedule,2026-10-15
+PRD_2499,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,204,201.0,2026-10-11,250,81.8,2.3,10,PMSM Traction Motor,Available,On Schedule,2026-10-17
+PRD_2500,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,194,193.0,2026-09-08,220,88.6,2.1,0,ADAS Radar & Front Camera,Available,On Schedule,2026-09-10
+PRD_2501,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,162,161.0,2026-09-06,180,90.2,1.7,6,Brake Assembly System,Available,On Schedule,2026-09-08
+PRD_2502,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,107,106.0,2026-10-02,120,89.8,2.9,4,PMSM Traction Motor,Available,On Schedule,2026-10-04
+PRD_2503,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,133,132.0,2026-09-05,150,89.2,0.5,3,Hydraulic Suspension Strut,Available,On Schedule,2026-09-08
+PRD_2504,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,158,160.0,2026-09-29,180,87.9,2.8,11,Brake Assembly System,Available,On Schedule,2026-10-02
+PRD_2505,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,103,100.0,2026-10-13,120,86.0,2.1,11,Automated Manual Transmission,Available,On Schedule,2026-10-19
+PRD_2506,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,122,122.0,2026-09-23,150,81.7,2.1,12,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-28
+PRD_2507,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,101,102.0,2026-09-17,120,84.5,2.6,1,PMSM Traction Motor,Available,On Schedule,2026-09-19
+PRD_2508,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,95,69.0,2026-10-03,150,63.6,12.2,42,High-Voltage Wiring Harness,Unavailable - Supplier Delay,Delayed,2026-10-10
+PRD_2509,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,132,102.0,2026-09-09,180,73.8,10.3,41,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-09-15
+PRD_2510,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,171,171.0,2026-09-06,220,78.0,3.1,0,Brake Assembly System,Available,On Schedule,2026-09-10
+PRD_2511,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,131,131.0,2026-10-02,150,87.6,1.7,1,Radiator Cooling Module,Available,On Schedule,2026-10-07
+PRD_2512,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,84,64.0,2026-09-13,120,70.8,22.3,45,Hydraulic Suspension Strut,Available,Delayed,2026-09-23
+PRD_2513,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,122,94.0,2026-09-14,180,67.9,14.6,65,Electronic Control Unit (ECU),Available,Delayed,2026-09-25
+PRD_2514,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,151,145.0,2026-10-10,180,84.2,2.3,8,Brake Assembly System,Available,On Schedule,2026-10-12
+PRD_2515,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,143,133.0,2026-09-23,150,95.8,6.4,54,Brake Assembly System,Constrained,At Risk,2026-09-27
+PRD_2516,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,199,193.0,2026-10-03,250,79.9,3.0,6,Variable Geometry Turbocharger,Available,On Schedule,2026-10-07
+PRD_2517,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,100,98.0,2026-10-12,120,83.9,3.0,4,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-18
+PRD_2518,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,86,53.0,2026-09-21,120,71.7,14.7,53,Heavy-Duty Drive Axle,Unavailable - Supplier Delay,Delayed,2026-09-30
+PRD_2519,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,113,97.0,2026-09-24,120,94.9,7.3,32,Heavy-Duty Drive Axle,Constrained,At Risk,2026-09-28
+PRD_2520,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,122,75.0,2026-10-15,180,68.1,15.4,62,Automated Manual Transmission,Unavailable - Supplier Delay,Delayed,2026-10-22
+PRD_2521,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,118,120.0,2026-09-15,150,79.3,1.2,13,High-Voltage Wiring Harness,Available,On Schedule,2026-09-21
+PRD_2522,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,95,96.0,2026-10-04,120,79.3,1.2,8,Brake Assembly System,Available,On Schedule,2026-10-07
+PRD_2523,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,198,194.0,2026-10-13,250,79.3,2.5,3,Brake Assembly System,Available,On Schedule,2026-10-15
+PRD_2524,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,146,95.0,2026-09-21,220,66.5,21.5,48,Brake Assembly System,Available,Delayed,2026-09-28
+PRD_2525,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,96,60.0,2026-09-18,150,64.2,10.0,80,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-09-26
+PRD_2526,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,154,150.0,2026-10-08,180,86.0,3.1,10,Variable Geometry Turbocharger,Available,On Schedule,2026-10-13
+PRD_2527,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,142,99.0,2026-10-07,220,64.9,10.8,68,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-10-15
+PRD_2528,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,83,52.0,2026-10-05,150,55.5,15.0,88,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-10-14
+PRD_2529,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,154,153.0,2026-09-27,180,85.6,2.7,5,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-01
+PRD_2530,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,182,184.0,2026-10-06,220,82.8,2.5,10,Electronic Control Unit (ECU),Available,On Schedule,2026-10-10
+PRD_2531,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,117,86.0,2026-09-30,180,65.5,14.5,49,High-Voltage Wiring Harness,Available,Delayed,2026-10-08
+PRD_2532,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,212,185.0,2026-09-01,220,96.7,4.5,39,Heavy-Duty Drive Axle,Constrained,At Risk,2026-09-04
+PRD_2533,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,215,199.0,2026-09-06,220,97.9,5.1,35,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-09
+PRD_2534,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,151,109.0,2026-09-03,220,69.0,13.5,67,Heavy-Duty Drive Axle,Available,Delayed,2026-09-08
+PRD_2535,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,120,73.0,2026-10-10,180,66.9,17.8,65,Electronic Control Unit (ECU),Available,Delayed,2026-10-20
+PRD_2536,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,210,205.0,2026-09-09,250,84.0,2.3,5,Hydraulic Suspension Strut,Available,On Schedule,2026-09-13
+PRD_2537,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,157,154.0,2026-10-13,180,87.4,2.8,2,ADAS Radar & Front Camera,Available,On Schedule,2026-10-15
+PRD_2538,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,103,100.0,2026-09-18,120,86.6,1.0,13,Radiator Cooling Module,Available,On Schedule,2026-09-22
+PRD_2539,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,112,75.0,2026-09-19,180,62.3,15.6,74,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-09-26
+PRD_2540,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,94,91.0,2026-09-05,120,79.1,3.5,8,Hydraulic Suspension Strut,Available,On Schedule,2026-09-10
+PRD_2541,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,176,169.0,2026-09-30,220,80.4,3.4,7,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-05
+PRD_2542,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,119,85.0,2026-10-08,180,66.5,12.4,61,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-10-21
+PRD_2543,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,123,120.0,2026-10-03,150,82.2,1.8,10,Radiator Cooling Module,Available,On Schedule,2026-10-05
+PRD_2544,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,202,197.0,2026-09-29,250,80.9,0.6,7,Brake Assembly System,Available,On Schedule,2026-10-05
+PRD_2545,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,170,150.0,2026-09-18,180,94.9,6.1,47,Radiator Cooling Module,Constrained,At Risk,2026-09-23
+PRD_2546,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,108,109.0,2026-10-07,120,90.1,0.6,7,Brake Assembly System,Available,On Schedule,2026-10-09
+PRD_2547,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,218,210.0,2026-09-16,250,87.6,2.7,6,Automated Manual Transmission,Available,On Schedule,2026-09-18
+PRD_2548,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,122,79.0,2026-10-13,220,55.8,8.7,56,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-25
+PRD_2549,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,189,182.0,2026-09-06,220,86.1,2.0,2,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-10
+PRD_2550,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,121,119.0,2026-09-28,150,81.2,1.2,14,Variable Geometry Turbocharger,Available,On Schedule,2026-10-04
+PRD_2551,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,189,130.0,2026-09-07,250,75.8,13.3,68,Radiator Cooling Module,Available,Delayed,2026-09-15
+PRD_2552,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,239,216.0,2026-09-12,250,95.9,4.6,51,Brake Assembly System,Constrained,At Risk,2026-09-18
+PRD_2553,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,225,216.0,2026-10-14,250,90.1,1.2,6,Electric Power Steering Rack,Available,On Schedule,2026-10-16
+PRD_2554,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,152,124.0,2026-09-03,250,60.8,17.8,42,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-09-14
+PRD_2555,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,139,84.0,2026-09-15,250,55.8,11.3,84,High-Voltage Wiring Harness,Unavailable - Supplier Delay,Delayed,2026-09-27
+PRD_2556,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,113,101.0,2026-10-15,120,94.7,9.8,43,Heavy-Duty Drive Axle,Constrained,At Risk,2026-10-19
+PRD_2557,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,134,133.0,2026-09-23,150,89.4,1.8,4,PMSM Traction Motor,Available,On Schedule,2026-09-27
+PRD_2558,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,90,54.0,2026-10-03,150,60.6,10.1,46,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-15
+PRD_2559,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,172,108.0,2026-09-05,220,78.4,12.6,41,PMSM Traction Motor,Available,Delayed,2026-09-12
+PRD_2560,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,147,147.0,2026-10-13,180,82.2,1.0,12,Variable Geometry Turbocharger,Available,On Schedule,2026-10-18
+PRD_2561,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,140,128.0,2026-09-17,150,93.5,9.9,62,Heavy-Duty Drive Axle,Constrained,At Risk,2026-09-19
+PRD_2562,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,128,125.0,2026-10-01,150,85.5,1.3,10,Automated Manual Transmission,Available,On Schedule,2026-10-07
+PRD_2563,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,101,102.0,2026-09-03,120,84.3,1.6,10,PMSM Traction Motor,Available,On Schedule,2026-09-05
+PRD_2564,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,182,184.0,2026-09-11,220,83.0,0.6,6,PMSM Traction Motor,Available,On Schedule,2026-09-14
+PRD_2565,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,222,221.0,2026-09-22,250,88.9,1.0,2,Brake Assembly System,Available,On Schedule,2026-09-27
+PRD_2566,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,202,200.0,2026-09-17,250,81.1,3.4,11,Brake Assembly System,Available,On Schedule,2026-09-21
+PRD_2567,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,187,128.0,2026-09-22,250,74.9,18.4,59,Brake Assembly System,Available,Delayed,2026-10-05
+PRD_2568,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,133,132.0,2026-10-11,150,88.7,3.3,1,Brake Assembly System,Available,On Schedule,2026-10-13
+PRD_2569,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,104,99.0,2026-09-10,120,87.3,2.7,13,Variable Geometry Turbocharger,Available,On Schedule,2026-09-14
+PRD_2570,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,185,180.0,2026-10-15,220,84.1,0.6,14,PMSM Traction Motor,Available,On Schedule,2026-10-20
+PRD_2571,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,140,129.0,2026-09-25,150,93.5,8.8,41,Heavy-Duty Drive Axle,Constrained,At Risk,2026-09-27
+PRD_2572,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,171,148.0,2026-10-14,180,95.2,6.3,64,Electric Power Steering Rack,Constrained,At Risk,2026-10-18
+PRD_2573,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,108,109.0,2026-09-18,120,90.8,2.9,14,Electronic Control Unit (ECU),Available,On Schedule,2026-09-22
+PRD_2574,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,130,131.0,2026-09-22,150,87.1,0.8,6,High-Voltage Wiring Harness,Available,On Schedule,2026-09-28
+PRD_2575,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,129,125.0,2026-09-23,150,86.6,2.5,2,ADAS Radar & Front Camera,Available,On Schedule,2026-09-27
+PRD_2576,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,121,121.0,2026-09-10,150,80.7,3.1,6,ADAS Radar & Front Camera,Available,On Schedule,2026-09-15
+PRD_2577,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,106,103.0,2026-10-13,120,88.7,3.4,5,Brake Assembly System,Available,On Schedule,2026-10-16
+PRD_2578,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,87,66.0,2026-09-19,150,58.0,13.6,47,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-09-27
+PRD_2579,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,156,159.0,2026-09-08,180,87.0,1.3,10,Electronic Control Unit (ECU),Available,On Schedule,2026-09-10
+PRD_2580,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,127,128.0,2026-10-13,150,84.8,2.4,11,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-15
+PRD_2581,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,140,137.0,2026-09-19,180,78.3,1.0,14,PMSM Traction Motor,Available,On Schedule,2026-09-25
+PRD_2582,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,181,176.0,2026-09-10,220,82.7,0.9,1,Automated Manual Transmission,Available,On Schedule,2026-09-13
+PRD_2583,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,241,210.0,2026-10-01,250,96.6,7.8,62,Brake Assembly System,Constrained,At Risk,2026-10-05
+PRD_2584,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,173,176.0,2026-09-07,220,78.8,1.3,8,Brake Assembly System,Available,On Schedule,2026-09-11
+PRD_2585,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,134,133.0,2026-10-14,150,89.5,1.6,8,PMSM Traction Motor,Available,On Schedule,2026-10-18
+PRD_2586,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,90,58.0,2026-09-27,120,75.6,12.8,57,PMSM Traction Motor,Available,Delayed,2026-10-07
+PRD_2587,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,199,144.0,2026-10-11,250,79.8,21.1,68,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-10-23
+PRD_2588,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,173,134.0,2026-10-04,250,69.2,14.1,87,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-10-14
+PRD_2589,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,148,144.0,2026-09-30,180,82.3,2.6,6,Radiator Cooling Module,Available,On Schedule,2026-10-05
+PRD_2590,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,186,179.0,2026-09-02,220,84.9,2.3,8,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-07
+PRD_2591,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,96,97.0,2026-09-16,120,80.2,2.5,6,Electronic Control Unit (ECU),Available,On Schedule,2026-09-22
+PRD_2592,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,117,113.0,2026-10-07,150,78.6,1.0,5,Hydraulic Suspension Strut,Available,On Schedule,2026-10-11
+PRD_2593,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,190,186.0,2026-09-01,220,86.5,1.9,7,PMSM Traction Motor,Available,On Schedule,2026-09-06
+PRD_2594,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,154,120.0,2026-09-18,250,61.8,11.0,51,Automated Manual Transmission,Unavailable - Supplier Delay,Delayed,2026-09-25
+PRD_2595,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,93,93.0,2026-10-15,120,78.2,3.2,3,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-19
+PRD_2596,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,187,181.0,2026-10-16,220,85.0,2.7,3,ADAS Radar & Front Camera,Available,On Schedule,2026-10-18
+PRD_2597,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,147,142.0,2026-10-02,180,81.8,3.4,6,High-Voltage Wiring Harness,Available,On Schedule,2026-10-05
+PRD_2598,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,150,145.0,2026-09-01,180,83.6,2.4,14,Electronic Control Unit (ECU),Available,On Schedule,2026-09-06
+PRD_2599,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,158,95.0,2026-09-10,250,63.2,11.5,62,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-09-19
+PRD_2600,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,147,136.0,2026-10-01,150,98.1,8.2,42,Hydraulic Suspension Strut,Constrained,At Risk,2026-10-03
+PRD_2601,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,69,52.0,2026-09-08,120,58.1,9.9,86,Radiator Cooling Module,Unavailable - Supplier Delay,Delayed,2026-09-18
+PRD_2602,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,149,149.0,2026-10-05,180,83.1,0.7,6,PMSM Traction Motor,Available,On Schedule,2026-10-09
+PRD_2603,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,115,101.0,2026-09-10,120,96.5,7.6,51,Electronic Control Unit (ECU),Constrained,At Risk,2026-09-12
+PRD_2604,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,147,130.0,2026-10-15,150,98.3,7.8,38,Variable Geometry Turbocharger,Constrained,At Risk,2026-10-21
+PRD_2605,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,109,85.0,2026-10-13,150,73.0,12.6,61,Brake Assembly System,Available,Delayed,2026-10-22
+PRD_2606,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,133,134.0,2026-10-15,150,88.7,2.2,10,Brake Assembly System,Available,On Schedule,2026-10-17
+PRD_2607,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,212,197.0,2026-09-19,220,96.7,4.9,59,High-Voltage Wiring Harness,Constrained,At Risk,2026-09-24
+PRD_2608,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,155,102.0,2026-09-20,220,70.8,16.8,74,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-09-29
+PRD_2609,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,134,133.0,2026-09-30,150,89.8,2.5,9,Brake Assembly System,Available,On Schedule,2026-10-05
+PRD_2610,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,97,98.0,2026-10-03,120,81.6,3.5,10,PMSM Traction Motor,Available,On Schedule,2026-10-06
+PRD_2611,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,83,63.0,2026-10-12,120,69.2,8.6,71,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-10-20
+PRD_2612,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,223,221.0,2026-09-09,250,89.3,1.3,1,Brake Assembly System,Available,On Schedule,2026-09-13
+PRD_2613,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,128,125.0,2026-10-12,150,85.9,1.3,3,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-10-17
+PRD_2614,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,108,106.0,2026-10-03,120,90.6,0.8,7,Variable Geometry Turbocharger,Available,On Schedule,2026-10-09
+PRD_2615,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,172,170.0,2026-10-08,220,78.5,2.3,1,Electronic Control Unit (ECU),Available,On Schedule,2026-10-12
+PRD_2616,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,85,57.0,2026-09-11,120,71.1,16.6,57,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-09-17
+PRD_2617,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,197,121.0,2026-09-15,250,78.9,13.7,71,ADAS Radar & Front Camera,Available,Delayed,2026-09-21
+PRD_2618,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,132,129.0,2026-09-27,150,88.3,3.4,9,ADAS Radar & Front Camera,Available,On Schedule,2026-09-29
+PRD_2619,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,152,122.0,2026-09-05,220,69.3,13.6,45,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-09-15
+PRD_2620,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,116,71.0,2026-10-15,150,77.6,23.5,69,PMSM Traction Motor,Available,Delayed,2026-10-26
+PRD_2621,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,96,94.0,2026-09-13,120,80.6,2.1,6,Hydraulic Suspension Strut,Available,On Schedule,2026-09-17
+PRD_2622,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,118,104.0,2026-09-11,120,98.5,5.9,50,Brake Assembly System,Constrained,At Risk,2026-09-16
+PRD_2623,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,198,201.0,2026-10-11,250,79.3,1.2,0,Automated Manual Transmission,Available,On Schedule,2026-10-13
+PRD_2624,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,98,95.0,2026-09-24,120,82.2,1.5,11,PMSM Traction Motor,Available,On Schedule,2026-09-29
+PRD_2625,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,214,189.0,2026-10-12,220,97.3,7.6,44,Heavy-Duty Drive Axle,Constrained,At Risk,2026-10-18
+PRD_2626,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,196,192.0,2026-10-01,250,78.8,3.1,12,PMSM Traction Motor,Available,On Schedule,2026-10-07
+PRD_2627,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,108,104.0,2026-09-09,120,90.1,1.3,11,Electronic Control Unit (ECU),Available,On Schedule,2026-09-11
+PRD_2628,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,212,207.0,2026-10-07,250,84.9,1.0,9,High-Voltage Wiring Harness,Available,On Schedule,2026-10-09
+PRD_2629,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,152,112.0,2026-10-02,220,69.3,15.0,69,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-08
+PRD_2630,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,119,102.0,2026-09-19,120,99.4,8.8,54,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-09-23
+PRD_2631,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,120,117.0,2026-09-11,150,80.5,2.9,12,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-15
+PRD_2632,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,112,101.0,2026-10-04,120,93.6,5.5,53,Electronic Control Unit (ECU),Constrained,At Risk,2026-10-10
+PRD_2633,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,156,151.0,2026-10-05,180,87.1,1.7,0,Radiator Cooling Module,Available,On Schedule,2026-10-07
+PRD_2634,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,214,210.0,2026-09-03,250,85.7,1.4,2,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-07
+PRD_2635,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,189,126.0,2026-09-04,250,75.9,22.3,68,Variable Geometry Turbocharger,Available,Delayed,2026-09-11
+PRD_2636,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,237,201.0,2026-09-05,250,95.1,4.2,47,Automated Manual Transmission,Constrained,At Risk,2026-09-11
+PRD_2637,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,196,197.0,2026-09-27,220,89.5,3.2,14,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-03
+PRD_2638,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,124,125.0,2026-09-09,150,82.9,2.9,6,Electronic Control Unit (ECU),Available,On Schedule,2026-09-13
+PRD_2639,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,225,226.0,2026-09-15,250,90.2,1.1,9,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-19
+PRD_2640,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,174,176.0,2026-09-15,220,79.3,2.3,4,Brake Assembly System,Available,On Schedule,2026-09-17
+PRD_2641,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,207,206.0,2026-09-25,250,82.8,1.0,0,PMSM Traction Motor,Available,On Schedule,2026-09-27
+PRD_2642,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,180,180.0,2026-09-25,220,82.1,3.5,6,Automated Manual Transmission,Available,On Schedule,2026-09-28
+PRD_2643,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,145,111.0,2026-09-08,220,66.2,9.2,44,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-09-19
+PRD_2644,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,223,226.0,2026-09-04,250,89.6,1.8,4,Brake Assembly System,Available,On Schedule,2026-09-07
+PRD_2645,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,100,90.0,2026-09-27,150,66.7,11.5,82,High-Voltage Wiring Harness,Unavailable - Supplier Delay,Delayed,2026-10-10
+PRD_2646,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,94,95.0,2026-09-05,120,78.4,1.6,11,PMSM Traction Motor,Available,On Schedule,2026-09-07
+PRD_2647,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,182,111.0,2026-09-21,250,73.1,15.1,52,Variable Geometry Turbocharger,Available,Delayed,2026-10-02
+PRD_2648,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,205,199.0,2026-10-01,250,82.3,1.6,14,PMSM Traction Motor,Available,On Schedule,2026-10-03
+PRD_2649,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,201,199.0,2026-09-14,250,80.6,1.0,7,Brake Assembly System,Available,On Schedule,2026-09-19
+PRD_2650,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,209,202.0,2026-09-24,250,83.6,0.9,6,Radiator Cooling Module,Available,On Schedule,2026-09-30
+PRD_2651,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,131,128.0,2026-09-21,150,87.6,2.2,3,Electric Power Steering Rack,Available,On Schedule,2026-09-27
+PRD_2652,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,90,66.0,2026-09-27,150,60.4,15.0,47,Automated Manual Transmission,Available,Delayed,2026-10-09
+PRD_2653,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,96,93.0,2026-10-04,120,80.1,0.9,14,PMSM Traction Motor,Available,On Schedule,2026-10-07
+PRD_2654,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,183,175.0,2026-09-10,220,83.3,1.7,10,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-12
+PRD_2655,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,184,179.0,2026-09-02,220,83.9,3.1,13,Brake Assembly System,Available,On Schedule,2026-09-07
+PRD_2656,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,122,118.0,2026-09-20,150,81.5,2.3,2,Electronic Control Unit (ECU),Available,On Schedule,2026-09-22
+PRD_2657,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,130,127.0,2026-09-02,150,87.2,2.8,8,ADAS Radar & Front Camera,Available,On Schedule,2026-09-07
+PRD_2658,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,119,109.0,2026-09-25,120,99.2,8.6,44,Heavy-Duty Drive Axle,Constrained,At Risk,2026-09-28
+PRD_2659,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,71,53.0,2026-09-23,120,59.9,15.1,66,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-02
+PRD_2660,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,168,148.0,2026-09-02,180,93.4,7.2,59,Electronic Control Unit (ECU),Constrained,At Risk,2026-09-06
+PRD_2661,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,218,213.0,2026-09-04,250,87.3,2.9,3,Brake Assembly System,Available,On Schedule,2026-09-06
+PRD_2662,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,162,157.0,2026-10-05,180,90.2,2.7,13,Brake Assembly System,Available,On Schedule,2026-10-10
+PRD_2663,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,207,207.0,2026-09-30,250,83.1,1.3,2,Variable Geometry Turbocharger,Available,On Schedule,2026-10-03
+PRD_2664,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,198,200.0,2026-09-18,220,90.2,3.0,12,Brake Assembly System,Available,On Schedule,2026-09-20
+PRD_2665,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,160,161.0,2026-09-03,180,89.0,1.0,0,Electronic Control Unit (ECU),Available,On Schedule,2026-09-09
+PRD_2666,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,163,158.0,2026-10-12,180,90.9,2.5,11,Electronic Control Unit (ECU),Available,On Schedule,2026-10-18
+PRD_2667,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,143,140.0,2026-09-21,180,79.9,2.8,8,Electronic Control Unit (ECU),Available,On Schedule,2026-09-25
+PRD_2668,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,130,82.0,2026-09-01,220,59.5,8.7,64,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-09-09
+PRD_2669,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,176,150.0,2026-09-04,180,98.3,8.5,44,Electronic Control Unit (ECU),Constrained,At Risk,2026-09-10
+PRD_2670,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,124,119.0,2026-09-05,150,82.9,2.9,2,Electronic Control Unit (ECU),Available,On Schedule,2026-09-10
+PRD_2671,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,123,95.0,2026-10-02,180,68.5,18.5,49,Brake Assembly System,Available,Delayed,2026-10-09
+PRD_2672,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,147,147.0,2026-09-15,180,81.9,0.5,5,Hydraulic Suspension Strut,Available,On Schedule,2026-09-17
+PRD_2673,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,186,185.0,2026-10-08,220,84.6,1.1,1,ADAS Radar & Front Camera,Available,On Schedule,2026-10-12
+PRD_2674,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,94,65.0,2026-10-16,150,62.9,11.2,44,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-10-25
+PRD_2675,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,156,153.0,2026-09-03,180,86.8,1.0,7,Electronic Control Unit (ECU),Available,On Schedule,2026-09-09
+PRD_2676,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,127,101.0,2026-09-29,180,71.0,12.6,43,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-08
+PRD_2677,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,172,124.0,2026-09-24,220,78.5,18.9,37,Variable Geometry Turbocharger,Available,Delayed,2026-10-02
+PRD_2678,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,148,106.0,2026-10-09,220,67.5,12.9,83,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-10-18
+PRD_2679,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,95,95.0,2026-09-19,120,79.5,1.0,11,Hydraulic Suspension Strut,Available,On Schedule,2026-09-25
+PRD_2680,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,145,108.0,2026-09-10,220,66.1,14.3,61,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-09-19
+PRD_2681,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,162,161.0,2026-10-03,180,90.0,3.2,1,Variable Geometry Turbocharger,Available,On Schedule,2026-10-09
+PRD_2682,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,144,143.0,2026-10-08,180,80.1,1.7,9,PMSM Traction Motor,Available,On Schedule,2026-10-10
+PRD_2683,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,129,127.0,2026-09-15,150,86.0,2.9,0,Automated Manual Transmission,Available,On Schedule,2026-09-21
+PRD_2684,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,98,97.0,2026-10-04,120,82.3,3.5,5,Automated Manual Transmission,Available,On Schedule,2026-10-06
+PRD_2685,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,118,114.0,2026-09-21,150,78.7,2.0,1,Electronic Control Unit (ECU),Available,On Schedule,2026-09-25
+PRD_2686,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,75,56.0,2026-09-24,120,62.6,20.3,71,PMSM Traction Motor,Available,Delayed,2026-10-03
+PRD_2687,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,129,128.0,2026-09-27,150,86.3,2.1,12,Variable Geometry Turbocharger,Available,On Schedule,2026-10-01
+PRD_2688,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,160,157.0,2026-09-24,180,89.3,0.8,0,Electronic Control Unit (ECU),Available,On Schedule,2026-09-29
+PRD_2689,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,107,109.0,2026-09-15,120,89.8,2.1,9,Brake Assembly System,Available,On Schedule,2026-09-21
+PRD_2690,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,136,131.0,2026-09-27,150,91.0,2.7,14,Variable Geometry Turbocharger,Available,On Schedule,2026-10-03
+PRD_2691,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,95,96.0,2026-09-22,120,79.4,3.4,10,Brake Assembly System,Available,On Schedule,2026-09-26
+PRD_2692,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,101,96.0,2026-09-10,120,84.8,1.3,12,ADAS Radar & Front Camera,Available,On Schedule,2026-09-16
+PRD_2693,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,221,214.0,2026-09-01,250,88.6,1.6,12,PMSM Traction Motor,Available,On Schedule,2026-09-04
+PRD_2694,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,106,107.0,2026-10-16,120,89.1,2.4,9,Brake Assembly System,Available,On Schedule,2026-10-21
+PRD_2695,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,190,183.0,2026-09-02,220,86.5,1.8,9,Automated Manual Transmission,Available,On Schedule,2026-09-05
+PRD_2696,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,163,157.0,2026-09-25,180,90.8,2.6,4,Electronic Control Unit (ECU),Available,On Schedule,2026-09-30
+PRD_2697,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,150,145.0,2026-09-16,180,83.4,1.1,9,Radiator Cooling Module,Available,On Schedule,2026-09-20
+PRD_2698,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,177,175.0,2026-10-10,220,80.6,2.1,5,Brake Assembly System,Available,On Schedule,2026-10-12
+PRD_2699,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,102,99.0,2026-09-27,120,85.5,1.3,5,Electronic Control Unit (ECU),Available,On Schedule,2026-10-02
+PRD_2700,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,180,179.0,2026-09-12,220,82.2,0.6,14,Hydraulic Suspension Strut,Available,On Schedule,2026-09-18
+PRD_2701,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,203,202.0,2026-10-08,250,81.3,1.0,5,Hydraulic Suspension Strut,Available,On Schedule,2026-10-14
+PRD_2702,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,83,54.0,2026-09-12,120,69.8,20.8,57,Radiator Cooling Module,Available,Delayed,2026-09-25
+PRD_2703,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,77,62.0,2026-09-22,120,64.6,16.3,35,PMSM Traction Motor,Available,Delayed,2026-10-01
+PRD_2704,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,154,104.0,2026-09-21,220,70.3,21.9,38,Brake Assembly System,Available,Delayed,2026-09-28
+PRD_2705,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,155,153.0,2026-09-18,180,86.4,1.4,12,PMSM Traction Motor,Available,On Schedule,2026-09-24
+PRD_2706,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,86,54.0,2026-09-11,120,71.9,22.3,43,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-09-18
+PRD_2707,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,237,209.0,2026-09-11,250,95.1,4.2,30,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-15
+PRD_2708,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,154,154.0,2026-09-10,180,85.9,2.3,2,PMSM Traction Motor,Available,On Schedule,2026-09-12
+PRD_2709,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,145,140.0,2026-09-03,180,80.8,0.6,11,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-09
+PRD_2710,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,129,128.0,2026-09-02,150,86.1,2.7,7,Automated Manual Transmission,Available,On Schedule,2026-09-06
+PRD_2711,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,134,133.0,2026-09-29,150,89.7,2.7,5,High-Voltage Wiring Harness,Available,On Schedule,2026-10-05
+PRD_2712,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,104,104.0,2026-10-16,120,87.1,2.9,7,Brake Assembly System,Available,On Schedule,2026-10-18
+PRD_2713,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,100,80.0,2026-09-09,150,66.8,12.3,50,High-Voltage Wiring Harness,Available,Delayed,2026-09-16
+PRD_2714,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,163,160.0,2026-09-21,180,90.8,2.7,1,Variable Geometry Turbocharger,Available,On Schedule,2026-09-24
+PRD_2715,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,204,201.0,2026-10-03,250,81.9,2.2,8,Brake Assembly System,Available,On Schedule,2026-10-05
+PRD_2716,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,99,66.0,2026-10-16,150,66.5,9.3,51,Radiator Cooling Module,Unavailable - Supplier Delay,Delayed,2026-10-27
+PRD_2717,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,175,159.0,2026-10-08,180,97.3,8.1,46,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-13
+PRD_2718,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,98,97.0,2026-10-02,120,81.8,1.1,7,Electronic Control Unit (ECU),Available,On Schedule,2026-10-05
+PRD_2719,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,117,109.0,2026-09-06,120,97.8,4.5,62,PMSM Traction Motor,Constrained,At Risk,2026-09-12
+PRD_2720,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,97,75.0,2026-10-06,150,65.0,10.0,76,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-16
+PRD_2721,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,134,130.0,2026-10-10,150,89.9,3.4,13,ADAS Radar & Front Camera,Available,On Schedule,2026-10-15
+PRD_2722,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,147,144.0,2026-10-13,180,81.9,1.8,4,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-16
+PRD_2723,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,131,126.0,2026-10-02,150,87.9,2.7,12,Electronic Control Unit (ECU),Available,On Schedule,2026-10-07
+PRD_2724,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,106,106.0,2026-09-07,120,88.4,2.0,5,Electronic Control Unit (ECU),Available,On Schedule,2026-09-10
+PRD_2725,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,178,180.0,2026-09-21,220,81.3,2.4,12,ADAS Radar & Front Camera,Available,On Schedule,2026-09-24
+PRD_2726,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,220,216.0,2026-09-21,250,88.1,1.1,11,Variable Geometry Turbocharger,Available,On Schedule,2026-09-23
+PRD_2727,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,145,146.0,2026-10-01,180,80.6,0.8,1,Variable Geometry Turbocharger,Available,On Schedule,2026-10-06
+PRD_2728,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,107,68.0,2026-09-18,150,71.8,9.1,79,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-09-28
+PRD_2729,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,121,76.0,2026-09-21,180,67.5,20.9,54,Brake Assembly System,Available,Delayed,2026-10-02
+PRD_2730,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,198,139.0,2026-09-04,250,79.5,13.8,64,High-Voltage Wiring Harness,Available,Delayed,2026-09-14
+PRD_2731,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,176,126.0,2026-09-27,250,70.6,21.6,43,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-10-07
+PRD_2732,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,130,126.0,2026-09-08,150,86.8,2.2,5,Variable Geometry Turbocharger,Available,On Schedule,2026-09-14
+PRD_2733,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,155,152.0,2026-09-02,180,86.4,2.7,8,PMSM Traction Motor,Available,On Schedule,2026-09-04
+PRD_2734,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,161,158.0,2026-10-06,180,89.8,1.8,4,Brake Assembly System,Available,On Schedule,2026-10-08
+PRD_2735,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,94,93.0,2026-09-13,120,79.0,2.0,7,PMSM Traction Motor,Available,On Schedule,2026-09-16
+PRD_2736,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,180,131.0,2026-09-11,250,72.3,22.5,73,Hydraulic Suspension Strut,Available,Delayed,2026-09-20
+PRD_2737,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,173,172.0,2026-09-03,220,79.0,1.8,1,Variable Geometry Turbocharger,Available,On Schedule,2026-09-05
+PRD_2738,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,122,120.0,2026-09-03,150,81.7,0.7,4,Radiator Cooling Module,Available,On Schedule,2026-09-06
+PRD_2739,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,117,108.0,2026-10-15,120,97.5,9.0,57,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-18
+PRD_2740,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,222,220.0,2026-09-25,250,88.8,1.5,2,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-30
+PRD_2741,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,152,150.0,2026-09-05,180,84.7,3.0,11,Brake Assembly System,Available,On Schedule,2026-09-07
+PRD_2742,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,66,47.0,2026-10-05,120,55.2,11.3,43,Automated Manual Transmission,Unavailable - Supplier Delay,Delayed,2026-10-15
+PRD_2743,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,96,92.0,2026-09-13,120,80.7,2.1,3,Electronic Control Unit (ECU),Available,On Schedule,2026-09-19
+PRD_2744,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,173,167.0,2026-09-02,220,79.0,2.3,0,ADAS Radar & Front Camera,Available,On Schedule,2026-09-06
+PRD_2745,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,161,123.0,2026-10-12,220,73.2,10.8,84,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-10-24
+PRD_2746,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,130,83.0,2026-09-27,220,59.3,14.0,44,Hydraulic Suspension Strut,Unavailable - Supplier Delay,Delayed,2026-10-08
+PRD_2747,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,106,107.0,2026-10-02,120,89.1,3.2,12,PMSM Traction Motor,Available,On Schedule,2026-10-07
+PRD_2748,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,209,180.0,2026-09-02,220,95.4,4.5,56,Radiator Cooling Module,Constrained,At Risk,2026-09-07
+PRD_2749,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,99,99.0,2026-09-07,120,82.9,3.2,0,Electronic Control Unit (ECU),Available,On Schedule,2026-09-11
+PRD_2750,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,85,53.0,2026-09-11,120,71.6,12.2,84,Heavy-Duty Drive Axle,Unavailable - Supplier Delay,Delayed,2026-09-20
+PRD_2751,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,118,103.0,2026-10-10,120,98.4,5.7,45,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-10-15
+PRD_2752,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,124,124.0,2026-09-17,150,83.1,3.2,7,Automated Manual Transmission,Available,On Schedule,2026-09-22
+PRD_2753,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,170,102.0,2026-10-15,250,68.3,14.7,85,PMSM Traction Motor,Unavailable - Supplier Delay,Delayed,2026-10-28
+PRD_2754,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,153,148.0,2026-10-06,180,85.3,3.3,12,Brake Assembly System,Available,On Schedule,2026-10-11
+PRD_2755,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,97,97.0,2026-09-16,120,81.3,2.0,12,Brake Assembly System,Available,On Schedule,2026-09-20
+PRD_2756,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,158,157.0,2026-09-28,180,87.8,1.3,4,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-30
+PRD_2757,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,142,127.0,2026-09-08,150,94.7,5.4,51,Heavy-Duty Drive Axle,Constrained,At Risk,2026-09-11
+PRD_2758,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,101,73.0,2026-09-28,150,67.5,11.5,70,Li-Ion Battery Pack 40kWh,Unavailable - Supplier Delay,Delayed,2026-10-07
+PRD_2759,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,124,121.0,2026-10-06,150,82.7,3.3,12,Hydraulic Suspension Strut,Available,On Schedule,2026-10-11
+PRD_2760,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,115,93.0,2026-09-19,180,64.0,11.6,74,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-09-30
+PRD_2761,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,223,221.0,2026-09-10,250,89.4,0.7,12,Electronic Control Unit (ECU),Available,On Schedule,2026-09-14
+PRD_2762,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,190,182.0,2026-09-17,220,86.6,3.3,2,Brake Assembly System,Available,On Schedule,2026-09-22
+PRD_2763,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,142,137.0,2026-09-09,180,78.9,3.2,11,Brake Assembly System,Available,On Schedule,2026-09-12
+PRD_2764,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,131,99.0,2026-09-12,180,73.2,14.0,64,Automated Manual Transmission,Available,Delayed,2026-09-21
+PRD_2765,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,126,122.0,2026-09-13,150,84.6,2.6,14,Brake Assembly System,Available,On Schedule,2026-09-15
+PRD_2766,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,111,84.0,2026-10-10,180,61.8,9.6,54,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-22
+PRD_2767,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,124,122.0,2026-09-15,150,82.9,1.6,2,Brake Assembly System,Available,On Schedule,2026-09-19
+PRD_2768,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,105,71.0,2026-09-28,150,70.3,20.8,36,Electronic Control Unit (ECU),Available,Delayed,2026-10-09
+PRD_2769,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,175,176.0,2026-10-12,220,79.8,2.8,9,Brake Assembly System,Available,On Schedule,2026-10-15
+PRD_2770,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,89,70.0,2026-09-14,120,74.3,14.3,79,Variable Geometry Turbocharger,Unavailable - Supplier Delay,Delayed,2026-09-22
+PRD_2771,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,135,130.0,2026-10-08,150,90.6,3.4,7,PMSM Traction Motor,Available,On Schedule,2026-10-13
+PRD_2772,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,152,136.0,2026-10-01,180,84.5,2.6,8,Electronic Control Unit (ECU),Available,On Schedule,2026-10-04
+PRD_2773,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,133,129.0,2026-09-06,150,88.8,2.6,8,Variable Geometry Turbocharger,Available,On Schedule,2026-09-12
+PRD_2774,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,163,161.0,2026-09-01,180,90.6,0.7,1,Variable Geometry Turbocharger,Available,On Schedule,2026-09-05
+PRD_2775,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,200,202.0,2026-09-29,250,80.2,2.4,3,Variable Geometry Turbocharger,Available,On Schedule,2026-10-04
+PRD_2776,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,147,142.0,2026-09-08,180,82.1,3.1,2,Brake Assembly System,Available,On Schedule,2026-09-11
+PRD_2777,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,133,130.0,2026-10-16,150,89.1,1.4,0,Radiator Cooling Module,Available,On Schedule,2026-10-21
+PRD_2778,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,194,136.0,2026-09-06,250,77.8,23.6,37,Electronic Control Unit (ECU),Available,Delayed,2026-09-16
+PRD_2779,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,117,116.0,2026-09-28,150,78.4,0.8,12,Brake Assembly System,Available,On Schedule,2026-10-04
+PRD_2780,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,129,130.0,2026-10-06,150,86.6,2.6,2,Brake Assembly System,Available,On Schedule,2026-10-11
+PRD_2781,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,128,123.0,2026-09-30,150,85.7,1.5,0,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-04
+PRD_2782,PLANT_JSR,LINE_JSR_TRK01,Signa 2823.K Tipper,184,184.0,2026-09-12,220,83.7,1.6,13,Variable Geometry Turbocharger,Available,On Schedule,2026-09-14
+PRD_2783,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,100,99.0,2026-09-01,120,83.5,0.8,14,Electronic Control Unit (ECU),Available,On Schedule,2026-09-07
+PRD_2784,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,130,131.0,2026-09-17,150,86.7,1.6,11,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-23
+PRD_2785,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,109,65.0,2026-09-18,180,60.7,11.0,63,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-09-29
+PRD_2786,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,79,58.0,2026-09-04,120,66.3,22.2,67,Electronic Control Unit (ECU),Available,Delayed,2026-09-13
+PRD_2787,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,144,133.0,2026-10-12,150,96.6,9.0,40,High-Voltage Wiring Harness,Constrained,At Risk,2026-10-18
+PRD_2788,PLANT_PUN,LINE_PUN_EV01,Harrier Fearless AT,161,101.0,2026-10-16,250,64.7,16.3,45,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-23
+PRD_2789,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,160,155.0,2026-09-08,180,89.4,2.4,5,ADAS Radar & Front Camera,Available,On Schedule,2026-09-10
+PRD_2790,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,147,91.0,2026-10-05,250,59.1,15.0,49,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-10-13
+PRD_2791,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,98,99.0,2026-09-21,120,81.7,2.4,2,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-24
+PRD_2792,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,122,85.0,2026-10-13,220,55.6,13.1,44,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-10-24
+PRD_2793,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,109,108.0,2026-10-03,120,90.9,2.2,0,PMSM Traction Motor,Available,On Schedule,2026-10-06
+PRD_2794,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,93,83.0,2026-09-18,120,78.3,3.3,0,PMSM Traction Motor,Available,On Schedule,2026-09-24
+PRD_2795,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,108,105.0,2026-09-01,120,90.5,2.7,12,PMSM Traction Motor,Available,On Schedule,2026-09-05
+PRD_2796,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,133,101.0,2026-10-07,220,60.9,21.9,68,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-10-16
+PRD_2797,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,175,177.0,2026-09-12,220,79.9,1.6,11,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-14
+PRD_2798,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,108,108.0,2026-09-02,120,90.3,2.4,10,Hydraulic Suspension Strut,Available,On Schedule,2026-09-05
+PRD_2799,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,93,89.0,2026-09-16,120,78.2,2.1,12,Electronic Control Unit (ECU),Available,On Schedule,2026-09-20
+PRD_2800,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,171,135.0,2026-10-16,250,68.7,17.6,55,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-10-24
+PRD_2801,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,109,68.0,2026-09-15,150,72.9,18.0,60,Electric Power Steering Rack,Available,Delayed,2026-09-23
+PRD_2802,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,92,56.0,2026-09-29,120,77.0,19.6,49,Electronic Control Unit (ECU),Available,Delayed,2026-10-06
+PRD_2803,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,152,94.0,2026-10-12,220,69.1,12.5,36,Brake Assembly System,Available,Delayed,2026-10-24
+PRD_2804,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,131,132.0,2026-10-05,150,87.7,2.4,6,Hydraulic Suspension Strut,Available,On Schedule,2026-10-11
+PRD_2805,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,104,101.0,2026-10-14,120,87.4,1.3,2,Electronic Control Unit (ECU),Available,On Schedule,2026-10-18
+PRD_2806,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,143,145.0,2026-09-18,180,79.6,2.8,3,High-Voltage Wiring Harness,Available,On Schedule,2026-09-20
+PRD_2807,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,211,185.0,2026-09-17,220,96.1,7.4,35,Brake Assembly System,Constrained,At Risk,2026-09-19
+PRD_2808,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,187,180.0,2026-09-30,220,85.3,3.1,5,Variable Geometry Turbocharger,Available,On Schedule,2026-10-06
+PRD_2809,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,96,92.0,2026-10-08,120,80.7,3.3,10,Electronic Control Unit (ECU),Available,On Schedule,2026-10-10
+PRD_2810,PLANT_JSR,LINE_JSR_TRK01,Prima 5530.S Heavy Truck,132,134.0,2026-09-01,150,88.4,2.7,10,Brake Assembly System,Available,On Schedule,2026-09-04
+PRD_2811,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,159,121.0,2026-09-07,220,72.7,22.2,61,Brake Assembly System,Available,Delayed,2026-09-15
+PRD_2812,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,94,93.0,2026-09-02,120,78.4,0.6,14,ADAS Radar & Front Camera,Available,On Schedule,2026-09-07
+PRD_2813,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,200,196.0,2026-09-28,220,91.0,2.3,11,Electronic Control Unit (ECU),Available,On Schedule,2026-10-03
+PRD_2814,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,154,152.0,2026-10-09,180,86.0,2.6,4,Brake Assembly System,Available,On Schedule,2026-10-13
+PRD_2815,PLANT_PNT,LINE_PNT_PIK02,Ace Gold EV Mini Truck,122,77.0,2026-09-15,220,55.8,17.6,71,Brake Assembly System,Unavailable - Supplier Delay,Delayed,2026-09-24
+PRD_2816,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,128,127.0,2026-09-26,150,85.4,1.6,11,Brake Assembly System,Available,On Schedule,2026-10-02
+PRD_2817,PLANT_PUN,LINE_PUN_EV01,Nexon EV Empowered,141,119.0,2026-09-20,150,94.5,4.0,36,ADAS Radar & Front Camera,Constrained,At Risk,2026-09-26
+PRD_2818,PLANT_PNT,LINE_PNT_SCV01,Intra V50 Smart Pickup,245,216.0,2026-09-22,250,98.3,7.8,54,Hydraulic Suspension Strut,Constrained,At Risk,2026-09-24
+PRD_2819,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,120,115.0,2026-09-30,150,80.6,2.5,3,Variable Geometry Turbocharger,Available,On Schedule,2026-10-05
+PRD_2820,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,177,169.0,2026-09-13,220,80.8,1.7,14,Automated Manual Transmission,Available,On Schedule,2026-09-16
+PRD_2821,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,172,150.0,2026-09-14,180,96.1,4.4,31,Li-Ion Battery Pack 40kWh,Constrained,At Risk,2026-09-19
+PRD_2822,PLANT_PUN,LINE_PUN_SUV03,Harrier Fearless AT,235,211.0,2026-10-06,250,94.0,6.4,33,Variable Geometry Turbocharger,Constrained,At Risk,2026-10-10
+PRD_2823,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,116,73.0,2026-10-01,150,77.7,22.6,43,PMSM Traction Motor,Available,Delayed,2026-10-13
+PRD_2824,PLANT_SND,LINE_SND_EV02,Tiago EV Long Range,207,205.0,2026-10-16,250,83.0,0.8,7,Brake Assembly System,Available,On Schedule,2026-10-19
+PRD_2825,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,193,131.0,2026-09-09,250,77.6,17.4,39,Variable Geometry Turbocharger,Available,Delayed,2026-09-19
+PRD_2826,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,103,101.0,2026-09-05,120,86.1,0.7,10,Electric Power Steering Rack,Available,On Schedule,2026-09-09
+PRD_2827,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,133,129.0,2026-09-12,150,89.3,1.8,3,PMSM Traction Motor,Available,On Schedule,2026-09-15
+PRD_2828,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,187,190.0,2026-09-01,220,85.0,3.3,8,Brake Assembly System,Available,On Schedule,2026-09-07
+PRD_2829,PLANT_DHW,LINE_DHW_BUS01,Starbus EV Ultra 9m,142,144.0,2026-09-09,180,79.0,3.3,9,Li-Ion Battery Pack 40kWh,Available,On Schedule,2026-09-14
+PRD_2830,PLANT_SND,LINE_SND_COMP01,Tiago EV Long Range,129,99.0,2026-09-06,180,71.7,19.3,64,PMSM Traction Motor,Available,Delayed,2026-09-16
+PRD_2831,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,108,82.0,2026-09-25,180,60.3,14.0,39,Variable Geometry Turbocharger,Available,Delayed,2026-10-03
+PRD_2832,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,148,129.0,2026-10-14,150,99.2,4.5,48,PMSM Traction Motor,Constrained,At Risk,2026-10-20
+PRD_2833,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,112,79.0,2026-09-07,150,74.8,15.1,62,Automated Manual Transmission,Available,Delayed,2026-09-15
+PRD_2834,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,108,106.0,2026-09-25,120,90.6,1.0,8,Variable Geometry Turbocharger,Available,On Schedule,2026-09-30
+PRD_2835,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,131,130.0,2026-09-04,150,87.5,1.1,3,Brake Assembly System,Available,On Schedule,2026-09-08
+PRD_2836,PLANT_JSR,LINE_JSR_TIP02,Signa 2823.K Tipper,158,158.0,2026-09-29,180,87.8,2.8,5,Heavy-Duty Drive Axle,Available,On Schedule,2026-10-05
+PRD_2837,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,155,149.0,2026-09-24,180,86.5,2.9,9,Brake Assembly System,Available,On Schedule,2026-09-26
+PRD_2838,PLANT_PUN,LINE_PUN_SUV02,Safari Dark Edition,199,201.0,2026-10-14,220,90.9,1.1,8,Hydraulic Suspension Strut,Available,On Schedule,2026-10-16
+PRD_2839,PLANT_PUN,LINE_PUN_EV01,Safari Dark Edition,99,98.0,2026-10-16,120,82.7,1.2,6,Brake Assembly System,Available,On Schedule,2026-10-22
+PRD_2840,PLANT_SND,LINE_SND_COMP01,Curvv EV Coupe,218,210.0,2026-09-30,250,87.3,2.7,6,Electric Power Steering Rack,Available,On Schedule,2026-10-05
+PRD_2841,PLANT_PUN,LINE_PUN_SUV02,Nexon EV Empowered,135,87.0,2026-10-02,220,61.5,13.0,71,Electronic Control Unit (ECU),Unavailable - Supplier Delay,Delayed,2026-10-12
+PRD_2842,PLANT_PUN,LINE_PUN_SUV03,Nexon EV Empowered,108,69.0,2026-09-22,150,72.3,14.9,53,Electronic Control Unit (ECU),Available,Delayed,2026-09-29
+PRD_2843,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,158,115.0,2026-09-27,220,72.2,22.5,67,Hydraulic Suspension Strut,Available,Delayed,2026-10-05
+PRD_2844,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,207,207.0,2026-09-23,250,82.8,1.9,6,Heavy-Duty Drive Axle,Available,On Schedule,2026-09-25
+PRD_2845,PLANT_PNT,LINE_PNT_PIK02,Intra V50 Smart Pickup,216,199.0,2026-10-05,220,98.4,4.4,35,Hydraulic Suspension Strut,Constrained,At Risk,2026-10-07
+PRD_2846,PLANT_PUN,LINE_PUN_SUV03,Safari Dark Edition,161,163.0,2026-09-28,180,89.6,1.7,10,Variable Geometry Turbocharger,Available,On Schedule,2026-10-02
+PRD_2847,PLANT_JSR,LINE_JSR_TIP02,Prima 5530.S Heavy Truck,211,188.0,2026-10-04,220,96.3,7.1,55,Electronic Control Unit (ECU),Constrained,At Risk,2026-10-10
+PRD_2848,PLANT_PNT,LINE_PNT_SCV01,Ace Gold EV Mini Truck,138,83.0,2026-09-03,220,62.9,20.4,40,Li-Ion Battery Pack 40kWh,Available,Delayed,2026-09-13
+PRD_2849,PLANT_PUN,LINE_PUN_SUV02,Harrier Fearless AT,154,155.0,2026-09-06,180,86.0,0.6,7,Electronic Control Unit (ECU),Available,On Schedule,2026-09-10
+PRD_2850,PLANT_SND,LINE_SND_EV02,Curvv EV Coupe,72,54.0,2026-09-17,120,60.4,15.9,53,ADAS Radar & Front Camera,Unavailable - Supplier Delay,Delayed,2026-09-25

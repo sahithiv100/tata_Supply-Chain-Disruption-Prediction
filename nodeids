@@ -1,0 +1,11 @@
+[
+  "tests/test_pipeline.py::test_ai_risk_scoring",
+  "tests/test_pipeline.py::test_data_cleaning",
+  "tests/test_pipeline.py::test_data_generation",
+  "tests/test_pipeline.py::test_delay_prediction",
+  "tests/test_pipeline.py::test_feature_engineering",
+  "tests/test_pipeline.py::test_mitigation_and_prioritization",
+  "tests/test_pipeline.py::test_pdf_report_generation",
+  "tests/test_pipeline.py::test_root_cause_analysis",
+  "tests/test_pipeline.py::test_scenario_simulation"
+]
